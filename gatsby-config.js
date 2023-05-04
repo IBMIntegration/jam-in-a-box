@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Theme Carbon',
+    title: 'Jam In A Box',
     description: 'A Gatsby theme for the carbon design system',
-    keywords: 'gatsby,theme,carbon',
+    keywords: 'ibm,integration,techjam,api connect,ace,app connect,event streams,kafka,mq',
   },
-  pathPrefix: `/gtc`,
+  pathPrefix: `/jam-in-a-box`,
   plugins: [
     {
       resolve: 'gatsby-plugin-manifest',
