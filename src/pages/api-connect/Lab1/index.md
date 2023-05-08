@@ -15,15 +15,14 @@ title: Create and Publish your first REST API to expose an existing REST Service
    1. [Import an API into the Developer Workspace](#import_api)
 
    2. [Configure the API ](#configure_api)  
-      +. [Configure API Key Security](#configure_security)  
-      +. [Define a Target-URL for Sandbox Environment](#target_url)  
-      +. [Configure Proxy Call in Designer](#proxy)  
+      i. [Configure API Key Security](#configure_security)  
+      ii. [Define a Target-URL for Sandbox Environment](#target_url)  
+      iii. [Configure Proxy Call in Designer](#proxy)  
 
-5. [Test the API](#test_api)
+   3. [Test the API](#test_api)
 
-6. [Publish API](#publish_api)
-   1. [Create Customer Product and Add API](#customer_product)
-7. [Summary](#summary)
+   4. [Publish API](#publish_api)
+      i. [Create Customer Product and Add API](#customer_product)
 
 ---
 
@@ -640,7 +639,7 @@ When the product is published, the Invoke policy defined in the previous lab is 
 [pic89]: images/89.png
 [pic90]: images/90.png
 
-## 7.Summary <a name="summary"></a>
+## 7.Objectives <a name="objectives"></a>
 
 Congratulations, you have completed the **Create and Secure an API** lab. Throughout the lab, you learned how to:
 
