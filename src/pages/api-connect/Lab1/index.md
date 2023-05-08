@@ -15,9 +15,9 @@ title: Create and Publish your first REST API to expose an existing REST Service
    1. [Import an API into the Developer Workspace](#import_api)
 
    2. [Configure the API ](#configure_api)  
-      i. [Configure API Key Security](#configure_security)  
-      ii. [Define a Target-URL for Sandbox Environment](#target_url)  
-      iii. [Configure Proxy Call in Designer](#proxy)  
+      +. [Configure API Key Security](#configure_security)  
+      +. [Define a Target-URL for Sandbox Environment](#target_url)  
+      +. [Configure Proxy Call in Designer](#proxy)  
 
 5. [Test the API](#test_api)
 
