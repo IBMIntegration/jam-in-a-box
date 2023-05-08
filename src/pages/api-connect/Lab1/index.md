@@ -8,14 +8,16 @@ title: Create and Publish your first REST API to expose an existing REST Service
 
 # Table of Contents
 1. [Introduction](#introduction)
-2. [Deploying the REST Service](#deploy)
+2. [Objectives](#objectives)
+3. [Prerequisites](#prerequisites)
+4. [Getting started with the lab1](#deploy)
 
-3. [Import an API into the Developer Workspace](#import_api)
+   1. [Import an API into the Developer Workspace](#import_api)
 
-4. [Configure the API ](#configure_api)  
-   1. [Configure API Key Security](#configure_security)  
-   2. [Define a Target-URL for Sandbox Environment](#target_url)  
-   3. [Configure Proxy Call in Designer](#proxy)  
+   2. [Configure the API ](#configure_api)  
+      1. [Configure API Key Security](#configure_security)  
+      2. [Define a Target-URL for Sandbox Environment](#target_url)  
+      3. [Configure Proxy Call in Designer](#proxy)  
 
 5. [Test the API](#test_api)
 
