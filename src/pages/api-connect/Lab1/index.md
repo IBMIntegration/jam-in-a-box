@@ -7,10 +7,9 @@ title: Create and Publish your first REST API to expose an existing REST Service
 ---
 
 # Table of Contents
-1. [Introduction](#introduction)
-2. [Objectives](#objectives)
-3. [Prerequisites](#prerequisites)
-4. [Getting started with the lab1](#deploy)
+1. [Objectives](#objectives)
+2. [Prerequisites](#prerequisites)
+3. [Getting started with the lab1](#deploy)
 
    1. [Import an API into the Developer Workspace](#import_api)
 
@@ -26,19 +25,19 @@ title: Create and Publish your first REST API to expose an existing REST Service
 
 ---
 
-## 1. Introduction <a name="introduction"></a>
 
-In this lab, we will get a chance to use the IBM API Connect (APIC) Developer Toolkit and its intuitive interface to create a new API using the OpenAPI definition (YAML) of an existing Customer Database RESTful web service.
+-   ## 1.**Objectives** <a name="objectives"></a>
 
-In this tutorial, we will explore the following key capabilities:
+IN this lab you will learned how to:
 
--   Creating an API by importing an OpenAPI definition for an existing REST service
+-   Create an API by importing an OpenAPI definition for an existing REST service
 
--   Configuring ClientID/Secret Security, endpoints, and proxy to invoke an endpoint
+-   Configure ClientID/Secret Security, endpoints, and proxy to invoke endpoint
 
--   Testing a REST API in the developer toolkit
+-   Test a REST API in the Developer Toolkit
 
 -   Publish an API for developers
+
 
 ## 2. Preparation step: Deploying the REST Services <a name="deploy"></a>
 
@@ -639,16 +638,6 @@ When the product is published, the Invoke policy defined in the previous lab is 
 [pic89]: images/89.png
 [pic90]: images/90.png
 
-## 7.Objectives <a name="objectives"></a>
 
-Congratulations, you have completed the **Create and Secure an API** lab. Throughout the lab, you learned how to:
-
--   Create an API by importing an OpenAPI definition for an existing REST service
-
--   Configure ClientID/Secret Security, endpoints, and proxy to invoke endpoint
-
--   Test a REST API in the Developer Toolkit
-
--   Publish an API for developers
 
 ### [Return to main APIC lab page](../../APIC-labs-new/Overview/)
