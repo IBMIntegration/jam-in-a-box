@@ -5,25 +5,24 @@ import { calloutLink } from './Homepage.module.scss';
 
 import Carbon from './carbon.jpg';
 
-const FirstLeftText = () => <p>Callout component</p>;
+const FirstLeftText = () => <p>Jam-in-a-Box</p>;
 
 const FirstRightText = () => (
   <p>
-    This is a callout component. You can edit the contents by updating the{' '}
-    <a href="https://github.com/carbon-design-system/gatsby-theme-carbon/blob/5fe12de31bb19fbfa2cab7c69cd942f55aa06f79/packages/example/src/gatsby-theme-carbon/templates/Homepage.js">
-      pre-shadowed homepage template
-    </a>
-    . You can also provide <code>color</code> and <code>backgroundColor</code>{' '}
-    props to suit your theme.
-    <a
-      className={calloutLink}
-      href="https://github.com/carbon-design-system/gatsby-theme-carbon/blob/main/packages/example/src/gatsby-theme-carbon/templates/Homepage.js">
-      Homepage source →
-    </a>
+      IBM WW Integration SWAT Team offers Jam-in-a-Box which will enable our tech sellers, 
+      business partners, clients to reserved a cp4i lab environment on demand ,learn and 
+      execute cp4i capabilities from the video enabled presentations along with step-by-step 
+      guide for labs.
+    <div style={{fontStyle: 'italic'}}>
+
+
+      We are committed to help you to take the first step towards Integration Automation learning Journey.
+    </div>
+
   </p>
 );
 
-const SecondLeftText = () => <p>Callout component</p>;
+/*const SecondLeftText = () => <p>Callout component</p>;
 
 const SecondRightText = () => (
   <p>
@@ -35,15 +34,16 @@ const SecondRightText = () => (
       Homepage source →
     </a>
   </p>
-);
+);*/
 
-const BannerText = () => <h1>Carbon Gatsby theme</h1>;
+
+const BannerText = () => <h1>IBM Integration Automation Jam-in-a-Box </h1>;
 
 const customProps = {
   Banner: <HomepageBanner renderText={BannerText} image={Carbon} />,
   FirstCallout: (
     <HomepageCallout
-      backgroundColor="#030303"
+      backgroundColor="#0043ce"
       color="white"
       leftText={FirstLeftText}
       rightText={FirstRightText}
