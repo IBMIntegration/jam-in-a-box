@@ -56,7 +56,7 @@ const customProps = {
       color="white"
       backgroundColor="#061f80"
     />
-  ),*?
+  ),*/
 };
 
 // spreading the original props gives us props.children (mdx content)
