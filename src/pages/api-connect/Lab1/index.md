@@ -1,8 +1,8 @@
 ---
-title: Create and Secure an API to Proxy an Existing REST Web Service
+title: Create and Publish your first REST API to expose an existig REST Service
 ---
 
-### [Return to main APIC lab page](../../APIC-labs-new/Overview/)
+### [Return to main APIC lab page](../)
 
 ---
 
