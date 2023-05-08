@@ -20,7 +20,7 @@ title: Create and Publish your first REST API to expose an existing REST Service
 
    3. [Test the API](#test_api)
 
-   4. [Publish API](#publish_api)
+   4. [Publish API](#publish_api) 
       i. [Create Customer Product and Add API](#customer_product)
 
 ---
