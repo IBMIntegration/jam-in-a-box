@@ -1,5 +1,5 @@
 ---
-title: Create and Publish your first REST API to expose an existig REST Service
+title: Create and Publish your first REST API to expose an existing REST Service
 ---
 
 ### [Return to main APIC lab page](../)
