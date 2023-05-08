@@ -25,10 +25,9 @@ title: Create and Publish your first REST API to expose an existing REST Service
 
 ---
 
+## 1.**Objectives** <a name="objectives"></a>
 
--   ## 1.**Objectives** <a name="objectives"></a>
-
-IN this lab you will learned how to:
+In this lab you will learned how to:
 
 -   Create an API by importing an OpenAPI definition for an existing REST service
 
