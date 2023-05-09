@@ -207,7 +207,7 @@ To add an exception in the Firefox browser, click **Advanced** and then click **
 [pic15]: images/15.png
 [pic104]: images/104.png
 
-## 4. Configure the API <a name="configure_api"></a>
+## 3b. Configure the API <a name="configure_api"></a>
 
 After importing the existing API, the first step is to configure basic security before exposing it to other developers. By creating a client key and secret security, we are able to identify the application using the API.
 
