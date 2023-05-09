@@ -215,7 +215,7 @@ Next, we will define the backend endpoints where the API is actually running. IB
 
 Finally, we will configure the proxy call to invoke the endpoint.
 
-### 3bi. Configure API Key Security <a name="configure_security"></a>
+### i. Configure API Key Security <a name="configure_security"></a>
 
 1\. Upon import, you will notice that an error has been detected.  Click on the **error**.
 
@@ -303,7 +303,7 @@ Once saved, you will see an indicator window appear that shows that **Your API h
 
 ![alt text][pic22]
 
-### 4b. Define a Target-URL for Sandbox Environment <a name="target_url"></a>
+### ii. Define a Target-URL for Sandbox Environment <a name="target_url"></a>
 
 1\. Make sure that the **Design** tab is selected and click on **Host**.
 
@@ -353,7 +353,7 @@ Once saved, you will see an indicator window appear that shows that **Your API h
 
 ![alt text][pic22]
 
-### 4c. Configure Proxy Call in Designer <a name="proxy"></a>
+### iii. Configure Proxy Call in Designer <a name="proxy"></a>
 
 1\. Navigate to the **Gateway** tab.
 
