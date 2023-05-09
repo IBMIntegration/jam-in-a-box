@@ -18,9 +18,9 @@ title: Create and Publish your first REST API to expose an existing REST Service
       ii. [Define a Target-URL for Sandbox Environment](#target_url)  
       iii. [Configure Proxy Call in Designer](#proxy)  
 
-   3. [Test the API](#test_api)
+   4. [Test the API](#test_api)
 
-   4. [Publish API](#publish_api)  
+   5. [Publish API](#publish_api)  
       i. [Create Customer Product and Add API](#customer_product)
 
 ---
@@ -418,7 +418,7 @@ Once saved, you will see an indicator window appear that shows that **Your API h
 [pic52]: images/52.png
 [pic53]: images/53.png
 
-## 5. Test the API <a name="test_api"></a>
+## 4. Test the API <a name="test_api"></a>
 
 In the API Designer, you have the ability to test the API immediately after creation in the Assemble view!
 
