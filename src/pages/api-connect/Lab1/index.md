@@ -41,7 +41,7 @@ In this lab you will learned how to:
 
 - Reserve the lab environment. If you have not reserved the lab environment, then click [here](https://abc.com). 
 
--Go through the audio presentation to get the knowledge about API connect. 
+- Go through the audio presentation to get the knowledge about API connect capabilities. 
 
 
 ## 3. Getting started with lab1 <a name="deploy"></a>
