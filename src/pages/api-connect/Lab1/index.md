@@ -145,7 +145,7 @@ To add an exception in the Firefox browser, click **Advanced** and then click **
 [pic102]: images/102.png
 [pic103]: images/103.png
 
-## 3. Import an API into API Connect <a name="import_api"></a>
+## 3a. Import an API into API Connect <a name="import_api"></a>
 
 1\. Click on **IBM Automation** in the upper left.
 
