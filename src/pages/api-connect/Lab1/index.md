@@ -418,7 +418,7 @@ Once saved, you will see an indicator window appear that shows that **Your API h
 [pic52]: images/52.png
 [pic53]: images/53.png
 
-## 4. Test the API <a name="test_api"></a>
+## 3c. Test the API <a name="test_api"></a>
 
 In the API Designer, you have the ability to test the API immediately after creation in the Assemble view!
 
@@ -584,7 +584,7 @@ and click **Send**.
 [pic78]: images/78.png
 [pic79]: images/79.png
 
-## 5. Publish API <a name="publish_api"></a>
+## 3d. Publish API <a name="publish_api"></a>
 
 In this lab, we will make the API available to developers. In order to do so, the API must be first put into a product and then published to the Sandbox catalog. A product dictates rate limits and API throttling.
 
