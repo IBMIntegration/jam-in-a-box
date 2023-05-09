@@ -16,7 +16,7 @@ const FirstRightText = () => (
     <div style={{fontStyle: 'italic'}}>
 
   
-      We are committed to help you to take the first step towards Integration Automation learning Journey.
+      <br>We are committed to help you to take the first step towards Integration Automation learning Journey.
     </div>
 
   </p>
