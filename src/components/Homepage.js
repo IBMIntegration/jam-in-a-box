@@ -14,8 +14,7 @@ const FirstRightText = () => (
       execute cp4i capabilities from the video enabled presentations along with step-by-step 
       guide for labs.
     <div style={{fontStyle: 'italic'}}>
-\n
-
+<bk><\br>
       We are committed to help you to take the first step towards Integration Automation learning Journey.
     </div>
 
