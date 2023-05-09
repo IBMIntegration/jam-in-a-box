@@ -215,7 +215,7 @@ Next, we will define the backend endpoints where the API is actually running. IB
 
 Finally, we will configure the proxy call to invoke the endpoint.
 
-### 4a. Configure API Key Security <a name="configure_security"></a>
+### 3bi. Configure API Key Security <a name="configure_security"></a>
 
 1\. Upon import, you will notice that an error has been detected.  Click on the **error**.
 
