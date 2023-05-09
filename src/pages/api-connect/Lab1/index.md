@@ -584,7 +584,7 @@ and click **Send**.
 [pic78]: images/78.png
 [pic79]: images/79.png
 
-## 6. Publish API <a name="publish_api"></a>
+## 5. Publish API <a name="publish_api"></a>
 
 In this lab, we will make the API available to developers. In order to do so, the API must be first put into a product and then published to the Sandbox catalog. A product dictates rate limits and API throttling.
 
