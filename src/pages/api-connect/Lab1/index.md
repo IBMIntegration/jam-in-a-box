@@ -43,7 +43,7 @@ In this lab you will learned how to:
 -Go through the audio presentation to get the knowledge about API connect. 
 
 
-## 2. Getting started with the lab1 <a name="deploy"></a>
+## 3. Getting started with the lab1 <a name="deploy"></a>
 
 Before we can use API Connect we must publish an API to expose. We will deploy a Customer Database REST service and then we will download the OpenAPI file for the the Customer Database REST service that we deployed.
 
