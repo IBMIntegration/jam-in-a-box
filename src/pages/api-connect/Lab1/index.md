@@ -644,4 +644,4 @@ When the product is published, the Invoke policy defined in the previous lab is 
 
 
 
-### [Return to main APIC lab page](../../APIC-labs-new/Overview/)
+### [Return to main APIC lab page](https://ibmintegration.github.io/jam-in-a-box/api-connect)
