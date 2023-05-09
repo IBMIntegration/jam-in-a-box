@@ -9,7 +9,7 @@ title: Create and Publish your first REST API to expose an existing REST Service
 # Table of Contents
 1. [Objectives](#objectives)
 2. [Prerequisites](#prerequisites)
-3. [Getting started with the lab1](#deploy)
+3. [Getting started with lab1](#deploy)
 
    1. [Import an API into the Developer Workspace](#import_api)
 
@@ -43,7 +43,7 @@ In this lab you will learned how to:
 -Go through the audio presentation to get the knowledge about API connect. 
 
 
-## 3. Getting started with the lab1 <a name="deploy"></a>
+## 3. Getting started with lab1 <a name="deploy"></a>
 
 Before we can use API Connect we must publish an API to expose. We will deploy a Customer Database REST service and then we will download the OpenAPI file for the the Customer Database REST service that we deployed.
 
