@@ -9,7 +9,7 @@ title: The Developer Portal Experience
 # Table of Contents
 1. [Objectives](#objectives)
 2. [Prerequisites](#prerequisites)
-3. [Getting started with lab1](#generate_portal)  
+3. [Getting started with Lab2](#generate_portal)  
    1. [Login to the API Connect Developer Portal](#portal_login)
    
 4. [Register a Test Application](#register_app)
