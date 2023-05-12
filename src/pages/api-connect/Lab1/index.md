@@ -9,7 +9,7 @@ title: Create and Publish your first REST API to expose an existing REST Service
 # Table of Contents
 1. [Objectives](#objectives)
 2. [Prerequisites](#prerequisites)
-3. [Getting started with lab1](#deploy)
+3. [Getting started with Lab1](#deploy)
 
    1. [Import an API into the Developer Workspace](#import_api)
 
