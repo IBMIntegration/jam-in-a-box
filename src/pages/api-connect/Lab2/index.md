@@ -4,8 +4,6 @@ title: The Developer Portal Experience
 
 ### [Return to main APIC lab page](../)
 
-### <span style="color: red">**Lab prerequisite:**</span> [Create and Secure an API to Proxy an Existing REST Web Service](../Lab1/)
-
 ---
 
 # Table of Contents
