@@ -42,7 +42,7 @@ In this lab, you will explore the following key capabilities:
 
 - Go through the audio presentation to get the knowledge about API connect capabilities. 
 
-- Finish the Lab1. You will publish the REST API you have created in the Lab1 to a Developer Portal where it will be ready for consumption by application developers.
+- Finish the Lab1. You will publish the REST API that you have created in the Lab1,
 
 
 ## 3. Getting started with lab1 <a name="generate_portal"></a>
