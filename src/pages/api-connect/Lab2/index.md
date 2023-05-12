@@ -2,32 +2,28 @@
 title: The Developer Portal Experience
 ---
 
-### [Return to main APIC lab page](../../APIC-labs-new/Overview/)
+### [Return to main APIC lab page](../)
 
 ### <span style="color: red">**Lab prerequisite:**</span> [Create and Secure an API to Proxy an Existing REST Web Service](../Lab1/)
 
 ---
 
 # Table of Contents
-1. [Introduction](#introduction)
-   
-2. [Generate the Developer Portal](#generate_portal)
+1. [Objectives](#objectives)
+2. [Prerequisites](#prerequisites)
+3. [Getting started with lab1](#generate_portal)  
    1. [Login to the API Connect Developer Portal](#portal_login)
    
-3. [Register a Test Application](#register_app)
+4. [Register a Test Application](#register_app)
    1. [Create a new Consumer Application](#consumer_app)
    
-4. [Subscribe to the API Product](#subscribe_product)
+5. [Subscribe to the API Product](#subscribe_product)
    
-5. [Test the API](#test_api)
-   
-6. [Summary](#summary)
+6. [Test the API](#test_api) 
 
 ---
 
-## 1. Introduction <a name="introduction"></a>
-
-In this lab, we will take the API created in the "Create and Secure an API to Proxy an Existing REST Web Service" lab and publish it to a Developer Portal where it will be ready for consumption by application developers.
+## 1. Objectives <a name="objectives"></a>
 
 We will begin by creating a new catalog and configuring the Developer Portal for our Customer 1.0.0 Product. We will then define a new Plan in the Product and publish to our new Developer Portal.
 
@@ -41,7 +37,17 @@ In this lab, you will explore the following key capabilities:
 
 -   Test the API in the Developer Portal
 
-## 2. Generate the Developer Portal <a name="generate_portal"></a>
+
+## 2. Prerequisites <a name="prerequisites"></a>
+
+- Reserve the lab environment. If you have not reserved the lab environment, then click [here](https://abc.com). 
+
+- Go through the audio presentation to get the knowledge about API connect capabilities. 
+
+- Finish the Lab1. You will publish the REST API you have created in the Lab1 to a Developer Portal where it will be ready for consumption by application developers.
+
+
+## 3. Getting started with lab1 <a name="generate_portal"></a>
 
 A Developer Portal for the Sandbox catalog has already been configured in this environment.
 
@@ -270,16 +276,5 @@ If the browser displays a certificate issue, you may choose to accept it and ret
 [pic35]: images/35.png
 [pic36]: images/36.png
 
-## 6. Summary <a name="summary"></a>
-
-Congratulations, you have completed the **Developer Portal Experience** lab. Throughout the lab, you learned how to:
-
--   Navigate to the Developer Portal
-
--   Create a Portal account
-
--   Create an application and subscribe to a Plan
-
--   Test a API in the Developer Portal
 
 ### [Return to main APIC lab page](../Overview/)
