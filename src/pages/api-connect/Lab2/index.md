@@ -45,7 +45,7 @@ In this lab, you will explore the following key capabilities:
 - Finish the Lab1. You will publish the REST API that you have created in the Lab1,
 
 
-## 3. Getting started with lab1 <a name="generate_portal"></a>
+## 3. Getting started with Lab2 <a name="generate_portal"></a>
 
 A Developer Portal for the Sandbox catalog has already been configured in this environment.
 
