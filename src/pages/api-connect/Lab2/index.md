@@ -275,4 +275,4 @@ If the browser displays a certificate issue, you may choose to accept it and ret
 [pic36]: images/36.png
 
 
-### [Return to main APIC lab page](../Overview/)
+### [Return to main APIC lab page](../)
