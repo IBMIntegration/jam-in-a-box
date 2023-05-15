@@ -3,7 +3,6 @@ title: Lab 1 - Creating an MQ Instance Using the Platform Navigator
 ---
 [Return to main lab page](/mq)
 
-Starting with this lab, each attendee will be assigned an ID number (01 - 30) by the instructor if running a PoT. If running this lab independently, use ID number 00. During a PoT the instructor will always be ID 00.
 
 ## Getting Started with MQ on Cloud Pak for Integration
 
