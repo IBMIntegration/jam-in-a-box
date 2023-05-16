@@ -2,8 +2,15 @@
 title: Content Based Routing
 ---
 [Return to main lab page](../../acelabs/Overview/)
+---
+# Table of Contents
+1. [Objectives](#objectives)
+2. [Prerequisites](#prerequisites)
+3. [Getting started with Lab1](#deploy)
 
-## Overview
+   1. [Import an API into the Developer Workspace](#import_api)
+---
+## 1.Objectives <a name="objectives"></a>
 
 I<span id="_Toc424278887" class="anchor"><span id="_Toc424278898" class="anchor"><span id="_Toc424278899" class="anchor"><span id="_Toc424278900" class="anchor"><span id="_Toc424278901" class="anchor"><span id="_Toc424278902" class="anchor"></span></span></span></span></span></span>n this lab, you will modify the flow you created in Lab 1 to perform simple routing. Input messages will be sent to one of two destinations depending on the country code. Addresses in the United States will be routed to a US reply path, while addresses in Canada will be routed to a Canadian reply path.
 
