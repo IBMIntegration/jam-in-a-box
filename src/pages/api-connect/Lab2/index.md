@@ -2,7 +2,7 @@
 title: The Developer Portal Experience
 ---
 
-### [Return to main APIC lab page](../)
+### [Return to main APIC lab page](../api-connect)
 
 ---
 
