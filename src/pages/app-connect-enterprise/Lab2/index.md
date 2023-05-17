@@ -1,7 +1,7 @@
 ---
 title: Content Based Routing
 ---
-[Return to main lab page](../../acelabs/Overview/)
+[Return to main lab page](../)
 ---
 # Table of Contents
 1. [Objectives](#objectives)
