@@ -25,7 +25,7 @@ title: Create and Publish your first REST API to expose an existing REST Service
 
 ---
 
-## 1.Objectives <a name="objectives"></a>
+## 1. Objectives <a name="objectives"></a>
 
 In this lab you will learned how to:
 
@@ -37,7 +37,7 @@ In this lab you will learned how to:
 
 -   Publish an API for developers
 
-## 2.Prerequisites <a name="prerequisites"></a>
+## 2. Prerequisites <a name="prerequisites"></a>
 
 - Reserve the lab environment. If you have not reserved the lab environment yet, then click [here](https://abc.com). 
 
