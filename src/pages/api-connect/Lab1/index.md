@@ -645,4 +645,4 @@ When the product is published, the Invoke policy defined in the previous lab is 
 
 
 
-### [Return to main APIC lab page](../../api-connect/)
+### [Return to main APIC lab page](../api-connect/)
