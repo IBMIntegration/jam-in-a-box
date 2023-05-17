@@ -1,10 +1,25 @@
 ---
-title: Lab 1 - Creating an MQ Instance Using the Platform Navigator
+title: Creating an MQ Instance Using the Platform Navigator
 ---
 [Return to main lab page](/mq)
 
+# Table of Contents
+1. [Objectives](#objectives)
+2. [Prerequisites](#prerequisites)
+3. [Getting started with Lab1](#deploy)
 
-## Getting Started with MQ on Cloud Pak for Integration
+   1. [Import an API into the Developer Workspace](#import_api)
+
+
+## 1. Objectives
+In this lab, you will learn how to:
+
+- Create a MQ Instance from Platform Nevigator.
+
+- Test the MQ QMGR for Internal Consumers.
+
+
+## 3. Getting Started with Lab1<a name="deploy"></a>
 
 These instructions document how to setup MQ within Cloud Pak for Integration which is accessible from within the OpenShift Cluster. The instructions have been created using a a Red Hat OpenShift environment deployed on bare metal servers on IBM Cloud however the processa should be similar on other environments.
 
