@@ -8,6 +8,8 @@ title: Content Based Routing
 2. [Prerequisites](#prerequisites)
 3. [Getting started with Lab1](#deploy)
 
+   1. [Add Routing Logic](#routing_logic)
+
    1. [Import an API into the Developer Workspace](#import_api)
 ---
 ## 1.Objectives <a name="objectives"></a>
@@ -15,7 +17,7 @@ title: Content Based Routing
 In this lab you will learned how to:
 
 -   Modify an existing message flow and test the message flow using Integration toolkit.
--   
+ 
 -   Include basic error handler.
 
 ## 2.Prerequisites <a name="prerequisites"></a>
@@ -30,141 +32,140 @@ In this lab you will learned how to:
 
 In this lab, you will modify the flow you created in Lab 1 to perform simple routing. Input messages will be sent to one of two destinations depending on the country code. Addresses in the United States will be routed to a US reply path, while addresses in Canada will be routed to a Canadian reply path.
 
-Add Routing Logic
------------------
+## 3a. Add Routing Logic
 
-1. Return to the Integration Bus Toolkit.
-2. Select the **IntroMessageFlow** message flow in the **message flow editor**.
-3. Select the **Trace** node.
+1\. Return to the Integration Bus Toolkit.
+2\. Select the **IntroMessageFlow** message flow in the **message flow editor**.
+3\. Select the **Trace** node.
 
    Drag the node down a short distance.
 
    ![](./images/tkMoveTraceNode.png)
-4. Click the **Out -&gt; In** connector shown – the connector will turn **blue**. Press the **Delete** key to remove the connector.
+4\. Click the **Out -&gt; In** connector shown – the connector will turn **blue**. Press the **Delete** key to remove the connector.
 
    ![](./images/tkClickConnector1.png)
-5. Click the other **Out -&gt; In** connector shown – the connector will turn **blue**. Press the **Delete** key to remove the connector.
+5\. Click the other **Out -&gt; In** connector shown – the connector will turn **blue**. Press the **Delete** key to remove the connector.
 
    ![](./images/tkClickConnector2.png)
-6. Leave the Trace node unwired for now. Do *not* delete it. We will be repurposing it in a later lab.
+6\. Leave the Trace node unwired for now. Do *not* delete it. We will be repurposing it in a later lab.
 
    ![](./images/tkTraceNodeUnwired.png)
-7. Expand the **Routing** drawer in the **Palette**.
-8. Select a **Route** node and place it between the **IntroLab\_Listener** and **HTTP Reply** nodes.
+7\. Expand the **Routing** drawer in the **Palette**.
+8\. Select a **Route** node and place it between the **IntroLab\_Listener** and **HTTP Reply** nodes.
 
    ![](./images/tkAddRouteNode.png)
-9. Change the name of the new routing node to **CheckCountry**.
+9\. Change the name of the new routing node to **CheckCountry**.
 
    Press the **Enter** key to complete the rename operation.
 
    ![](./images/tkNewCheckCountryNode.png)
-10. Expand the **HTTP** drawer in the **Palette**.
-11. Select an **HTTPReply** node and place it beneath the existing **HTTP Reply** node.
+10\. Expand the **HTTP** drawer in the **Palette**.
+11\. Select an **HTTPReply** node and place it beneath the existing **HTTP Reply** node.
 
     ![](./images/tkAddHTTPReplyNode.png)
-12. Your flow should look something like this.
+12\. Your flow should look something like this.
 
     Don’t rename the new HTTP Reply node – you will be renaming them both shortly.
 
     ![](./images/tkModifiedFlow1.png)
 
     Terminals will now be added to the **CheckCountry** routing node for **US** and **Canadian** addresses.
-13. Select the **CheckCountry** route node.
+13\. Select the **CheckCountry** route node.
 
     Press the right mouse button.
 
     Select **Add Output Terminal** from the menu.
 
     ![](./images/tkAddOutTerminal1.png)
-14. Enter **US** as the name of the new output terminal.
+14\. Enter **US** as the name of the new output terminal.
 
     Press the **OK** button to continue.
 
     ![](./images/tkUSOutTerminal.png)
 
     The steps will now be repeated to add a terminal called **Canada**.
-15. Select the **CheckCountry** node.
+15\. Select the **CheckCountry** node.
 
     Press the right mouse button.
 
     Select **Add Output Terminal** from the menu.
 
     ![](./images/tkAddOutTerminal1.png)
-16. Enter **Canada** as the name of the new output terminal.
+16\. Enter **Canada** as the name of the new output terminal.
 
     Press the **OK** button to continue.
 
     ![](./images/tkCAOutTerminal.png)
-17. Notice that the shape of the CheckCountry node has changed slightly.
+17\. Notice that the shape of the CheckCountry node has changed slightly.
 
     Once there are too many terminals to display discretely, they will be grouped together.
 
     ![](./images/tkOutTerminalGroup.png)
-18. Change the name of the **HTTP Reply** node to **Reply if US**.
+18\. Change the name of the **HTTP Reply** node to **Reply if US**.
 
     Press the **Enter** key to complete the rename operation.
 
     ![](./images/tkReplyifUS.png)
-19. Change the name of the **HTTP Reply1** node to **Reply if Canada**
+19\. Change the name of the **HTTP Reply1** node to **Reply if Canada**
 
     |----|----|
     | ![](./images/important.png) |**Note!**  Two HTTPReply nodes are not actually necessary – a single one could have been used. But separate nodes were used here for clarity, as well as to make the flow more self-documenting.|
-20. Press the **Enter** key to complete the rename operation.
+20\. Press the **Enter** key to complete the rename operation.
 
     ![](./images/tkReplyifCA.png)
-21. Another way to make a connection is just to click the terminal itself.
+21\. Another way to make a connection is just to click the terminal itself.
 
     Try this by selecting the **Out** terminal (second from the top) of the **IntroLab\_Listener** node.
 
     ![](./images/tkLabIntroListenerOut.png)
-22. Wire the **Out** terminal of the **IntroLab\_Listener** to the **In** terminal of the **CheckCountry** node.
+22\. Wire the **Out** terminal of the **IntroLab\_Listener** to the **In** terminal of the **CheckCountry** node.
 
     ![](./images/tkWireOutTerminal1.png)
-23. Hover the mouse pointer over the connector, to verify that the correct terminals are wired.
+23\. Hover the mouse pointer over the connector, to verify that the correct terminals are wired.
 
     ![](./images/tkConnectionVerify1.png)
-24. Click the group of output terminals on the **CheckCountry** route node.
+24\. Click the group of output terminals on the **CheckCountry** route node.
 
     ![](./images/tkOutTerminalGroup.png)
-25. A Terminal Selection list will appear.
+25\. A Terminal Selection list will appear.
 
     Select **US** and click **OK**.
 
     ![](./images/tkSelectUSTerminal.png)
-26. Verify that the correct terminals are wired.
+26\. Verify that the correct terminals are wired.
 
     ![](./images/tkConnectionVerify2.png)
-27. Again click the group of output terminals on the **CheckCountry** route node.
+27\. Again click the group of output terminals on the **CheckCountry** route node.
 
     ![](./images/tkOutTerminalGroup.png)
-28. Select **Canada** from the list.
+28\. Select **Canada** from the list.
 
     Click **OK**.
 
     ![](./images/tkSelectCATerminal.png)
-29. Verify that the correct terminals are wired.
+29\. Verify that the correct terminals are wired.
 
     ![](./images/tkConnectionVerify3.png)
 
     The criteria to be used by the **CheckCountry** routing node must now be specified.
-30. Select the **CheckCountry** node.
+30\. Select the **CheckCountry** node.
 
     In the **Properties** pane select the **Basic** tab.
 
     Press the **Add** button.
 
     ![](./images/tkAddFilterPattern.png)
-31. Use the drop down menu to select the **US** terminal as the **Routing output terminal**.
+31\. Use the drop down menu to select the **US** terminal as the **Routing output terminal**.
 
     Press the **Edit…** button.
 
     ![](./images/tkFilterUS.png)
-32. Expand **$Root**.
+32\. Expand **$Root**.
 
     Select **(Add Data Type …)**.
 
     ![](./images/tkAddRootDataType.png)
-33. Select **In\_Request**.
+33\. Select **In\_Request**.
 
     |----|----|
     | ![](./images/important.png) |**Note!** If you do not see **In\_Request** in the list, then you must add a reference to the Library by right clicking the IntroLab application and selecting **Manage Library references**.|
@@ -172,41 +173,41 @@ Add Routing Logic
     Press the **OK** button to continue.
 
     ![](./images/tkSelectIn_RequestDataType.png)
-34. Expand the **Root->tns:In\_Request->customerDetails** elements.
+34\. Expand the **Root->tns:In\_Request->customerDetails** elements.
 
     Select the **customerCountry** element and ***drag*** it into the **XPath Expression** dialog box.
 
     ![](./images/tkXPathCountry.png)
-35. Drag an equal sign from the **Operators** pane to the end of the expression.
+35\. Drag an equal sign from the **Operators** pane to the end of the expression.
 
     Append the letters **‘US’** (including the *single quotes*) after the equal sign.
 
     Press the **Finish** button to complete the XPath expression.
 
     ![](./images/tkUSXPathFinish.png)
-36. Press the **OK** button to complete the **Filter table entry**.
+36\. Press the **OK** button to complete the **Filter table entry**.
 
     ![](./images/tkAddUSFilter.png)
 
     The filter pattern for the **US** terminal should now be visible. The process will now be repeated to create a Filter table entry for the **Canada** terminal.
-37. Press the **Add** button to enter a filter pattern for the **Canada** terminal.
+37\. Press the **Add** button to enter a filter pattern for the **Canada** terminal.
 
     ![](./images/tkAddCanadaFilter.png)
-38. Use the drop down menu to select the **Canada** terminal as the **Routing output terminal**.
+38\. Use the drop down menu to select the **Canada** terminal as the **Routing output terminal**.
 
     Press the **Edit…** button.
 
     ![](./images/tkEditCanadaFilter.png)
-39. Expand **Root->tns:In\_Request->customerDetails**. Tip: If you do not see In\_Request in the Viewer, re-add it as done in steps 32-33.
-40. Select the **customerCountry** field and drag it to the **XPath Expression** window.
+39\. Expand **Root->tns:In\_Request->customerDetails**. Tip: If you do not see In\_Request in the Viewer, re-add it as done in steps 32-33.
+40\. Select the **customerCountry** field and drag it to the **XPath Expression** window.
 
     ![](./images/tkXPathCountry.png)
-41. Complete the XPath Expression by typing **= ’CA’**.
+41\. Complete the XPath Expression by typing **= ’CA’**.
 
     Press the **Finish** button to complete the XPath expression.
 
     ![](./images/tkCAXPathFinish.png)
-42. Press the **OK** button to complete the Filter table entry.
+42\. Press the **OK** button to complete the Filter table entry.
 
     ![](./images/tkAddCanadaFilterPattern.png)
 
@@ -217,7 +218,7 @@ Add Routing Logic
     ![](./images/tkRouteTableVerify.png)
 
     The updates to the message flow are now complete.
-43. ![](./images/tkSave.png)Save the message flow.
+43\. ![](./images/tkSave.png)Save the message flow.
 
 <span id="_Toc424278907" class="anchor"></span>
 
