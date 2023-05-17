@@ -10,9 +10,17 @@ title: Content Based Routing
 
    1. [Add Routing Logic](#routing_logic)
 
-   1. [Import an API into the Developer Workspace](#import_api)
+   2. [Test Content-based Routing Using the Flow Exerciser](#flow_exe)
+
+   3. [A Closer Look at the Deployment Process](#is_deploy)
+
+   4. [Key Idea: The Deployment Process](#key_idea)
+
+   5. [Key Concept: The BAR file](#key_concept)
+
+   6. [Lab Clean-Up](#cleanup)
 ---
-## 1.Objectives <a name="objectives"></a>
+## 1. Objectives <a name="objectives"></a>
 
 In this lab you will learned how to:
 
@@ -20,7 +28,7 @@ In this lab you will learned how to:
  
 -   Include basic error handler.
 
-## 2.Prerequisites <a name="prerequisites"></a>
+## 2. Prerequisites <a name="prerequisites"></a>
 
 - Reserve the lab environment. If you have not reserved the lab environment yet, then click [here](https://abc.com).
 
@@ -32,7 +40,7 @@ In this lab you will learned how to:
 
 In this lab, you will modify the flow you created in Lab 1 to perform simple routing. Input messages will be sent to one of two destinations depending on the country code. Addresses in the United States will be routed to a US reply path, while addresses in Canada will be routed to a Canadian reply path.
 
-## 3a. Add Routing Logic
+## 3a. Add Routing Logic <a name="routing_logic"></a>
 
 1\. Return to the Integration Bus Toolkit.
 2\. Select the **IntroMessageFlow** message flow in the **message flow editor**.
@@ -222,133 +230,137 @@ In this lab, you will modify the flow you created in Lab 1 to perform simple rou
 
 <span id="_Toc424278907" class="anchor"></span>
 
-Test Content-based Routing Using the Flow Exerciser
----------------------------------------------------
+## 3b. Test Content-based Routing Using the Flow Exerciser <a name="flow_exe"></a>
 
 You will use the Flow Exerciser to test the flow. In this lab you will see some additional features of the Flow Exerciser that make it a very useful tool when testing and debugging more complex message flows.
 
-1. Start the Flow Exerciser.
+1\. Start the Flow Exerciser.
 
    **Note!** The **Trace** node is still unwired. But this will not cause any problems.
 
    ![](./images/tkStartFlowExerciser.png)
-2. Click **Close** to start recording.
+2\. Click **Close** to start recording.
 
    ![](./images/tkReadyToRecordMsgClose.png)
-3. Click the **Send** message icon.
+3\. Click the **Send** message icon.
 
    ![](./images/tkSendTestMsg1.png)
-4. The Input message from our previous tests is still available. Click **Test message**.
+4\. The Input message from our previous tests is still available. Click **Test message**.
 
    In the Test message, locate **customerCountry**. The value should be **USA**.
 
    ![](./images/tkSendTestMsgUSA.png)
-5. Change the value of **customerCountry** to **US**.
+5\. Change the value of **customerCountry** to **US**.
 
    Click **Send**.
 
    ![](./images/tkSendTestMsgUS.png)
-6. The Flow Exerciser will run. Click **Close** when Stopped.
+6\. The Flow Exerciser will run. Click **Close** when Stopped.
 
    ![](./images/tkTestProgressInfoClose.png)
-7. The Flow Exerciser shows the path the **US** message took through the flow.
+7\. The Flow Exerciser shows the path the **US** message took through the flow.
 
    ![](./images/tkFlowExerciserShowUSPath.png)
-8. Click the recorded message to view it.
+8\. Click the recorded message to view it.
 
    ![](./images/tkSelectRecordedMsg1.png)
-9. Note that the Recorded Message does reflect the change you made.
+9\. Note that the Recorded Message does reflect the change you made.
 
    ![](./images/tkRecordedMsgUS.png)
-10. Save this recorded message by clicking the ![](./images/tkSaveIcon.png) save icon in the upper right corner.
+10\. Save this recorded message by clicking the ![](./images/tkSaveIcon.png) save icon in the upper right corner.
 
     ![](./images/tkSaveRecordedMsg.png)
-11. Call this recorded message ***Test customerCountry=US***.
+11\. Call this recorded message ***Test customerCountry=US***.
 
     Click **OK**.
 
     ![](./images/tkSaveRecordedMsgUS.png)
-12. Close the Recorded Message window.
+12\. Close the Recorded Message window.
 
     ![](./images/tkCloseRecordedMsg.png)
-13. Repeat these steps to test the Canada path in the message flow.
+13\. Repeat these steps to test the Canada path in the message flow.
 
     Click **Send** to configure another message.
 
     ![](./images/tkSendTestMsg1.png)
-14. Select ***Test message***.
+14\. Select ***Test message***.
 
     Change *customerCountry* to **CA**
 
     Click **Send**.
 
     ![](./images/tkSendTestMsgCA.png)
-15. The Flow Exerciser will run. Click **Close** when Stopped
+15\. The Flow Exerciser will run. Click **Close** when Stopped
 
     ![](./images/tkTestProgressInfoClose.png)
-16. This time the Flow Exerciser shows that the **CA** path was taken.
+16\. This time the Flow Exerciser shows that the **CA** path was taken.
 
     ![](./images/tkTestMsgCAPath.png)
-17. Click the recorded message to view it.
+17\. Click the recorded message to view it.
 
     ![](./images/tkOpenRecordedMsgCA.png)
-18. Note that the Recorded Message does reflect the change you made.
+18\. Note that the Recorded Message does reflect the change you made.
 
     ![](./images/tkViewRecordedMsgCA.png)
-19. Save this recorded message by clicking the ![](./images/tkSaveIcon.png) save icon in the upper right corner.
+19\. Save this recorded message by clicking the ![](./images/tkSaveIcon.png) save icon in the upper right corner.
 
     ![](./images/tkSaveRecordedMsg.png)
-20. Call this recorded message ***Test customerCountry=CA***.
+20\. Call this recorded message ***Test customerCountry=CA***.
 
     Click **OK**.
 
     ![](./images/tkSaveRecordedMsgCA.png)
-21. Close the Recorded Message window.
+21\. Close the Recorded Message window.
 
     ![](./images/tkCloseRecordedMsg.png)
-22. In the *Application Development* pane, expand **Other Resources**.
+22\. In the *Application Development* pane, expand **Other Resources**.
 
     Double-click IntroMessageFlow\_recordedMessage.xml to open it.
 
     ![](./images/tkOpenRecordedMsgXML.png)
-23. In the XML Editor, expand the two most recent testData entries. You should see the recorded messages for **US** and **CA**.
+23\. In the XML Editor, expand the two most recent testData entries. You should see the recorded messages for **US** and **CA**.
 
     ![](./images/tkRecordedMsgXMLExpanded.png)
-24. Close the XML Editor.
+24\. Close the XML Editor.
 
     ![](./images/tkCloseRecordedMsgXML.png)
-25. You have tested your two expected paths (US and CA). But what will happen if some other customerCountry value is received by the message flow? Let’s find out.
-26. Click **Send** to configure another message.
+25\. You have tested your two expected paths (US and CA). But what will happen if some other customerCountry value is received by the message flow? Let’s find out.
+
+26\. Click **Send** to configure another message.
 
     ![](./images/tkSendTestMsg1.png)
-27. Click **Test message**. Change the *customerCountry* to **MX**. Click **Send**.
+    
+27\. Click **Test message**. Change the *customerCountry* to **MX**. Click **Send**.
 
     ![](./images/tkSendTestMsgMX.png)
-28. Hmmm. The message was sent…but no HTTP Reply was received. Why not?
+    
+28\. Hmmm. The message was sent…but no HTTP Reply was received. Why not?
 
     Click **Close**.
 
     ![](./images/tkTestMsgProgressMX.png)
-29. In the Flow Exerciser, notice that control reached the CheckCountry node. But it stopped there. Why didn’t it continue?
+29\. In the Flow Exerciser, notice that control reached the CheckCountry node. But it stopped there. Why didn’t it continue?
 
     ![](./images/tkTestMsgPathMX.png)
-30. To answer that, let’s look again at the flow.
+    
+30\. To answer that, let’s look again at the flow.
 
     Stop the Flow Exerciser.
 
     ![](./images/tkStopFlowExerciserMX.png)
-31. Click **Yes** on the pop-up.
+31\. Click **Yes** on the pop-up.
 
     ![](./images/tkCloseFlowExerciserWarn.png)
-32. The Flow Exerciser is stopped, and the message flow is returned to editable mode.
+32\. The Flow Exerciser is stopped, and the message flow is returned to editable mode.
 
     Click the **CheckCountry** route node. Only **US** and **CA** are handled.
 
     ![](./images/tkCheckCountryNoMX.png)
-33. Click the Output Terminal group.
+    
+33\. Click the Output Terminal group.
 
     ![](./images/tkCheckCountryTerminalGrp.png)
-34. Review the available Output terminals.
+34\. Review the available Output terminals.
 
     ![](./images/tkTerminalGrpCancel.png)
 
@@ -359,17 +371,18 @@ You will use the Flow Exerciser to test the flow. In this lab you will see some 
     One approach would be to wire the Default terminal to an “Unsupported Country” path.
 
     But many things could potentially go wrong in a message flow. Rather than wire every possible exception path on every node in a flow, you will explore approaches to dealing with situations like this one in a later lab.
-35. Press the **Cancel** key to cancel the unattached connector.
+    
+35\. Press the **Cancel** key to cancel the unattached connector.
 
 In a later lab you will explore one approach for dealing with unexpected conditions such as this one, as well as how to implement some basic flow-level exception handling.
 
 
-A Closer Look at the Deployment Process
----------------------------------------
+## 3c. A Closer Look at the Deployment Process <a name="is_deploy"></a>
+
 
 In the first two labs, you have been utilizing the Flow Exerciser to initiate your unit testing and it has been handling the deployment process for you “behind the scenes”. To finish this lab, we will briefly examine the deployment process, and you will manually do your own deploy.
 
-### Key Idea: The Deployment Process
+## 3d. Key Idea: The Deployment Process<a name="key_idea"></a>
 
 |----|----|
 |![](./images/important.png)|**Key Idea -- The Deployment Process** Deployment of Integration Solutions up to this point have been done *implicitly* – by virtue of your using the Flow Exerciser. This section will explore other approaches to solution deployment.|
@@ -389,66 +402,66 @@ The Integration Toolkit provides an *Integration Nodes* view in the lower left h
 
 If you are working with an Application and want to deploy and test it quickly, you can deploy just that resource. Drag the resource onto the Integration Server to which you want to deploy it. A BAR file is generated automatically and deployed. If Static Libraries are referenced, they are added automatically to the BAR file and deployed. If a message flow contains a subflow that is defined in a “.subflow” file, the subflow is automatically included in the BAR file, and deployed with the message flow. If you drag a flow that is contained in an Application or Library, you will see a message saying that the whole application or library will be deployed, because you cannot deploy a message flow on its own if it belongs to an Application or Library.
 
-### Key Concept: The BAR file
+## 3e. Key Concept: The BAR file<a name="key_concept"></a>
 
 |----|----|
 |![](./images/important.png)|**Key Concept -- Broker Archive (BAR) Files.** The unit of deployment to an Integration Server is the Broker Archive (BAR) file. This section will explore what BAR files are and how you make use of them.|
 
 The Broker Archive (BAR) file is a .zip file which contains the flows, models, .jar files, maps, and any other resources in the workspace needed to run your Applications. The BAR file also contains a deployment descriptor .xml file, which exposes flow and node properties for override at build or deploy time. The following sequence of events illustrates how to deploy with a BAR file.
 
-1. Create a broker archive.
-2. Add Applications, Libraries, Services, REST APIs, message flows and other flow dependencies to the broker archive.
-3. If necessary, you edit the configurable properties of the message flows or applications in the broker archive.
-4. Deploy the BAR file by sending it to an Integration Server.
+1\. Create a broker archive.
+2\. Add Applications, Libraries, Services, REST APIs, message flows and other flow dependencies to the broker archive.
+3\. If necessary, you edit the configurable properties of the message flows or applications in the broker archive.
+4\. Deploy the BAR file by sending it to an Integration Server.
 
 A BAR file can be deployed in two ways:
 
 - [Incremental BAR file deployment](http://publib.boulder.ibm.com/infocenter/wmbhelp/v8r0m0/topic/com.ibm.etools.mft.doc/af02070_.htm#af02070_i). Deployed files are added to the execution group. Files that exist in the execution group are replaced by the new version.
 - [Complete BAR file deployment](http://publib.boulder.ibm.com/infocenter/wmbhelp/v8r0m0/topic/com.ibm.etools.mft.doc/af02070_.htm#af02070_c). Files that are already deployed to the execution group are removed before the entire contents of the BAR file are deployed. Therefore, nothing is left in the execution group from previous deployments.
 
-1. Return to the Integration Toolkit.
+1\. Return to the Integration Toolkit.
 
    In the *Application Development* pane, right-click in the whitespace.
-2. Select **New->BAR file** from the menu.
+2\. Select **New->BAR file** from the menu.
 
    ![](./images/tkNewBarFile.png)
-3. Enter **Lab2** as the name of the new broker archive file.
+3\. Enter **Lab2** as the name of the new broker archive file.
 
    Click **Finish**.
 
    ![](./images/tkNewBarFile2.png)
-4. In the BAR editor, check the box to select the **IntroLab** Application.
+4\. In the BAR editor, check the box to select the **IntroLab** Application.
 
    ![](./images/tkNewBarFile3.png)
-5. Click the **Message flows, static libraries and other message flow dependencies** radio button.
-6. Check the box to select the **IntroLab\_Lib** Library.
+5\. Click the **Message flows, static libraries and other message flow dependencies** radio button.
+6\. Check the box to select the **IntroLab\_Lib** Library.
 
    ![](./images/tkNewBarFile4.png)
-7. Click the **Build and Save**… button.
+7\. Click the **Build and Save**… button.
 
    ![](./images/tkNewBarFile5.png)
-8. If prompted to Save the message flow, click **Yes**.
+8\. If prompted to Save the message flow, click **Yes**.
 
    ![](./images/tkNewBarFile6.png)
-9. Press the **OK** button.
+9\. Press the **OK** button.
 
    ![](./images/tkNewBarFile7.png)
-10. In the BAR editor, select the **Manage** tab.
+10\. In the BAR editor, select the **Manage** tab.
 
     Expand the **IntroLab** app and select the various resources.
 
     Look at the **Properties view** below to see what properties are exposed in order to be overridden within the BAR file. For example, select the **IntroLab\_Listener** node. You can see that the *Path suffix for URL* property can be overridden at deployment time.
 
     ![](./images/tkNewBarFile8.png)
-11. To deploy, find the **Lab2.bar** file in the navigator in the **BARs** container.
+11\. To deploy, find the **Lab2.bar** file in the navigator in the **BARs** container.
 
     Drag and drop it onto the TEST_SERVER integration server.
 
     ![](./images/tkNewBarFile9.png)
-12. Wait for deployment to complete.
+12\. Wait for deployment to complete.
 
     ![](./images/tkNewBarFile10.png)
-13. Once deployment is complete, click the **default** integration server to open it to see the assets deployed to it.
+13\. Once deployment is complete, click the **default** integration server to open it to see the assets deployed to it.
 
     The **IntroLab** application has been deployed, which included the **IntroMessageFlow** message flow. The **IntroLab\_Lib** static library, which contains the **IN\_Request** XML Schema, has also been deployed.
 
@@ -460,7 +473,7 @@ Close all the open editor tabs but leave the Toolkit running.
 
 <span id="_Toc424278914" class="anchor"></span>
 
-Lab Clean-Up
+## 3f. Lab Clean-Up<a name="cleanup"></a>
 ------------
 
 Optionally, you can clean up the resources you created in Labs 1 and 2.
