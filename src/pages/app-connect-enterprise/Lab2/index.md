@@ -12,9 +12,23 @@ title: Content Based Routing
 ---
 ## 1.Objectives <a name="objectives"></a>
 
-I<span id="_Toc424278887" class="anchor"><span id="_Toc424278898" class="anchor"><span id="_Toc424278899" class="anchor"><span id="_Toc424278900" class="anchor"><span id="_Toc424278901" class="anchor"><span id="_Toc424278902" class="anchor"></span></span></span></span></span></span>n this lab, you will modify the flow you created in Lab 1 to perform simple routing. Input messages will be sent to one of two destinations depending on the country code. Addresses in the United States will be routed to a US reply path, while addresses in Canada will be routed to a Canadian reply path.
+In this lab you will learned how to:
 
-You will also include some basic exception handling, to deal with addresses that are not in the United States or Canada.
+-   Modify an existing message flow and test the message flow using Integration toolkit.
+-   
+-   Include basic error handler.
+
+## 2.Prerequisites <a name="prerequisites"></a>
+
+- Reserve the lab environment. If you have not reserved the lab environment yet, then click [here](https://abc.com).
+
+- Go through the audio presentation to get the knowledge about App connect capabilities. 
+
+- Download and install toolkit as explained in Lab1.
+
+## 3. Getting started with lab1 <a name="deploy"></a>
+
+In this lab, you will modify the flow you created in Lab 1 to perform simple routing. Input messages will be sent to one of two destinations depending on the country code. Addresses in the United States will be routed to a US reply path, while addresses in Canada will be routed to a Canadian reply path.
 
 Add Routing Logic
 -----------------
