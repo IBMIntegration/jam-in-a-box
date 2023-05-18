@@ -1,9 +1,10 @@
 ---
-title: IBM App Connect Enterprise
+title: Create, Manage Integration Server and Deploy/Test message flow
 ---
-[Return to main lab page](../../acelabs/Overview/)
 
-## Featuring:
+### [Return to main ACE lab page](../app-connect-enterprise)
+
+---
 
 - Integration Servers
 - Integration Servers managed by Integration Nodes
@@ -12,6 +13,16 @@ title: IBM App Connect Enterprise
 ---
 
 # Table of Contents
+
+1. [Objectives](#objectives)
+2. [Prerequisites](#prerequisites)
+3. [Getting started with Lab1](#deploy)
+
+   1. [Integration Servers](#integration_servers)
+      i. [Configure a Local Integration Server](#conf_is)
+      ii. [Stopping and starting a local integration server](#manage_is)
+      - [Using Integration Toolkit](#toolkit_is)
+      - [Using the Administration REST API](#restapi_is)
 
 - [Table of Contents](#table-of-contents)
   - [Return to main ACE lab page](#return-to-main-ace-lab-page)
@@ -31,8 +42,8 @@ title: IBM App Connect Enterprise
   - [3.1 Test PING Basic flow on CP4I <a name="test_ping_basic_flow_on_cp4i"></a>](#31-test-ping-basic-flow-on-cp4i-)
 - [<span style="color:teal">END OF LAB GUIDE</span>](#end-of-lab-guide)
 
-[Return to main ACE lab page](/acelabs/Overview)
-------------------------------------------------
+
+---
 
 # 1. Introduction <a name="introduction"></a>
 
