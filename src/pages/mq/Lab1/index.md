@@ -5,6 +5,7 @@ title: Creating an MQ Instance Using the Platform Navigator
 ###  [Return to main MQ lab page](../mq)
 
 ---
+
 # Table of Contents
 1. [Objectives](#objectives)
 2. [Prerequisites](#prerequisites)
@@ -14,6 +15,8 @@ title: Creating an MQ Instance Using the Platform Navigator
    2. [Start MQ Console](#start_mq)
    3. [Test MQ](#test_mq)
 
+
+---
 
 ## 1. Objectives<a name="objectives"></a>
 In this lab, you will learn how to:
