@@ -40,6 +40,36 @@ In this lab you will learned how to:
 - Manage Integration Server from toolkit and Web Admin Console.
 - Deploy  BAR file in cp4i. 
 
+## 2. Prerequisites <a name="prerequisites"></a>
+- Reserve the lab environment. If you have not reserved the lab environment yet, then click here.
+- Go through the audio presentation to get the knowledge about App connect capabilities.  
+- Download IBM App Connect Enterprise for Developers. To download now, click [Download](https://www-01.ibm.com/marketing/iwm/iwm/web/pickUrxNew.do?source=swg-wmbfd).   
+- Install IBM App Connect Enterprise.  
+   -  Install on Windows by completing the following steps: 
+    1. Unpack the software, which sets up IBM App Connect Enterprise Toolkit by extracting the downloaded .zip file into a local                directory.  
+    2. Run the installation file that you downloaded by running the following command with the options that you require:
+       `ACESetup12.0.n.0.exe'.
+        For more information about installing IBM App Connect Enterprise on Windows, see Installing IBM App Connect Enterprise on               Windows. 
+        
+   - Install on Linux by completing the following steps:
+    1. Create or navigate to a directory where you have write access.   
+    2. Unpack the software, which sets up the IBM App Connect Enterprise Toolkit by running the following command:   
+       `tar -xzvf ace-12.0.n.0.tar.gz`.   
+    3. Accept the license and run the installation file that you downloaded by running the command ./ace accept license for a single            user installation or `./ace make registry global accept license` for a shared installation.
+       For more information about installing IBM App Connect Enterprise on Linux, see Installing IBM App Connect Enterprise on Linux.
+       
+   - Install on macOS by completing the following steps:
+    1. Open the installation wizard by double-clicking the installation file that you downloaded. The installation file has a name              similar to IBM App Connect Enterprise 12.0.0.x.pkg but it might be automatically renamed when you download it.
+    2. Follow the instructions in the installation wizard. IBM App Connect Enterprise is installed as a standard mac application with           the name IBM App Connect Enterprise in the /Applications folder.
+
+  - Test the toolkit instalation:    
+   Windows: From the Windows Start menu, expand IBM App Connect Enterprise xx.0.0.y Developer Edition (where x denotes the version),                 then click IBM App Connect Enterprise Toolkit.
+   Linux: From the command environment, type ./ace toolkit.
+   macOS: Run the application /Applications/IBM App Connect Enterprise to start the toolkit.
+
+IBM App Connect Enterprise Toolkit opens to display its welcome page.
+![](images/27.png)
+
 # 2. Integration Servers  <a name="integration_servers"></a>
 
 ## 2.1 Configure a Local Integration Server <a name="configure_a_local_integration_server"></a>
