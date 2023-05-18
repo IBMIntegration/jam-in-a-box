@@ -19,8 +19,8 @@ title: Create, Manage Integration Server and Deploy/Test message flow
 3. [Getting started with Lab1](#deploy)
 
    1. [Integration Servers](#integration_servers)
-      i. [Configure a Local Integration Server](#conf_is)
-      ii. [Stopping and starting a local integration server](#manage_is)
+      i. [Configure a Local Integration Server](#conf_is) 
+      ii. [Stopping and starting a local integration server](#manage_is) 
       - [Using Integration Toolkit](#toolkit_is)
       - [Using the Administration REST API](#restapi_is)
 
