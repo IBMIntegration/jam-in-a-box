@@ -31,32 +31,14 @@ title: Create, Manage Integration Server and Deploy/Test message flow
        - [Build PING_Basic BAR file](#ping_bar_deploy)
    2. [Deploy the BAR file to Cloud Pak for Integration](#deploy_bar_cp4i)  
      i. [Test PING Basic flow on CP4I](#test_cp4i)  
-     
-     
-- [Table of Contents](#table-of-contents)
-  - [Return to main ACE lab page](#return-to-main-ace-lab-page)
-- [1. Introduction <a name="introduction"></a>](#1-introduction-)
-- [2. Integration Servers  <a name="integration_servers"></a>](#2-integration-servers--)
-  - [2.1 Configure a Local Integration Server <a name="configure_a_local_integration_server"></a>](#21-configure-a-local-integration-server-)
-- [2.2 Stopping and starting a local integration server <a name="stopping_and_starting_a_local_integration_server"></a>](#22-stopping-and-starting-a-local-integration-server-)
-  - [2.2.1 Using Integration Toolkit <a name="using_integration_toolkit"></a>](#221-using-integration-toolkit-)
-  - [2.2.2 Using the Administration REST API <a name="using_the_administration_rest_api"></a>](#222-using-the-administration-rest-api-)
-- [2.3 Putting integration servers to work! <a name="putting_integration_servers_to_work"></a>](#23-putting-integration-servers-to-work-)
-  - [2.3.1 Import PING_Basic <a name="import_ping_basic"></a>](#231-import-ping_basic-)
-  - [2.3.2 Review PING_Basic <a name="review_ping_basic"></a>](#232-review-ping_basic-)
-  - [2.3.3 Deploy PING_Basic](#233-deploy-ping_basic)
-  - [2.3.4 Test PING_Basic <a name="test_ping_basic"></a>](#234-test-ping_basic-)
-  - [2.3.5 Build PING_Basic BAR file <a name="build_ping_basic_bar_file"></a>](#235-build-ping_basic-bar-file-)
-- [3. Deploy the BAR file to Cloud Pak for Integration <a name="deploy_the_bar_file_to_cp4i"></a>](#3-deploy-the-bar-file-to-cloud-pak-for-integration-)
-  - [3.1 Test PING Basic flow on CP4I <a name="test_ping_basic_flow_on_cp4i"></a>](#31-test-ping-basic-flow-on-cp4i-)
-- [<span style="color:teal">END OF LAB GUIDE</span>](#end-of-lab-guide)
-
-
+ 
 ---
 
-# 1. Introduction <a name="introduction"></a>
-
-This is a basic toolkit lab that you will create a simple Ping flow and then test locally and deploy to the ACE runtime in CP4I.
+## 1. Objectives <a name="objectives"></a>
+In this lab you will learned how to:
+- Create and configure an Integration Server.
+- Manage Integration Server from toolkit and Web Admin Console.
+-  Create/Deploy  your first message flow. 
 
 # 2. Integration Servers  <a name="integration_servers"></a>
 
