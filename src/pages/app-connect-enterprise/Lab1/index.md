@@ -29,7 +29,7 @@ title: Create, Manage Integration Server and Deploy/Test message flow
        - [Deploy PING_Basic](#ping_deploy)
        - [Deploy PING_Basic](#ping_test)
        - [Build PING_Basic BAR file](#ping_bar_deploy)
-  2. [Deploy the BAR file to Cloud Pak for Integration](#deploy_bar_cp4i)  
+   2. [Deploy the BAR file to Cloud Pak for Integration](#deploy_bar_cp4i)  
      i. [Test PING Basic flow on CP4I](#test_cp4i)  
      
      
