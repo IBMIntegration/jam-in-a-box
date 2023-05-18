@@ -22,6 +22,7 @@ title: Create, Manage Integration Server and Deploy/Test message flow
       ii. [Stopping and starting a local integration server](#manage_is)    
        - [Using Integration Toolkit](#toolkit_is)   
        - [Using the Administration REST API](#restapi_is) 
+      
       iii. [Putting integration servers to work](#work_is)  
        - [Import PING_Basic](#ping_basic)
        - [Review PING_Basic](#ping_review)
