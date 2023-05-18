@@ -2,7 +2,7 @@
 title: Creating an MQ Instance Using the Platform Navigator
 ---
 
-###  [Return to main MQ lab page](../mq)
+###  [Return to main MQ lab page](../)
 
 ---
 
