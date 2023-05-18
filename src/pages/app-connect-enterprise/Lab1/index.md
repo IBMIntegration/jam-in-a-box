@@ -38,7 +38,7 @@ title: Create, Manage Integration Server and Deploy/Test message flow
 In this lab you will learned how to:
 - Create and configure an Integration Server.
 - Manage Integration Server from toolkit and Web Admin Console.
--  Create/Deploy  your first message flow. 
+- Deploy  BAR file in cp4i. 
 
 # 2. Integration Servers  <a name="integration_servers"></a>
 
