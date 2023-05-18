@@ -23,7 +23,16 @@ title: Create, Manage Integration Server and Deploy/Test message flow
       ii. [Stopping and starting a local integration server](#manage_is) 
       - [Using Integration Toolkit](#toolkit_is)
       - [Using the Administration REST API](#restapi_is)
-
+      iii. [Putting integration servers to work](#work_is) 
+      - [Import PING_Basic](#ping_basic)
+      - [Review PING_Basic](#ping_review)
+      - [Deploy PING_Basic](#ping_deploy)
+      - [Deploy PING_Basic](#ping_test)
+      - [Build PING_Basic BAR file](#ping_bar_deploy)
+  2. [Deploy the BAR file to Cloud Pak for Integration](#deploy_bar_cp4i)
+     i. [Test PING Basic flow on CP4I](#test_cp4i) 
+     
+     
 - [Table of Contents](#table-of-contents)
   - [Return to main ACE lab page](#return-to-main-ace-lab-page)
 - [1. Introduction <a name="introduction"></a>](#1-introduction-)
