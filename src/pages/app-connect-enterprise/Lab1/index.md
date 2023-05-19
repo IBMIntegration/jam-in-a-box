@@ -65,7 +65,6 @@ IBM App Connect Enterprise Toolkit opens to display its welcome page.
 ![](images/welcome.png)
 
 ## 3. Getting started with lab1 <a name="deploy"></a>
-
 ## 3a. Integration Servers  <a name="integration_servers"></a>
 
 ### i. Configure a Local Integration Server <a name="conf_is"></a>
