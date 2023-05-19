@@ -6,12 +6,6 @@ title: Create, Manage Integration Server and Deploy/Test message flow
 
 ---
 
-- Integration Servers
-- Integration Servers managed by Integration Nodes
-- Running simple message flows and REST APIs
-
----
-
 # Table of Contents
 
 1. [Objectives](#objectives)
