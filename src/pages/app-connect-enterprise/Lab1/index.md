@@ -191,14 +191,14 @@ For example **python**:
 
 In this section you have seen how to create a local integration server from within Integration Toolkit and various options to manage stopping and starting an integration server.
 
-# 2.3 Putting integration servers to work! <a name="putting_integration_servers_to_work"></a>
+### iii. Putting integration servers to work! <a name="work_is"></a>
 
 You now have a integration servers running: TEST_SERVER running with defaults settings; You will now review a very simple application called PING_Basic and deploy it to integration servers you have running in your environment.
 
 Now download the **PING_Basic_PoT_PIF.zip**
 Click here and save the zip file - [PING_Basic_PoT_PIF.zip](PING_Basic_PoT_PIF.zip)
 
-## 2.3.1 Import PING_Basic <a name="import_ping_basic"></a>
+#### - Import PING_Basic <a name="ping_basic"></a>
 
 PING_Basic is a very simple application that you will now use to see an application running on the servers you have created. In this next section you will import the application into your workspace so that you can review what it will do.
 
@@ -220,7 +220,7 @@ Click **Finish**:
 
 ![alt text][images/2.png4]
 
-## 2.3.2 Review PING_Basic <a name="review_ping_basic"></a>
+#### - Review PING_Basic <a name="ping_review"></a>
 
 1\. Double click on basicflow.msgflow, this will open the message flow in window <b><span style="color: red">(B)</span></b>. This flow has two paths.   For this lab we will be focused on the HTTP Input.
 
@@ -244,7 +244,7 @@ ie The **server name** that the flow is running on;the **WorkPath** of the serve
 
 ![alt text][images/2.png6]
 
-## 2.3.3 Deploy PING_Basic
+#### - Deploy PING_Basic<a name="ping_deploy"></a>
 
 1\. Right click on the **PING_Basic** application and select **Deploy**.
 
@@ -262,7 +262,7 @@ ie The **server name** that the flow is running on;the **WorkPath** of the serve
 
 ![alt text][images/2.png9a]
 
-## 2.3.4 Test PING_Basic <a name="test_ping_basic"></a>
+#### Test PING_Basic <a name="ping_test"></a>
 
 1\. Open a new tab in your Firefox browser window, and go to the followin URL:
 
@@ -272,7 +272,7 @@ the request should return details of TEST_SERVER:
 
 ![alt text][images/3.png0]
 
-## 2.3.5 Build PING_Basic BAR file <a name="build_ping_basic_bar_file"></a>
+#### - Build PING_Basic BAR file <a name="ping_bar_deploy"></a>
 
 Create a BAR file in order to deploy the solution to the Cloud Pak for integration server
 
@@ -290,7 +290,7 @@ Create a BAR file in order to deploy the solution to the Cloud Pak for integrati
 
 ![alt text][images/3.png3]
 
-# 3. Deploy the BAR file to Cloud Pak for Integration <a name="deploy_the_bar_file_to_cp4i"></a>
+## 3b. Deploy the BAR file to Cloud Pak for Integration <a name="deploy_bar_cp4i"></a>
 
 With the Toolkit you can build powerful and complex integration applications, services, and APIs quickly and easily using a visual designer. Your integration solutions can be directly deployed to the Cloud Pak for Integration on IBM Cloud Pak running on-premises, in any cloud, or combinations of both.
 
@@ -342,7 +342,7 @@ After a little bit refresh the page.  Once the server is up and running it will 
 
 ![alt text][images/4.png3]
 
-## 3.1 Test PING Basic flow on CP4I <a name="test_ping_basic_flow_on_cp4i"></a>
+### i. Test PING Basic flow on CP4I <a name="test_cp4i"></a>
 
 We will now test the PING_Base flow we just deployed to CP4I in the Integration Server
 
@@ -357,9 +357,9 @@ Where:<span style="color: red"> is-toolkit1-basic </span> is the *name of your s
 
 ![alt text][images/4.png4]
 
-[Return to main lab page](/acelabs/Overview)
+### [Return to main ACE lab page](../app-connect-enterprise)
 
-# <span style="color:teal">END OF LAB GUIDE</span>
+
 
 [images/0.png]: images/0.png
 [images/1.png]: images/1.png
