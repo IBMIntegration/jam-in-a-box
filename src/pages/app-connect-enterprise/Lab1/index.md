@@ -70,9 +70,11 @@ In this lab you will learned how to:
 IBM App Connect Enterprise Toolkit opens to display its welcome page.
 ![](images/welcome.png)
 
-# 2. Integration Servers  <a name="integration_servers"></a>
+## 3. Getting started with lab1 <a name="deploy"></a>
 
-## 2.1 Configure a Local Integration Server <a name="configure_a_local_integration_server"></a>
+## 3a. Integration Servers  <a name="integration_servers"></a>
+
+### i. Configure a Local Integration Server <a name="conf_is"></a>
 
 In the next section you will create a local integration server using this feature. The follow diagram shows what you will set up on your local integration server.
 
@@ -120,11 +122,11 @@ Note: the default port for Administration of the server is 7600. Since the “**
 
 The local Integration Server should be started (if the server isn’t started there is likely to be a problem with the default ports configured in your server.conf.yaml)
 
-# 2.2 Stopping and starting a local integration server <a name="stopping_and_starting_a_local_integration_server"></a>
+### ii. Stopping and starting a local integration server <a name="manage_is"></a>
 
 In this section you see different ways of how a local Integration Server can be stopped stopped and started.
 
-## 2.2.1 Using Integration Toolkit <a name="using_integration_toolkit"></a>
+#### - Using Integration Toolkit <a name="using_integration_toolkit"></a>
 
 1\. The integration server that you created in the previous section will be up and running (it will have a green arrow facing upwards in the Integration Exlorer window. Right click on the server name and select Stop (this will stop the integration server):
 
@@ -142,7 +144,7 @@ In this section you see different ways of how a local Integration Server can be 
 
 ![alt text][images/1.png1]
 
-## 2.2.2 Using the Administration REST API <a name="using_the_administration_rest_api"></a>
+#### - Using the Administration REST API <a name="using_the_administration_rest_api"></a>
 
 IBM App Connect Enterprise V11 has an extensive administration REST API that enables you to control running Servers as well as server objects and resources. In this next section you see how to review the API documentation and stop a running local integration server using this REST API.
 
