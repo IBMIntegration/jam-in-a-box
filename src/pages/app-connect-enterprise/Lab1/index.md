@@ -126,7 +126,8 @@ The local Integration Server should be started (if the server isn’t started th
 
 In this section you see different ways of how a local Integration Server can be stopped stopped and started.
 
-#### - Using Integration Toolkit <a name="using_integration_toolkit"></a>
+#### - Using Integration Toolkit <a name="restapi_is"></a>
+
 
 1\. The integration server that you created in the previous section will be up and running (it will have a green arrow facing upwards in the Integration Exlorer window. Right click on the server name and select Stop (this will stop the integration server):
 
