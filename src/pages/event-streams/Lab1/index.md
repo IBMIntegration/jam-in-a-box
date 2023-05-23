@@ -2,7 +2,7 @@
 title: EventStreams Labs Prerequisites
 ---
 
-### [Return to main EventStreams page](../event-streams)
+### [Return to main EventStreams lab page](../event-streams)
 
 ---
 
