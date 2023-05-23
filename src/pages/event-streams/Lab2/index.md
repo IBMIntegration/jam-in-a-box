@@ -9,7 +9,7 @@ title: Getting Started with IBM Event Streams 10.5.0
 # Table of Contents
 1. [Objectives](#objectives)
 2. [Prerequisites](#prerequisites)
-3. [Getting started with Lab1](#deploy)
+3. [Getting started with Lab2](#deploy)
     1. [Step-by-step guide ](#instruction)
 
 ---
