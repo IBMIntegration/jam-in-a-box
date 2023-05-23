@@ -51,4 +51,4 @@ This section provides the instructions for setting up the Kafka Client that will
 
     ![](images/image-2.png)
 
-
+### [Return to main EventStreams lab page](../event-streams)
