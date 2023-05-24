@@ -12,6 +12,11 @@ title: Producing & Consuming Data with Event Streams
 3. [Getting started with Lab3](#deploy)
     1. [What is a Schema Registry ](#sch-registry)
     2. [How the Schema Registry Works](#sch-registry-work)
+    3. [Creating a topic and attaching a schema to it](#topic)
+    4. [Creating a Kafka User with appropriate rights](#create-user)
+    5. [Gather Connection Details](#collection)
+    6. [Test Producer and Consumer](#test)
+    7. [Check the Impact of Changing the Schema Registry](#test-registry)
 
 ---
 
@@ -60,9 +65,9 @@ Now, let’s take a look at how the Schema Registry works.
 
 
 
-## Creating a topic and attaching a schema to it
+## 3c. Creating a topic and attaching a schema to it <a name="topic"></a>
 
-1. **Open this URL from a browser.**
+1\. Open this URL from a browser.
    [EventStreams Console](https://cpd-cp4i.techjam-4fb3233b14921b317ff7e3af2a6d8125-0000.us-south.containers.appdomain.cloud/integration/kafka-clusters/cp4i-es/techjam-es/) 
 
    - Click on “Enterprise LDAP”
@@ -71,7 +76,7 @@ Now, let’s take a look at how the Schema Registry works.
 
      ![](images/1.png)
    <br/>
-2. **Create Topic** <br/>
+2\. Create Topic** <br/>
       
    ![](images/image-4.png) <br/>
 
@@ -82,7 +87,7 @@ Now, let’s take a look at how the Schema Registry works.
    ![](images/4.png)   <br/>  
    ![](images/5.png)   <br/>  
 
-3. **Next create the schema and attach to the topic.** <br/>
+3\. Next create the schema and attach to the topic. <br/>
    Click on the Schema Registry tab in the left. <br/>
 
    ![](images/6.png) <br/>
@@ -106,9 +111,9 @@ Now, let’s take a look at how the Schema Registry works.
 
    Click on Add Schema. The schema is now attached to the topic. <br/>
 
-## Creating a Kafka User with appropriate rights
+## 3d. Creating a Kafka User with appropriate rights <a name="create-user"></a>
 
-1.	Go to the Event Streams home page.
+1\.	Go to the Event Streams home page.
    Select "Connect to this Cluster" -> Generate SCRAM Credentials. <br/>
 
    ![](images/10.png) <br/>
@@ -123,7 +128,7 @@ Now, let’s take a look at how the Schema Registry works.
    ![](images/14.png)   <br/>  
    ![](images/15.png)   <br/> 
 
-## Gather Connection Details
+## 3e. Gather Connection Details <a name="collection"></a>
 
 Creating connection from Consumer / Producer requires some connectivity details. These details can be gathered from the Event Stream’s portal. Connectivity details needed will depend on type of authentication and SASL mechanism used. 
 
@@ -136,9 +141,9 @@ From the Event Stream home page, click on “Connect to this Cluster”.  Get th
 ![](images/16.png)   <br/> 
 ![](images/17.png)   <br/> 
 
-## Test Producer / Consumer
+## 3f. Test Producer and Consumer <a name="test"></a>
 
-1.	Prepare the config.properties file located in C:\TechJam\EventStreams_Lab\KafkaClient_YYYYMMDD\
+1\.	Prepare the config.properties file located in C:\TechJam\EventStreams_Lab\KafkaClient_YYYYMMDD\
 Check and change the following fields. The fields not mentioned here can be left default.
 
 |  Field                            | Value                 |  
@@ -216,7 +221,7 @@ sasl.kerberos.service.name=kafka
 retries = 2
 ```
 
-2. Test Producing Message
+2\. Test Producing Message
 
 Goto this folder in command prompt:
 ```
@@ -229,7 +234,7 @@ Check if the message is listed in the topic. In the Event Streams portal, go to 
 
 ![](images/18.png)   <br/> 
 
-3. Test Consuming Message
+3\. Test Consuming Message
 
 `java -jar KafkaClient.jar consumer config.properties`
 
@@ -238,9 +243,9 @@ Press CTRL-C to stop the consumer.
 
 ![](images/18-2.png)   <br/>
 
-## Check the Impact of Changing the Schema Registry
+## 3g. Check the Impact of Changing the Schema Registry <a name="test-registry"></a>
 
-1.	We will change the schema registry and check what happens when producing / consuming. 
+1\.	We will change the schema registry and check what happens when producing / consuming. 
 In the client computer, make a copy of the customer.avsc file (located in C:\TechJam\EventStreams_Lab\KafkaClient_YYYYMMDD\com\example>) and name it customer_v2.avsc. You can do this from Windows Explorer.
 
 Edit the file using Notepad++. Add this line right after country. Change the version.
@@ -249,16 +254,16 @@ Edit the file using Notepad++. Add this line right after country. Change the ver
 The customer_v2.avsc should look like this:
 ![](images/18-3.png)   <br/>
 
-2. From the Event Streams portal, Go to Schema Registry -> Click on your Schema. Then, click on “Add New Version”.
+2\. From the Event Streams portal, Go to Schema Registry -> Click on your Schema. Then, click on “Add New Version”.
    ![](images/19.png)   <br/>
    
-3. Click on “Upload Definition” and select the edited avsc file (customer_v2.avsc).
+3\. Click on “Upload Definition” and select the edited avsc file (customer_v2.avsc).
    
    You should get a validation failed message.
 
    ![](images/20.png)   <br/>
 
-4.	Understanding Schema Registry Evolution
+4\.	Understanding Schema Registry Evolution
 
    When a schema is created, it has to have a compatibility mode. The most used compatibility modes are:
       -  ***BACKWARD*** - new schema can be used to read data written with old schema [e.g. consumer uses the new schema and read an older offset data]
@@ -268,7 +273,7 @@ The customer_v2.avsc should look like this:
    In Event Streams, the default compatibility mode is **FULL**. 
    In our customer_v2.avsc we have added a new mandatory field. Older consumers may not be aware of this field until they update their code. Hence, our schema is NOT FORWARD compatible and so, it fails validation.
 
-5.	Now, edit the schema file (customer_v2.avsc) again and add a default value to the newly added line. The line should look like this:
+5\.	Now, edit the schema file (customer_v2.avsc) again and add a default value to the newly added line. The line should look like this:
 
    `{ "name": "company", "type": "string", "default": "IBM", "doc": "Customer Company" },`
 
@@ -276,13 +281,13 @@ The customer_v2.avsc should look like this:
 
    ![](images/21.png)   <br/>
 
-6.	Now try updating the schema. 
+6\.	Now try updating the schema. 
    Validation should pass. 
    Change the version number and click on “Add Schema”.
 
-7. Test producing / consuming data
+7\. Test producing / consuming data
 
-8.	Getting details about the schema. 
+8\.	Getting details about the schema. 
    The Event Streams schema registry supports a Rest Endpoint that provides details about the schema. 
 
    First make sure you have the Basic Authentication Token created during the process of creating the Kafka SCRAM User. If you missed copying the token, you can generate the token from the SCRAM USERNAME and SCRAM PASSWORD. 
