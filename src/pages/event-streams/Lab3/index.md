@@ -2,23 +2,39 @@
 title: Producing & Consuming Data with Event Streams
 ---
 
-# Introduction
-Version control can be a nightmare for organizations. With Kafka, it’s no different. With stream processing pipelines, there are no files to act as containers for messages with a single format. Let take a look at how Event Streams handles Schema Management with the Schema Registry.
+### [Return to main EventStreams lab page](../event-streams)
 
-# Lab Objective
-In this lab, we’ll do the following: 
+---
+
+# Table of Contents
+1. [Objectives](#objectives)
+2. [Prerequisites](#prerequisites)
+3. [Getting started with Lab3](#deploy)
+    1. [What is a Schema Registry ](#sch-registry)
+    2. [How the Schema Registry Works](#sch-registry-work)
+
+---
+
+## 1. Objectives <a name="objectives"></a>
+
+In this lab you will learned how to:
+
 -	Create a topic and attach a schema to it
 -	Create a Kafka user with appropriate rights to produce and consume data
 -	Gather information needed to connect to the Kafka / Schema clusters.
 -	Test producing / consuming data.
 -	Make changes to the Schema and see the impact to producer/consumer.
 
-# Pre-Requisites
--  Have setup the client machine properly. 
--  Able to access the Event Streams web interface. 
+## 2. Prerequisites <a name="prerequisites"></a>
 
-# Understanding Schema Registry
-## What is a Schema Registry?
+-	Have setup the client machine properly. 
+-	Able to access the Event Streams web interface.	
+-	Reserve the lab environment. If you have not reserved the lab environment yet, then click [here](https://abc.com). 
+-	Go through the audio presentation to get the knowledge about API connect capabilities. 
+
+
+## 3. Getting started with Lab3 <a name="deploy"></a>
+## 3a. What is a Schema Registry? <a name="sch-registry"></a>
 
 Schema Registry provides a serving layer for your metadata. It provides a RESTful interface for storing and retrieving your Avro®, JSON Schema, and Protobuf schemas. 
 •	It stores a versioned history of all schemas based on a specified subject name strategy, provides multiple compatibility settings.
@@ -29,20 +45,20 @@ In Event Streams, Schemas are stored in internal Kafka topics by the Apicurio Re
 
 ![](images/image-1.png)
 
-## How the Schema Registry Works?
+## 3b. How the Schema Registry Works? <a name="sch-registry-work"></a>
 
 Now, let’s take a look at how the Schema Registry works.
 
-1.	Sending applications request schema from the Schema Registry.
-2.	The scheme is used to automatically validates and serializes be for the data is sent.
-3.	Data is sent, serializing makes transmission more efficient. 
-4.	The receiving application receives the serialized data.
-5.	Receiving application request the schema from the Schema Registry. 
-6.	Receiving application deserializes the same data automatically as it receives the message.
+1\.	Sending applications request schema from the Schema Registry.
+2\.	The scheme is used to automatically validates and serializes be for the data is sent.
+3\.	Data is sent, serializing makes transmission more efficient. 
+4\.	The receiving application receives the serialized data.
+5\.	Receiving application request the schema from the Schema Registry. 
+6\.	Receiving application deserializes the same data automatically as it receives the message.
 
 ![](images/image-2.png)
 
-# Lab Procedures
+
 
 ## Creating a topic and attaching a schema to it
 
