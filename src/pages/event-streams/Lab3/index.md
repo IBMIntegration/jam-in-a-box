@@ -317,4 +317,4 @@ The customer_v2.avsc should look like this:
    Which basically means – the schema uses the default global setting – which is FULL (as we saw when we tried changing the schema).
 
 
-
+### [Return to main EventStreams lab page](../event-streams)
