@@ -480,16 +480,14 @@ A BAR file can be deployed in two ways:
    ![](./images/tkNewBarFile7.png)
    
 10\. In the BAR editor, select the **Manage** tab.
-
-    Expand the **IntroLab** app and select the various resources.
+     Expand the **IntroLab** app and select the various resources.
 
    Look at the **Properties view** below to see what properties are exposed in order to be overridden within the BAR file. For example, select the **IntroLab\_Listener** node. You can see that the *Path suffix for URL* property can be overridden at deployment time.
 
    ![](./images/tkNewBarFile8.png)
    
 11\. To deploy, find the **Lab2.bar** file in the navigator in the **BARs** container.
-
-    Drag and drop it onto the TEST_SERVER integration server.
+     Drag and drop it onto the TEST_SERVER integration server.
 
    ![](./images/tkNewBarFile9.png)
    
