@@ -235,8 +235,8 @@ In this lab, you will modify the flow you created in Lab 1 to perform simple rou
 
     The updates to the message flow are now complete.
 43\. ![](./images/tkSave.png)Save the message flow.
-
-<span id="_Toc424278907" class="anchor"></span>
+ 
+ <span id="_Toc424278907" class="anchor"></span>
 
 ## 3b. Test Content-based Routing Using the Flow Exerciser <a name="flow_exe"></a>
 
