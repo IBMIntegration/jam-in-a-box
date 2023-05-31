@@ -159,7 +159,9 @@ In this lab, you will modify the flow you created in Lab 1 to perform simple rou
 29\. Verify that the correct terminals are wired.
 
    ![](./images/tkConnectionVerify3.png)
-    The criteria to be used by the **CheckCountry** routing node must now be specified.
+   
+   The criteria to be used by the **CheckCountry** routing node must now be specified.
+    
 30\. Select the **CheckCountry** node.
 
     In the **Properties** pane select the **Basic** tab.
