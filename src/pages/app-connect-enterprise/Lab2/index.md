@@ -98,19 +98,17 @@ In this lab, you will modify the flow you created in Lab 1 to perform simple rou
 
    ![](./images/tkCAOutTerminal.png)
    
-17\. Notice that the shape of the CheckCountry node has changed slightly.  
-
-    Once there are too many terminals to display discretely, they will be grouped together.  
+17\. Notice that the shape of the CheckCountry node has changed slightly.
+     Once there are too many terminals to display discretely, they will be grouped together.
    ![](./images/tkOutTerminalGroup.png)
     
 18\. Change the name of the **HTTP Reply** node to **Reply if US**.  
     Press the **Enter** key to complete the rename operation.  
     ![](./images/tkReplyifUS.png)
     
-19\. Change the name of the **HTTP Reply1** node to **Reply if Canada** 
-
-    |----|----|   
-   ![](./images/important.png)   
+19\. Change the name of the **HTTP Reply1** node to **Reply if Canada**
+     |----|----|
+   ![](./images/important.png)
     |**Note!**  Two HTTPReply nodes are not actually necessary – a single one could have been used. But separate nodes were used here for clarity, as well as to make the flow more self-documenting.|
     
 20\. Press the **Enter** key to complete the rename operation.
