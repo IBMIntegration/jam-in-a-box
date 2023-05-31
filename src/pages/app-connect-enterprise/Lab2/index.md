@@ -412,10 +412,10 @@ If you are working with an Application and want to deploy and test it quickly,
 
 The Broker Archive (BAR) file is a .zip file which contains the flows, models, .jar files, maps, and any other resources in the workspace needed to run your Applications. The BAR file also contains a deployment descriptor .xml file, which exposes flow and node properties for override at build or deploy time. The following sequence of events illustrates how to deploy with a BAR file.
 
-1\. Create a broker archive.
-2\. Add Applications, Libraries, Services, REST APIs, message flows and other flow dependencies to the broker archive.
-3\. If necessary, you edit the configurable properties of the message flows or applications in the broker archive.
-4\. Deploy the BAR file by sending it to an Integration Server.
+1\. Create a broker archive.  
+2\. Add Applications, Libraries, Services, REST APIs, message flows and other flow dependencies to the broker archive.  
+3\. If necessary, you edit the configurable properties of the message flows or applications in the broker archive.   
+4\. Deploy the BAR file by sending it to an Integration Server.   
 
 A BAR file can be deployed in two ways:
 
