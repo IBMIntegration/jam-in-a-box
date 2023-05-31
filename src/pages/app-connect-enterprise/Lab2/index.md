@@ -49,19 +49,24 @@ In this lab, you will modify the flow you created in Lab 1 to perform simple rou
    Drag the node down a short distance.
 
    ![](./images/tkMoveTraceNode.png)
+   
 4\. Click the **Out -&gt; In** connector shown – the connector will turn **blue**. Press the **Delete** key to remove the connector.
 
    ![](./images/tkClickConnector1.png)
+   
 5\. Click the other **Out -&gt; In** connector shown – the connector will turn **blue**. Press the **Delete** key to remove the connector.
 
    ![](./images/tkClickConnector2.png)
+   
 6\. Leave the Trace node unwired for now. Do *not* delete it. We will be repurposing it in a later lab.
 
    ![](./images/tkTraceNodeUnwired.png)
+   
 7\. Expand the **Routing** drawer in the **Palette**.
 8\. Select a **Route** node and place it between the **IntroLab\_Listener** and **HTTP Reply** nodes.
 
    ![](./images/tkAddRouteNode.png)
+   
 9\. Change the name of the new routing node to **CheckCountry**.
 
    Press the **Enter** key to complete the rename operation.
@@ -87,6 +92,7 @@ In this lab, you will modify the flow you created in Lab 1 to perform simple rou
      Press the **OK** button to continue.
 
   ![](./images/tkUSOutTerminal.png)
+  
     The steps will now be repeated to add a terminal called **Canada**.
 15\. Select the **CheckCountry** node.
     Press the right mouse button.
@@ -109,11 +115,13 @@ In this lab, you will modify the flow you created in Lab 1 to perform simple rou
 19\. Change the name of the **HTTP Reply1** node to **Reply if Canada**
      |----|----|
    ![](./images/important.png)
-    |**Note!**  Two HTTPReply nodes are not actually necessary – a single one could have been used. But separate nodes were used here for clarity, as well as to make the flow more self-documenting.|
+  
+   |**Note!**  Two HTTPReply nodes are not actually necessary – a single one could have been used. But separate nodes were used here for clarity, as well as to make the flow more self-documenting.|
     
 20\. Press the **Enter** key to complete the rename operation.
 
    ![](./images/tkReplyifCA.png)
+   
 21\. Another way to make a connection is just to click the terminal itself.
     Try this by selecting the **Out** terminal (second from the top) of the **IntroLab\_Listener** node.
     ![](./images/tkLabIntroListenerOut.png)
