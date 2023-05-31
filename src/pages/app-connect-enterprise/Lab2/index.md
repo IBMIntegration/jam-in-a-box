@@ -185,9 +185,7 @@ In this lab, you will modify the flow you created in Lab 1 to perform simple rou
     ![](./images/tkSelectIn_RequestDataType.png)
     
 34\. Expand the **Root->tns:In\_Request->customerDetails** elements.
-
    Select the **customerCountry** element and ***drag*** it into the **XPath Expression** dialog box.
-
    ![](./images/tkXPathCountry.png)
    
 35\. Drag an equal sign from the **Operators** pane to the end of the expression.
