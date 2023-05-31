@@ -138,11 +138,11 @@ In this lab, you will modify the flow you created in Lab 1 to perform simple rou
    ![](./images/tkOutTerminalGroup.png)
     
 28\. Select **Canada** from the list.
-    Click **OK**.
+     Click **OK**.
     ![](./images/tkSelectCATerminal.png)
     
 29\. Verify that the correct terminals are wired.
-    ![](./images/tkConnectionVerify3.png)
+   ![](./images/tkConnectionVerify3.png)
     The criteria to be used by the **CheckCountry** routing node must now be specified.
     
 30\. Select the **CheckCountry** node.
