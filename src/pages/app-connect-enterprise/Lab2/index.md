@@ -370,6 +370,7 @@ You will use the Flow Exerciser to test the flow. In this lab you will see some 
     
 30\. To answer that, let’s look again at the flow.
      Stop the Flow Exerciser.
+     
    ![](./images/tkStopFlowExerciserMX.png)
    
 31\. Click **Yes** on the pop-up.
@@ -385,6 +386,7 @@ You will use the Flow Exerciser to test the flow. In this lab you will see some 
 33\. Click the Output Terminal group.
 
    ![](./images/tkCheckCountryTerminalGrp.png)
+   
 34\. Review the available Output terminals.
 
    ![](./images/tkTerminalGrpCancel.png)
