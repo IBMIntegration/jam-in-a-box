@@ -69,7 +69,7 @@ In this lab, you will modify the flow you created in Lab 1 to perform simple rou
    ![](./images/tkNewCheckCountryNode.png)   
    
 10\. Expand the **HTTP** drawer in the **Palette**.   
-11\. Select an **HTTPReply** node and place it beneath the existing **HTTP Reply** node.  
+11\. Select an **HTTPReply** node and place it beneath the existing **HTTP Reply** node.
     ![](./images/tkAddHTTPReplyNode.png)
 
 12\. Your flow should look something like this. Don’t rename the new HTTP Reply node – you will be renaming them both shortly.  
