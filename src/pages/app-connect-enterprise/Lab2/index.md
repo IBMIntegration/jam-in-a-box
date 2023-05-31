@@ -369,9 +369,7 @@ You will use the Flow Exerciser to test the flow. In this lab you will see some 
    ![](./images/tkTestMsgPathMX.png)
     
 30\. To answer that, let’s look again at the flow.
-
-    Stop the Flow Exerciser.
-
+     Stop the Flow Exerciser.
    ![](./images/tkStopFlowExerciserMX.png)
    
 31\. Click **Yes** on the pop-up.
@@ -394,8 +392,7 @@ You will use the Flow Exerciser to test the flow. In this lab you will see some 
    - **US** and **Canada** are wired. But **MX** is not going to match either of those.
    - There was neither a **Match** or a **Failure**.
    - **Default** would be the terminal normally taken when there was no match. But this was not wired. *So the message was discarded*. This might not be what we want to happen.
-
-    One approach would be to wire the Default terminal to an “Unsupported Country” path.
+   One approach would be to wire the Default terminal to an “Unsupported Country” path.
 
    But many things could potentially go wrong in a message flow. Rather than wire every possible exception path on every node in a flow, you will explore approaches to dealing with situations like this one in a later lab.
     
