@@ -70,13 +70,13 @@ In this lab, you will modify the flow you created in Lab 1 to perform simple rou
    
 10\. Expand the **HTTP** drawer in the **Palette**.   
 11\. Select an **HTTPReply** node and place it beneath the existing **HTTP Reply** node.  
-
     ![](./images/tkAddHTTPReplyNode.png)
+
 12\. Your flow should look something like this. 
 
     Don’t rename the new HTTP Reply node – you will be renaming them both shortly.  
-
     ![](./images/tkModifiedFlow1.png)
+ 
 
     Terminals will now be added to the **CheckCountry** routing node for **US** and **Canadian** addresses. 
 13\. Select the **CheckCountry** route node. 
@@ -85,7 +85,7 @@ In this lab, you will modify the flow you created in Lab 1 to perform simple rou
 
     Select **Add Output Terminal** from the menu.  
 
-    ![](./images/tkAddOutTerminal1.png)
+    ![alt text](./images/tkAddOutTerminal1.png)
 14\. Enter **US** as the name of the new output terminal.   
 
     Press the **OK** button to continue.  
