@@ -137,6 +137,7 @@ In this lab, you will modify the flow you created in Lab 1 to perform simple rou
 27\. Again click the group of output terminals on the **CheckCountry** route node.
    ![](./images/tkOutTerminalGroup.png)
     
+    
 28\. Select **Canada** from the list.
      Click **OK**.
     ![](./images/tkSelectCATerminal.png)
