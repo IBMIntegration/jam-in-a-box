@@ -87,17 +87,13 @@ In this lab, you will modify the flow you created in Lab 1 to perform simple rou
      Press the **OK** button to continue.
 
   ![](./images/tkUSOutTerminal.png)
-
     The steps will now be repeated to add a terminal called **Canada**.
 15\. Select the **CheckCountry** node.
-
     Press the right mouse button.
-
     Select **Add Output Terminal** from the menu.
-    
    ![](./images/tkAddOutTerminal1.png)
-16\. Enter **Canada** as the name of the new output terminal. 
-
+   
+16\. Enter **Canada** as the name of the new output terminal.
     Press the **OK** button to continue.
 
    ![](./images/tkCAOutTerminal.png)
@@ -105,124 +101,115 @@ In this lab, you will modify the flow you created in Lab 1 to perform simple rou
 17\. Notice that the shape of the CheckCountry node has changed slightly.  
 
     Once there are too many terminals to display discretely, they will be grouped together.  
-
-    ![](./images/tkOutTerminalGroup.png)
+   ![](./images/tkOutTerminalGroup.png)
+    
 18\. Change the name of the **HTTP Reply** node to **Reply if US**.  
-
     Press the **Enter** key to complete the rename operation.  
-
     ![](./images/tkReplyifUS.png)
+    
 19\. Change the name of the **HTTP Reply1** node to **Reply if Canada** 
 
     |----|----|   
-    ![](./images/important.png)   
-    |**Note!**  Two HTTPReply nodes are not actually necessary – a single one could have been used. But separate nodes were used here for clarity, as well as to make the flow more self-documenting.|   
+   ![](./images/important.png)   
+    |**Note!**  Two HTTPReply nodes are not actually necessary – a single one could have been used. But separate nodes were used here for clarity, as well as to make the flow more self-documenting.|
+    
 20\. Press the **Enter** key to complete the rename operation.
 
-    ![](./images/tkReplyifCA.png)
+   ![](./images/tkReplyifCA.png)
 21\. Another way to make a connection is just to click the terminal itself.
-
     Try this by selecting the **Out** terminal (second from the top) of the **IntroLab\_Listener** node.
-
     ![](./images/tkLabIntroListenerOut.png)
+    
 22\. Wire the **Out** terminal of the **IntroLab\_Listener** to the **In** terminal of the **CheckCountry** node.
-
     ![](./images/tkWireOutTerminal1.png)
+    
 23\. Hover the mouse pointer over the connector, to verify that the correct terminals are wired.
-
     ![](./images/tkConnectionVerify1.png)
+    
 24\. Click the group of output terminals on the **CheckCountry** route node.
-
     ![](./images/tkOutTerminalGroup.png)
+    
 25\. A Terminal Selection list will appear.
-
     Select **US** and click **OK**.
-
     ![](./images/tkSelectUSTerminal.png)
+    
 26\. Verify that the correct terminals are wired.
-
     ![](./images/tkConnectionVerify2.png)
+    
 27\. Again click the group of output terminals on the **CheckCountry** route node.
-
     ![](./images/tkOutTerminalGroup.png)
+    
 28\. Select **Canada** from the list.
-
     Click **OK**.
-
     ![](./images/tkSelectCATerminal.png)
+    
 29\. Verify that the correct terminals are wired.
-
     ![](./images/tkConnectionVerify3.png)
-
     The criteria to be used by the **CheckCountry** routing node must now be specified.
+    
 30\. Select the **CheckCountry** node.
-
     In the **Properties** pane select the **Basic** tab.
-
     Press the **Add** button.
-
     ![](./images/tkAddFilterPattern.png)
+    
 31\. Use the drop down menu to select the **US** terminal as the **Routing output terminal**.
-
     Press the **Edit…** button.
-
     ![](./images/tkFilterUS.png)
+    
 32\. Expand **$Root**.
-
     Select **(Add Data Type …)**.
-
     ![](./images/tkAddRootDataType.png)
+    
 33\. Select **In\_Request**.
 
     |----|----|
-    | ![](./images/important.png) |**Note!** If you do not see **In\_Request** in the list, then you must add a reference to the Library by right clicking the IntroLab application and selecting **Manage Library references**.|
-
+   | ![](./images/important.png) |**Note!** If you do not see **In\_Request** in the list, then you must add a reference to the Library by right clicking the IntroLab application and selecting **Manage Library references**.|
     Press the **OK** button to continue.
-
     ![](./images/tkSelectIn_RequestDataType.png)
+    
 34\. Expand the **Root->tns:In\_Request->customerDetails** elements.
 
-    Select the **customerCountry** element and ***drag*** it into the **XPath Expression** dialog box.
+   Select the **customerCountry** element and ***drag*** it into the **XPath Expression** dialog box.
 
-    ![](./images/tkXPathCountry.png)
+   ![](./images/tkXPathCountry.png)
 35\. Drag an equal sign from the **Operators** pane to the end of the expression.
 
-    Append the letters **‘US’** (including the *single quotes*) after the equal sign.
+   Append the letters **‘US’** (including the *single quotes*) after the equal sign.
 
-    Press the **Finish** button to complete the XPath expression.
+   Press the **Finish** button to complete the XPath expression.
 
-    ![](./images/tkUSXPathFinish.png)
+   ![](./images/tkUSXPathFinish.png)
 36\. Press the **OK** button to complete the **Filter table entry**.
 
-    ![](./images/tkAddUSFilter.png)
+   ![](./images/tkAddUSFilter.png)
 
-    The filter pattern for the **US** terminal should now be visible. The process will now be repeated to create a Filter table entry for the **Canada** terminal.
+   The filter pattern for the **US** terminal should now be visible. The process will now be repeated to create a Filter table entry for the **Canada** terminal.
 37\. Press the **Add** button to enter a filter pattern for the **Canada** terminal.
-
     ![](./images/tkAddCanadaFilter.png)
+    
 38\. Use the drop down menu to select the **Canada** terminal as the **Routing output terminal**.
 
-    Press the **Edit…** button.
+   Press the **Edit…** button.
 
-    ![](./images/tkEditCanadaFilter.png)
+   ![](./images/tkEditCanadaFilter.png)
 39\. Expand **Root->tns:In\_Request->customerDetails**. Tip: If you do not see In\_Request in the Viewer, re-add it as done in steps 32-33.
 40\. Select the **customerCountry** field and drag it to the **XPath Expression** window.
 
-    ![](./images/tkXPathCountry.png)
+   ![](./images/tkXPathCountry.png)
 41\. Complete the XPath Expression by typing **= ’CA’**.
 
-    Press the **Finish** button to complete the XPath expression.
+   Press the **Finish** button to complete the XPath expression.
 
-    ![](./images/tkCAXPathFinish.png)
+   ![](./images/tkCAXPathFinish.png)
 42\. Press the **OK** button to complete the Filter table entry.
 
-    ![](./images/tkAddCanadaFilterPattern.png)
+   ![](./images/tkAddCanadaFilterPattern.png)
 
-    The filter pattern for the **Canada** terminal should now be visible.
+   The filter pattern for the **Canada** terminal should now be visible.
 
-    *Verify* that the two Filter table entries appear as shown below.
+   *Verify* that the two Filter table entries appear as shown below.
 
-    ![](./images/tkRouteTableVerify.png)
+   ![](./images/tkRouteTableVerify.png)
 
     The updates to the message flow are now complete.
 43\. ![](./images/tkSave.png)Save the message flow.
@@ -268,108 +255,102 @@ You will use the Flow Exerciser to test the flow. In this lab you will see some 
    ![](./images/tkRecordedMsgUS.png)
 10\. Save this recorded message by clicking the ![](./images/tkSaveIcon.png) save icon in the upper right corner.
 
-    ![](./images/tkSaveRecordedMsg.png)
+   ![](./images/tkSaveRecordedMsg.png)
 11\. Call this recorded message ***Test customerCountry=US***.
-
     Click **OK**.
-
-    ![](./images/tkSaveRecordedMsgUS.png)
+   ![](./images/tkSaveRecordedMsgUS.png)
 12\. Close the Recorded Message window.
 
-    ![](./images/tkCloseRecordedMsg.png)
+   ![](./images/tkCloseRecordedMsg.png)
 13\. Repeat these steps to test the Canada path in the message flow.
 
-    Click **Send** to configure another message.
+   Click **Send** to configure another message.
 
-    ![](./images/tkSendTestMsg1.png)
+   ![](./images/tkSendTestMsg1.png)
 14\. Select ***Test message***.
 
-    Change *customerCountry* to **CA**
+   Change *customerCountry* to **CA**
 
-    Click **Send**.
+   Click **Send**.
 
-    ![](./images/tkSendTestMsgCA.png)
+   ![](./images/tkSendTestMsgCA.png)
 15\. The Flow Exerciser will run. Click **Close** when Stopped
 
-    ![](./images/tkTestProgressInfoClose.png)
+   ![](./images/tkTestProgressInfoClose.png)
 16\. This time the Flow Exerciser shows that the **CA** path was taken.
 
-    ![](./images/tkTestMsgCAPath.png)
+   ![](./images/tkTestMsgCAPath.png)
 17\. Click the recorded message to view it.
 
-    ![](./images/tkOpenRecordedMsgCA.png)
+   ![](./images/tkOpenRecordedMsgCA.png)
 18\. Note that the Recorded Message does reflect the change you made.
 
-    ![](./images/tkViewRecordedMsgCA.png)
+   ![](./images/tkViewRecordedMsgCA.png)
 19\. Save this recorded message by clicking the ![](./images/tkSaveIcon.png) save icon in the upper right corner.
 
-    ![](./images/tkSaveRecordedMsg.png)
+   ![](./images/tkSaveRecordedMsg.png)
 20\. Call this recorded message ***Test customerCountry=CA***.
 
-    Click **OK**.
+   Click **OK**.
 
-    ![](./images/tkSaveRecordedMsgCA.png)
+   ![](./images/tkSaveRecordedMsgCA.png)
 21\. Close the Recorded Message window.
 
-    ![](./images/tkCloseRecordedMsg.png)
+   ![](./images/tkCloseRecordedMsg.png)
 22\. In the *Application Development* pane, expand **Other Resources**.
 
-    Double-click IntroMessageFlow\_recordedMessage.xml to open it.
+   Double-click IntroMessageFlow\_recordedMessage.xml to open it.
 
-    ![](./images/tkOpenRecordedMsgXML.png)
+   ![](./images/tkOpenRecordedMsgXML.png)
 23\. In the XML Editor, expand the two most recent testData entries. You should see the recorded messages for **US** and **CA**.
 
-    ![](./images/tkRecordedMsgXMLExpanded.png)
+   ![](./images/tkRecordedMsgXMLExpanded.png)
 24\. Close the XML Editor.
 
-    ![](./images/tkCloseRecordedMsgXML.png)
+   ![](./images/tkCloseRecordedMsgXML.png)
 25\. You have tested your two expected paths (US and CA). But what will happen if some other customerCountry value is received by the message flow? Let’s find out.
 
 26\. Click **Send** to configure another message.
-
     ![](./images/tkSendTestMsg1.png)
     
 27\. Click **Test message**. Change the *customerCountry* to **MX**. Click **Send**.
-
     ![](./images/tkSendTestMsgMX.png)
     
 28\. Hmmm. The message was sent…but no HTTP Reply was received. Why not?
-
     Click **Close**.
-
     ![](./images/tkTestMsgProgressMX.png)
 29\. In the Flow Exerciser, notice that control reached the CheckCountry node. But it stopped there. Why didn’t it continue?
 
-    ![](./images/tkTestMsgPathMX.png)
+   ![](./images/tkTestMsgPathMX.png)
     
 30\. To answer that, let’s look again at the flow.
 
     Stop the Flow Exerciser.
 
-    ![](./images/tkStopFlowExerciserMX.png)
+   ![](./images/tkStopFlowExerciserMX.png)
 31\. Click **Yes** on the pop-up.
 
-    ![](./images/tkCloseFlowExerciserWarn.png)
+   ![](./images/tkCloseFlowExerciserWarn.png)
 32\. The Flow Exerciser is stopped, and the message flow is returned to editable mode.
 
-    Click the **CheckCountry** route node. Only **US** and **CA** are handled.
+   Click the **CheckCountry** route node. Only **US** and **CA** are handled.
 
-    ![](./images/tkCheckCountryNoMX.png)
+   ![](./images/tkCheckCountryNoMX.png)
     
 33\. Click the Output Terminal group.
 
-    ![](./images/tkCheckCountryTerminalGrp.png)
+   ![](./images/tkCheckCountryTerminalGrp.png)
 34\. Review the available Output terminals.
 
-    ![](./images/tkTerminalGrpCancel.png)
+   ![](./images/tkTerminalGrpCancel.png)
 
-    - **US** and **Canada** are wired. But **MX** is not going to match either of those.
-    - There was neither a **Match** or a **Failure**.
-    - **Default** would be the terminal normally taken when there was no match. But this was not wired. *So the message was discarded*. This might not be what we want to happen.
+   - **US** and **Canada** are wired. But **MX** is not going to match either of those.
+   - There was neither a **Match** or a **Failure**.
+   - **Default** would be the terminal normally taken when there was no match. But this was not wired. *So the message was discarded*. This might not be what we want to happen.
 
     One approach would be to wire the Default terminal to an “Unsupported Country” path.
 
-    But many things could potentially go wrong in a message flow. Rather than wire every possible exception path on every node in a flow, you will explore approaches to dealing with situations like this one in a later lab.
+   But many things could potentially go wrong in a message flow. Rather than wire every possible exception path on every node in a flow, you will explore approaches to dealing with situations like this one in a later lab.
     
 35\. Press the **Cancel** key to cancel the unattached connector.
 
@@ -449,24 +430,24 @@ A BAR file can be deployed in two ways:
 
     Expand the **IntroLab** app and select the various resources.
 
-    Look at the **Properties view** below to see what properties are exposed in order to be overridden within the BAR file. For example, select the **IntroLab\_Listener** node. You can see that the *Path suffix for URL* property can be overridden at deployment time.
+   Look at the **Properties view** below to see what properties are exposed in order to be overridden within the BAR file. For example, select the **IntroLab\_Listener** node. You can see that the *Path suffix for URL* property can be overridden at deployment time.
 
-    ![](./images/tkNewBarFile8.png)
+   ![](./images/tkNewBarFile8.png)
 11\. To deploy, find the **Lab2.bar** file in the navigator in the **BARs** container.
 
     Drag and drop it onto the TEST_SERVER integration server.
 
-    ![](./images/tkNewBarFile9.png)
+   ![](./images/tkNewBarFile9.png)
 12\. Wait for deployment to complete.
 
-    ![](./images/tkNewBarFile10.png)
+   ![](./images/tkNewBarFile10.png)
 13\. Once deployment is complete, click the **default** integration server to open it to see the assets deployed to it.
 
-    The **IntroLab** application has been deployed, which included the **IntroMessageFlow** message flow. The **IntroLab\_Lib** static library, which contains the **IN\_Request** XML Schema, has also been deployed.
+   The **IntroLab** application has been deployed, which included the **IntroMessageFlow** message flow. The **IntroLab\_Lib** static library, which contains the **IN\_Request** XML Schema, has also been deployed.
 
     Note too that the deployment date and time should reflect the actual time of deployment.
 
-    ![](./images/tkNewBarFile11.png)
+   ![](./images/tkNewBarFile11.png)
 
 Close all the open editor tabs but leave the Toolkit running.
 
