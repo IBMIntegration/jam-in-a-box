@@ -138,7 +138,6 @@ In this lab, you will modify the flow you created in Lab 1 to perform simple rou
    ![](./images/tkOutTerminalGroup.png)
     
 25\. A Terminal Selection list will appear.
-
     Select **US** and click **OK**.
 
    ![](./images/tkSelectUSTerminal.png)
@@ -146,25 +145,28 @@ In this lab, you will modify the flow you created in Lab 1 to perform simple rou
 26\. Verify that the correct terminals are wired.
 
    ![](./images/tkConnectionVerify2.png)
+   
 27\. Again click the group of output terminals on the **CheckCountry** route node.
 
    ![](./images/tkOutTerminalGroup.png)
+   
 28\. Select **Canada** from the list.
 
-    Click **OK**.
+   Click **OK**.
 
    ![](./images/tkSelectCATerminal.png)
+   
 29\. Verify that the correct terminals are wired.
 
    ![](./images/tkConnectionVerify3.png)
-
     The criteria to be used by the **CheckCountry** routing node must now be specified.
 30\. Select the **CheckCountry** node.
 
     In the **Properties** pane select the **Basic** tab.
 
-    Press the **Add** button.
+   Press the **Add** button.
    ![](./images/tkAddFilterPattern.png)
+   
 31\. Use the drop down menu to select the **US** terminal as the **Routing output terminal**.
     Press the **Edit…** button.
     ![](./images/tkFilterUS.png)
