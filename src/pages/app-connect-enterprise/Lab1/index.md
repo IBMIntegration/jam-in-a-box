@@ -289,14 +289,13 @@ With the Toolkit you can build powerful and complex integration applications, se
 
 In this next section you will deploy the PING_Basic bar file created and tested in the toolkit in the last section to the Cloud Pak for Integration.
 
-1\. Open a  browser window and go to the following URL for the CP4I Platform Navigator:
-[https://cpd-cp4i.apps.mandalorian.coc-ibm.com/](https://cpd-cp4i.apps.mandalorian.coc-ibm.com/)
+1\. Open a  browser window and go to the URL for CP4I Platform Navigator. You have received it which you reserved the lab. Below is an example:
+![alt text][images/PNconsole.png]
 
-Note: This is the url for the cluster you are assigned for this Lab.   In this instance we are using the **cody cluster**.
 
-2\. Select the Enterprise LDAP:
+2\. Log in page:
 
-![alt text][images/3.png4]
+![alt text][images/PNlogin.png]
 
 3\. When prompted use the username and password provided to you for this lab.
 In this example we are using **mandalorian1**.
