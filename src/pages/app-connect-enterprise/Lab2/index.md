@@ -210,15 +210,19 @@ In this lab, you will modify the flow you created in Lab 1 to perform simple rou
    Press the **Edit…** button.
 
    ![](./images/tkEditCanadaFilter.png)
+   
 39\. Expand **Root->tns:In\_Request->customerDetails**. Tip: If you do not see In\_Request in the Viewer, re-add it as done in steps 32-33.
+
 40\. Select the **customerCountry** field and drag it to the **XPath Expression** window.
 
    ![](./images/tkXPathCountry.png)
+   
 41\. Complete the XPath Expression by typing **= ’CA’**.
 
    Press the **Finish** button to complete the XPath expression.
 
    ![](./images/tkCAXPathFinish.png)
+   
 42\. Press the **OK** button to complete the Filter table entry.
 
    ![](./images/tkAddCanadaFilterPattern.png)
