@@ -451,27 +451,34 @@ A BAR file can be deployed in two ways:
 2\. Select **New->BAR file** from the menu.
 
    ![](./images/tkNewBarFile.png)
+   
 3\. Enter **Lab2** as the name of the new broker archive file.
 
    Click **Finish**.
 
    ![](./images/tkNewBarFile2.png)
+   
 4\. In the BAR editor, check the box to select the **IntroLab** Application.
 
    ![](./images/tkNewBarFile3.png)
+   
 5\. Click the **Message flows, static libraries and other message flow dependencies** radio button.
 6\. Check the box to select the **IntroLab\_Lib** Library.
 
    ![](./images/tkNewBarFile4.png)
+   
 7\. Click the **Build and Save**… button.
 
    ![](./images/tkNewBarFile5.png)
+   
 8\. If prompted to Save the message flow, click **Yes**.
 
    ![](./images/tkNewBarFile6.png)
+   
 9\. Press the **OK** button.
 
    ![](./images/tkNewBarFile7.png)
+   
 10\. In the BAR editor, select the **Manage** tab.
 
     Expand the **IntroLab** app and select the various resources.
@@ -479,14 +486,17 @@ A BAR file can be deployed in two ways:
    Look at the **Properties view** below to see what properties are exposed in order to be overridden within the BAR file. For example, select the **IntroLab\_Listener** node. You can see that the *Path suffix for URL* property can be overridden at deployment time.
 
    ![](./images/tkNewBarFile8.png)
+   
 11\. To deploy, find the **Lab2.bar** file in the navigator in the **BARs** container.
 
     Drag and drop it onto the TEST_SERVER integration server.
 
    ![](./images/tkNewBarFile9.png)
+   
 12\. Wait for deployment to complete.
 
    ![](./images/tkNewBarFile10.png)
+   
 13\. Once deployment is complete, click the **default** integration server to open it to see the assets deployed to it.
 
    The **IntroLab** application has been deployed, which included the **IntroMessageFlow** message flow. The **IntroLab\_Lib** static library, which contains the **IN\_Request** XML Schema, has also been deployed.
@@ -511,18 +521,23 @@ This will make things less cluttered while you continue through the remainder of
 1. In the *Application Development* pane, collapse any folders that are currently expanded.
 
    ![](./images/tkCleanUp1.png)
+   
 2. In the *Integration Nodes* pane, right-click the default Integration Server, and select **Delete-&gt;All Flows And Resources**.
 
    ![](./images/tkCleanUp2.png)
+   
 3. Click **OK** to proceed.
 
    ![](./images/tkCleanUp3.png)
+   
 4. Wait while the **default** Integration Server is cleared.
 
    ![](./images/tkCleanUp4.png)
+   
 5. All deployed objects should be cleared from the **default** Integration Server.
 
    ![](./images/tkCleanUp5.png)
+   
 6. Close all the open editor tabs but leave the Toolkit running.
 
    ![](./images/tkCleanUp6.png)
