@@ -66,58 +66,60 @@ In this lab, you will modify the flow you created in Lab 1 to perform simple rou
 
    Press the **Enter** key to complete the rename operation.
 
-   ![](./images/tkNewCheckCountryNode.png)
-10\. Expand the **HTTP** drawer in the **Palette**.
-11\. Select an **HTTPReply** node and place it beneath the existing **HTTP Reply** node.
+   ![](./images/tkNewCheckCountryNode.png)   
+   
+10\. Expand the **HTTP** drawer in the **Palette**.   
+11\. Select an **HTTPReply** node and place it beneath the existing **HTTP Reply** node.  
 
     ![](./images/tkAddHTTPReplyNode.png)
-12\. Your flow should look something like this.
+12\. Your flow should look something like this. 
 
-    Don’t rename the new HTTP Reply node – you will be renaming them both shortly.
+    Don’t rename the new HTTP Reply node – you will be renaming them both shortly.  
 
     ![](./images/tkModifiedFlow1.png)
 
-    Terminals will now be added to the **CheckCountry** routing node for **US** and **Canadian** addresses.
-13\. Select the **CheckCountry** route node.
+    Terminals will now be added to the **CheckCountry** routing node for **US** and **Canadian** addresses. 
+13\. Select the **CheckCountry** route node. 
 
-    Press the right mouse button.
+    Press the right mouse button.   
 
-    Select **Add Output Terminal** from the menu.
+    Select **Add Output Terminal** from the menu.  
 
     ![](./images/tkAddOutTerminal1.png)
-14\. Enter **US** as the name of the new output terminal.
+14\. Enter **US** as the name of the new output terminal.   
 
-    Press the **OK** button to continue.
+    Press the **OK** button to continue.  
 
     ![](./images/tkUSOutTerminal.png)
 
-    The steps will now be repeated to add a terminal called **Canada**.
-15\. Select the **CheckCountry** node.
+    The steps will now be repeated to add a terminal called **Canada**. 
+15\. Select the **CheckCountry** node. 
 
-    Press the right mouse button.
+    Press the right mouse button.   
 
-    Select **Add Output Terminal** from the menu.
+    Select **Add Output Terminal** from the menu.  
 
     ![](./images/tkAddOutTerminal1.png)
-16\. Enter **Canada** as the name of the new output terminal.
+16\. Enter **Canada** as the name of the new output terminal.  
 
-    Press the **OK** button to continue.
+    Press the **OK** button to continue.  
 
     ![](./images/tkCAOutTerminal.png)
-17\. Notice that the shape of the CheckCountry node has changed slightly.
+17\. Notice that the shape of the CheckCountry node has changed slightly.  
 
-    Once there are too many terminals to display discretely, they will be grouped together.
+    Once there are too many terminals to display discretely, they will be grouped together.  
 
     ![](./images/tkOutTerminalGroup.png)
-18\. Change the name of the **HTTP Reply** node to **Reply if US**.
+18\. Change the name of the **HTTP Reply** node to **Reply if US**.  
 
-    Press the **Enter** key to complete the rename operation.
+    Press the **Enter** key to complete the rename operation.  
 
     ![](./images/tkReplyifUS.png)
-19\. Change the name of the **HTTP Reply1** node to **Reply if Canada**
+19\. Change the name of the **HTTP Reply1** node to **Reply if Canada** 
 
-    |----|----|
-    | ![](./images/important.png) |**Note!**  Two HTTPReply nodes are not actually necessary – a single one could have been used. But separate nodes were used here for clarity, as well as to make the flow more self-documenting.|
+    |----|----|   
+    ![](./images/important.png)   
+    |**Note!**  Two HTTPReply nodes are not actually necessary – a single one could have been used. But separate nodes were used here for clarity, as well as to make the flow more self-documenting.|   
 20\. Press the **Enter** key to complete the rename operation.
 
     ![](./images/tkReplyifCA.png)
