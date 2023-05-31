@@ -80,13 +80,11 @@ In this lab, you will modify the flow you created in Lab 1 to perform simple rou
    
 13\. Select the **CheckCountry** route node.
      Press the right mouse button.
-
      Select **Add Output Terminal** from the menu.
    ![](./images/tkAddOutTerminal1.png)
 
 14\. Enter **US** as the name of the new output terminal.
-
-    Press the **OK** button to continue.
+     Press the **OK** button to continue.
 
   ![](./images/tkUSOutTerminal.png)
 
