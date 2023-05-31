@@ -62,7 +62,7 @@ In this lab you will learned how to:
    macOS: Run the application /Applications/IBM App Connect Enterprise to start the toolkit.
 
 IBM App Connect Enterprise Toolkit opens to display its welcome page.
-![](images/welcome.png)
+![](images/2.1.png)
 
 ## 3. Getting started with lab1 <a name="deploy"></a>
 ## 3a. Integration Servers  <a name="integration_servers"></a>
