@@ -233,7 +233,8 @@ In this lab, you will modify the flow you created in Lab 1 to perform simple rou
 
    ![](./images/tkRouteTableVerify.png)
 
-    The updates to the message flow are now complete.
+   The updates to the message flow are now complete.
+    
 43\. ![](./images/tkSave.png)Save the message flow.
  
  <span id="_Toc424278907" class="anchor"></span>
