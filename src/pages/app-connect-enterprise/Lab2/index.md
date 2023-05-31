@@ -79,10 +79,9 @@ In this lab, you will modify the flow you created in Lab 1 to perform simple rou
    Terminals will now be added to the **CheckCountry** routing node for **US** and **Canadian** addresses.
    
 13\. Select the **CheckCountry** route node.
+     Press the right mouse button.
 
-    Press the right mouse button. 
-
-    Select **Add Output Terminal** from the menu.
+     Select **Add Output Terminal** from the menu.
    ![](./images/tkAddOutTerminal1.png)
 
 14\. Enter **US** as the name of the new output terminal.
