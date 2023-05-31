@@ -164,7 +164,7 @@ In this lab, you will modify the flow you created in Lab 1 to perform simple rou
     
 30\. Select the **CheckCountry** node.
 
-    In the **Properties** pane select the **Basic** tab.
+   In the **Properties** pane select the **Basic** tab.
 
    Press the **Add** button.
    ![](./images/tkAddFilterPattern.png)
@@ -189,6 +189,7 @@ In this lab, you will modify the flow you created in Lab 1 to perform simple rou
    Select the **customerCountry** element and ***drag*** it into the **XPath Expression** dialog box.
 
    ![](./images/tkXPathCountry.png)
+   
 35\. Drag an equal sign from the **Operators** pane to the end of the expression.
 
    Append the letters **‘US’** (including the *single quotes*) after the equal sign.
