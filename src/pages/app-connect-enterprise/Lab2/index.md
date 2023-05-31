@@ -248,48 +248,61 @@ You will use the Flow Exerciser to test the flow. In this lab you will see some 
    **Note!** The **Trace** node is still unwired. But this will not cause any problems.
 
    ![](./images/tkStartFlowExerciser.png)
+   
 2\. Click **Close** to start recording.
 
    ![](./images/tkReadyToRecordMsgClose.png)
+   
 3\. Click the **Send** message icon.
 
    ![](./images/tkSendTestMsg1.png)
+   
 4\. The Input message from our previous tests is still available. Click **Test message**.
 
    In the Test message, locate **customerCountry**. The value should be **USA**.
 
    ![](./images/tkSendTestMsgUSA.png)
+   
 5\. Change the value of **customerCountry** to **US**.
 
    Click **Send**.
 
    ![](./images/tkSendTestMsgUS.png)
+   
 6\. The Flow Exerciser will run. Click **Close** when Stopped.
 
    ![](./images/tkTestProgressInfoClose.png)
+   
 7\. The Flow Exerciser shows the path the **US** message took through the flow.
 
    ![](./images/tkFlowExerciserShowUSPath.png)
+   
 8\. Click the recorded message to view it.
 
    ![](./images/tkSelectRecordedMsg1.png)
+   
 9\. Note that the Recorded Message does reflect the change you made.
 
    ![](./images/tkRecordedMsgUS.png)
+   
 10\. Save this recorded message by clicking the ![](./images/tkSaveIcon.png) save icon in the upper right corner.
 
    ![](./images/tkSaveRecordedMsg.png)
+   
 11\. Call this recorded message ***Test customerCountry=US***.
     Click **OK**.
    ![](./images/tkSaveRecordedMsgUS.png)
+   
 12\. Close the Recorded Message window.
 
    ![](./images/tkCloseRecordedMsg.png)
+   
 13\. Repeat these steps to test the Canada path in the message flow.
 
    Click **Send** to configure another message.
 
    ![](./images/tkSendTestMsg1.png)
+   
 14\. Select ***Test message***.
 
    Change *customerCountry* to **CA**
@@ -297,40 +310,51 @@ You will use the Flow Exerciser to test the flow. In this lab you will see some 
    Click **Send**.
 
    ![](./images/tkSendTestMsgCA.png)
+   
 15\. The Flow Exerciser will run. Click **Close** when Stopped
 
    ![](./images/tkTestProgressInfoClose.png)
+   
 16\. This time the Flow Exerciser shows that the **CA** path was taken.
 
    ![](./images/tkTestMsgCAPath.png)
+   
 17\. Click the recorded message to view it.
 
    ![](./images/tkOpenRecordedMsgCA.png)
+   
 18\. Note that the Recorded Message does reflect the change you made.
 
    ![](./images/tkViewRecordedMsgCA.png)
+   
 19\. Save this recorded message by clicking the ![](./images/tkSaveIcon.png) save icon in the upper right corner.
 
    ![](./images/tkSaveRecordedMsg.png)
+   
 20\. Call this recorded message ***Test customerCountry=CA***.
 
    Click **OK**.
 
    ![](./images/tkSaveRecordedMsgCA.png)
+   
 21\. Close the Recorded Message window.
 
    ![](./images/tkCloseRecordedMsg.png)
+   
 22\. In the *Application Development* pane, expand **Other Resources**.
 
    Double-click IntroMessageFlow\_recordedMessage.xml to open it.
 
    ![](./images/tkOpenRecordedMsgXML.png)
+   
 23\. In the XML Editor, expand the two most recent testData entries. You should see the recorded messages for **US** and **CA**.
 
    ![](./images/tkRecordedMsgXMLExpanded.png)
+   
 24\. Close the XML Editor.
 
    ![](./images/tkCloseRecordedMsgXML.png)
+   
 25\. You have tested your two expected paths (US and CA). But what will happen if some other customerCountry value is received by the message flow? Let’s find out.
 
 26\. Click **Send** to configure another message.
@@ -342,8 +366,8 @@ You will use the Flow Exerciser to test the flow. In this lab you will see some 
 28\. Hmmm. The message was sent…but no HTTP Reply was received. Why not?
     Click **Close**.
     ![](./images/tkTestMsgProgressMX.png)
+    
 29\. In the Flow Exerciser, notice that control reached the CheckCountry node. But it stopped there. Why didn’t it continue?
-
    ![](./images/tkTestMsgPathMX.png)
     
 30\. To answer that, let’s look again at the flow.
@@ -351,9 +375,11 @@ You will use the Flow Exerciser to test the flow. In this lab you will see some 
     Stop the Flow Exerciser.
 
    ![](./images/tkStopFlowExerciserMX.png)
+   
 31\. Click **Yes** on the pop-up.
 
    ![](./images/tkCloseFlowExerciserWarn.png)
+   
 32\. The Flow Exerciser is stopped, and the message flow is returned to editable mode.
 
    Click the **CheckCountry** route node. Only **US** and **CA** are handled.
