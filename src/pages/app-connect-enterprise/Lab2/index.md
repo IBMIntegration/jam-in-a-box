@@ -179,7 +179,7 @@ In this lab, you will modify the flow you created in Lab 1 to perform simple rou
     
 33\. Select **In\_Request**.
 
-    |----|----|
+   |----|----|
    | ![](./images/important.png) |**Note!** If you do not see **In\_Request** in the list, then you must add a reference to the Library by right clicking the IntroLab application and selecting **Manage Library references**.|
     Press the **OK** button to continue.
     ![](./images/tkSelectIn_RequestDataType.png)
