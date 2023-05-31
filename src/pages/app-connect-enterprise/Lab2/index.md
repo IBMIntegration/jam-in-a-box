@@ -124,6 +124,7 @@ In this lab, you will modify the flow you created in Lab 1 to perform simple rou
 23\. Hover the mouse pointer over the connector, to verify that the correct terminals are wired.
 
    ![](./images/tkConnectionVerify1.png)
+   
 24\. Click the group of output terminals on the **CheckCountry** route node.
 
    ![](./images/tkOutTerminalGroup.png)
