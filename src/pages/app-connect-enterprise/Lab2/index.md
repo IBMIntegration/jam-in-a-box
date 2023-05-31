@@ -498,8 +498,7 @@ A BAR file can be deployed in two ways:
 13\. Once deployment is complete, click the **default** integration server to open it to see the assets deployed to it.
 
    The **IntroLab** application has been deployed, which included the **IntroMessageFlow** message flow. The **IntroLab\_Lib** static library, which contains the **IN\_Request** XML Schema, has also been deployed.
-
-    Note too that the deployment date and time should reflect the actual time of deployment.
+  Note too that the deployment date and time should reflect the actual time of deployment.
 
    ![](./images/tkNewBarFile11.png)
 
