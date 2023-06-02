@@ -34,7 +34,7 @@ This section provides the instructions for setting up the Kafka Client that will
 1\.	Check java install
     `C:\Users\rajan>java -version`
 
-    ![](images/image-1.png)
+   ![](images/image-1.png)
 
     At least version 1.8 should be available.
     If it’s not installed, download and install the Java Runtime. https://www.java.com/en/download/manual.jsp
@@ -45,10 +45,11 @@ This section provides the instructions for setting up the Kafka Client that will
      
 3\.	Unzip the downloaded Kafka Client (KafkaClient_YYYYMMDD.zip) into a folder called 
     `C:\TechJam\EventStreams_Lab\`
+    
 4\.	Test the client
     Open a Command Prompt.
     `cd C:\TechJam\EventStreams_Lab\KafkaClient_YYYYMMDD\java -jar KafkaClient.jar`
 
-    ![](images/image-2.png)
+   ![](images/image-2.png)
 
 ### [Return to main EventStreams lab page](../event-streams)
