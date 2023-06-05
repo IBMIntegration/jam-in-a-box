@@ -47,7 +47,9 @@ Schema Registry provides a serving layer for your metadata. It provides a RESTfu
 •	Provides serializers that plug into Apache Kafka® clients that handle schema storage and retrieval for Kafka messages that are sent in any of the supported formats.
 
 In Event Streams, Schemas are stored in internal Kafka topics by the Apicurio Registry, an open-source schema registry. In addition to storing a versioned history of schemas, Apicurio Registry provides an interface for retrieving them. Each Event Streams cluster has its own instance of Apicurio Registry providing schema registry functionality.
- ![](images/image-1.png)
+
+
+![](images/image-1.png)
 
 ## 3b. How the Schema Registry Works? <a name="sch-registry-work"></a>
 
