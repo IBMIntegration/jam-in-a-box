@@ -54,12 +54,12 @@ In Event Streams, Schemas are stored in internal Kafka topics by the Apicurio Re
 
 Now, let’s take a look at how the Schema Registry works.
 
-1\.	Sending applications request schema from the Schema Registry.	
-2\.	The scheme is used to automatically validates and serializes be for the data is sent.	
-3\.	Data is sent, serializing makes transmission more efficient.	 
-4\.	The receiving application receives the serialized data.	
-5\.	Receiving application request the schema from the Schema Registry.	 
-6\.	Receiving application deserializes the same data automatically as it receives the message.	
+1.	Sending applications request schema from the Schema Registry.	
+2.	The scheme is used to automatically validates and serializes be for the data is sent.	
+3.	Data is sent, serializing makes transmission more efficient.	 
+4.	The receiving application receives the serialized data.	
+5.	Receiving application request the schema from the Schema Registry.	 
+6.	Receiving application deserializes the same data automatically as it receives the message.	
 
 ![](images/image-2.png)
 
