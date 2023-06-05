@@ -75,7 +75,7 @@ Now, let’s take a look at how the Schema Registry works.
    - Login with your studentID and password. That should bring you to the Event Streams Console home page. 
    <br/>
 
-     ![](images/1.png)
+     ![](images/image-1.png)
    <br/>
 2\. Create Topic** <br/>
       
