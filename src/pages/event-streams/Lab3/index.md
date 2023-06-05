@@ -67,11 +67,13 @@ Now, let’s take a look at how the Schema Registry works.
 
 ## 3c. Creating a topic and attaching a schema to it <a name="topic"></a>
 
-1\. Open this URL from a browser.
-   [EventStreams Console](https://cpd-cp4i.techjam-4fb3233b14921b317ff7e3af2a6d8125-0000.us-south.containers.appdomain.cloud/integration/kafka-clusters/cp4i-es/techjam-es/) 
+1\. Open this PlatformNavigator URL from a browser.
+  
 
-   - Click on “Enterprise LDAP”
-   - Login with your studentID and password. That should bring you to the Event Streams Console home page. 
+   - Use admin/password that has been shared with you by TZ.
+   - Clieck on the Evvent Streaming instance as showed in the below screenshot.
+   ![](images/ES_instance.png)
+   -   That should bring you to the Event Streams Console home page. 
    <br/>
 
    ![](images/1.png)
