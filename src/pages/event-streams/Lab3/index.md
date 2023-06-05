@@ -48,7 +48,6 @@ Schema Registry provides a serving layer for your metadata. It provides a RESTfu
 
 In Event Streams, Schemas are stored in internal Kafka topics by the Apicurio Registry, an open-source schema registry. In addition to storing a versioned history of schemas, Apicurio Registry provides an interface for retrieving them. Each Event Streams cluster has its own instance of Apicurio Registry providing schema registry functionality.
 
-
 ![](images/image-1.png)
 
 ## 3b. How the Schema Registry Works? <a name="sch-registry-work"></a>
@@ -75,7 +74,7 @@ Now, let’s take a look at how the Schema Registry works.
    - Login with your studentID and password. That should bring you to the Event Streams Console home page. 
    <br/>
 
-     ![](images/image-1.png)
+     ![](images/1.png)
    <br/>
 2\. Create Topic** <br/>
       
