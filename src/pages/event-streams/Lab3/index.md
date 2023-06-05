@@ -41,10 +41,10 @@ In this lab you will learned how to:
 ## 3. Getting started with Lab3 <a name="deploy"></a>
 ## 3a. What is a Schema Registry? <a name="sch-registry"></a>
 
-Schema Registry provides a serving layer for your metadata. It provides a RESTful interface for storing and retrieving your Avro®, JSON Schema, and Protobuf schemas. 
-•	It stores a versioned history of all schemas based on a specified subject name strategy, provides multiple compatibility settings.
-•	Allows evolution of schemas according to the configured compatibility settings and expanded support for these schema types. 
-•	Provides serializers that plug into Apache Kafka® clients that handle schema storage and retrieval for Kafka messages that are sent in any of the supported formats.
+Schema Registry provides a serving layer for your metadata. It provides a RESTful interface for storing and retrieving your Avro®, JSON Schema, and Protobuf schemas.	
+•	It stores a versioned history of all schemas based on a specified subject name strategy, provides multiple compatibility settings.	
+•	Allows evolution of schemas according to the configured compatibility settings and expanded support for these schema types. 	
+•	Provides serializers that plug into Apache Kafka® clients that handle schema storage and retrieval for Kafka messages that are sent in any of the supported formats.	
 
 In Event Streams, Schemas are stored in internal Kafka topics by the Apicurio Registry, an open-source schema registry. In addition to storing a versioned history of schemas, Apicurio Registry provides an interface for retrieving them. Each Event Streams cluster has its own instance of Apicurio Registry providing schema registry functionality.
 
