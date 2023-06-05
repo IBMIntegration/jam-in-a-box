@@ -169,29 +169,30 @@ This is how your config.properties should look like after he changes. This is a 
 ```
 ## Mandatory Section ##
 # Set to true if avro schema is enabled for the topic
-enableschemaavro = true
+enableschemaavro = false
 # Set to true if want to enable Intercept Monitoring.
 enableintercept = false
-# Set this to true if mTLS (2-way authentication) is enabled.
+# Set this to true if mTLS (2-way TLS authentication) is enabled.
 enablemtls = false
-# Confluent Broker related properties
-bootstrap.servers = minimal-prod-kafka-bootstrap-es.mycluster-rajan09-992844b4e64c83c3dbd5e7b5e2da5328-0000.sng01.containers.appdomain.cloud:443
-sasl.jaas.config = org.apache.kafka.common.security.scram.ScramLoginModule required username='jam60-kafka01' password='Do0vIJuwnANZ';
-# Options are PLAIN, SCRAM, GSSAPI
+# Broker related properties
+bootstrap.servers = eventstreams-kafka-bootstrap-cp4i.apps.daffy-2coilkk8.cloud.techzone.ibm.com:443
+sasl.jaas.config = org.apache.kafka.common.security.scram.ScramLoginModule required username='deb-kafka01' password='p42k6RzhOsyMwqrroJx5jHwyBeiw1U1C';
+# Example: sasl.jaas.config = org.apache.kafka.common.security.scram.ScramLoginModule required username='student01' password='B9BmjHvJZC';
+# Options are PLAIN, SCRAM-SHA-512, GSSAPI
 sasl.mechanism=SCRAM-SHA-512
 # Options are SSL, PLAINTEXT, SASL_SSL, SASL_PLAINTEXT
 security.protocol=SASL_SSL
-topic=jam60-topic1
-#topic=UserDatabase
+topic=deb-topic2
 # Consumer Group ID
-group.id = jam60-student-group-v1 
-client.id = student-client-v1
+group.id = deb-consumer-group-v1
+# Example: group.id = student01-group
+client.id=302071b2-7daf-4844
 #--------------------------------
 ## To be filled in if TLS is enabled for the Brokers
 # Options are PKCS12, JKS, PEM. Password not required for PEM.
 ssl.truststore.type=PKCS12
-ssl.truststore.location=./es-cert.p12
-ssl.truststore.password=muuJr3QFiiwa
+ssl.truststore.location=/Users/debasreemallick/Downloads/KafkaClient_20221204/es-cert.p12
+ssl.truststore.password=KWEsvBr3tdXJ
 #--------------------------------
 ## To be filled if mTLS (Mutual TLS) is enabled in Brokers
 ssl.keystore.location=/home/rajan/load_security/kafka.client.keystore.jks
@@ -199,16 +200,18 @@ ssl.keystore.password=clientpass
 ssl.key.password=clientpass
 #-------------------------------
 ## To be filled in if Schema is enabled
-schema.registry.url = https://minimal-prod-ibm-es-ac-reg-external-es.mycluster-rajan09-992844b4e64c83c3dbd5e7b5e2da5328-0000.sng01.containers.appdomain.cloud
-# The following parameter MUST be set to false if connecting to EventStreams (APICURIO Schema).
+apicurio.registry.url = https://eventstreams-ibm-es-ac-reg-external-cp4i.apps.daffy-2coilkk8.cloud.techzone.ibm.com
+# To be set to true if schema is not created up front.
 auto.register.schemas=false
-## To be filled in if Schema Registry requires Authentication (e.g. with RBAC enabled). Otherwise leave it as default.
+## To be filled in if Schema Registry requires Authentication.
 basic.auth.credentials.source = USER_INFO
-schema.registry.basic.auth.user.info = jam60-kafka01:Do0vIJuwnANZ
+schema.registry.basic.auth.user = deb-kafka01
+schema.registry.basic.auth.password = p42k6RzhOsyMwqrroJx5jHwyBeiw1U1C
 #--------------------------------
 ## To be filled in if TLS is enabled for Schema Registry
-schema.registry.ssl.truststore.location=./es-cert.p12
-schema.registry.ssl.truststore.password=muuJr3QFiiwa
+schema.registry.ssl.truststore.type=PKCS12
+schema.registry.ssl.truststore.location=<LOCATION OF PKCS12 CERT DOWNLOADED>
+schema.registry.ssl.truststore.password=<TRUSTSTORE_PASSWORD>
 #--------------------------------
 ## To be filled if Consumer / Producer Intercept should be turned on
 intercept_bootstrapServers = es3minimal-kafka-bootstrap-es3.mycluster-rajan07-992844b4e64c83c3dbd5e7b5e2da5328-0000.jp-tok.containers.appdomain.cloud:443
@@ -219,7 +222,7 @@ intercept_saslmechanism = SCRAM-SHA-512
 ## To be used when Kerberos Authentication is used
 sasl.kerberos.service.name=kafka
 #--------------------------------
-## Required parameters if Confluent in Confluent Cloud is used
+## Other Optional parameters.
 retries = 2
 ```
 
