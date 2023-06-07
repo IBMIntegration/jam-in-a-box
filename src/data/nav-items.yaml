@@ -10,4 +10,7 @@
 - title: MQ Labs
   pages:
     - path: /mq
+- title: FRQ
+  pages:
+    - path: /frq
   
