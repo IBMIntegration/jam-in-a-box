@@ -22,7 +22,7 @@ title: FAQ
 When you go to the TZ environment reservation page, you will be asked to select appropriate options. 
 Please select below mentioned options.
 
-## 2. Prerequisites<a name="prerequisites"></a>
+## 2. What to expect, once TZ environment is reserved and provisioned is done?<a name="TZ-ocp-console"></a>
 
 After you submit the request to reserve the environment, it will take 4 to 5 hours to provisioned and installed CP4I above mentioned capabilities.
 Once environment is available to use, you will receive an email with all the details. Below is a sample.
