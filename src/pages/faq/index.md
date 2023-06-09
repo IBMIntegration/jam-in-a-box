@@ -1,21 +1,12 @@
 ---
-title: Creating an MQ Instance Using the Platform Navigator
----
-
-###  [Return to main MQ lab page](../)
-
+title: FAQ
 ---
 
 # Table of Contents
-1. [Objectives](#objectives)
-2. [Prerequisites](#prerequisites)
-3. [Getting started with Lab1](#deploy)
-
-   1. [Deploying IBM MQ for internal consumers](#deploy_mq)
-   2. [Start MQ Console](#start_mq)
-   3. [Test MQ](#test_mq)
-
-
+1. [How to select relevant cp4i capabilities for jam-in-a-box labs in IBM Technology Zone(TZ)?](#TZ-selection)
+2. [What to expect, once TZ environment is reserved and provisioned is done?](#TZ-env-email)
+3. [How to Access OCP console login and Platform Navigator login details?](#TZ-ocp-console)
+4. [How to sign up with mailtrap.in](#TZ-mailtrap)
 ---
 
 ## 1. Objectives<a name="objectives"></a>
