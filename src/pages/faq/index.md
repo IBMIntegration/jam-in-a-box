@@ -30,7 +30,7 @@ Once environment is available to use, you will receive an email with all the det
 ![](./images/1.png)
 
 
-## 3. How to Access OCP console login and Platform Navigator login details<a name="TZ-ocp-console"></a>
+## 3. How to Access OCP console login and Platform Navigator login details?<a name="TZ-ocp-console"></a>
 
 Open the Pakinstaller Portal link that you have received in the email. 
 Used the PakInstaller Portal Admin id and password to log in. Once loged in you will see something simile to below screenshot.
@@ -59,7 +59,7 @@ Click on “Cloud Pak Console” tab, you will find Platform Navigator log in de
 
 How to configure APIC provider organizational before starting the APIC labs?
 
-## 5. How to configure APIC provider organizational before starting the APIC labs?e<a name="TZ-apic-porg"></a>
+## 5. How to configure APIC provider organizational before starting the APIC labs?<a name="TZ-apic-porg"></a>
 
 1.	Login to **Platform Navigator** by using the user id ( as admin )and password that you have collected before. 
 
