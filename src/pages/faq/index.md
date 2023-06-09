@@ -10,6 +10,12 @@ title: FAQ
 5. [How to Access OCP console login and Platform Navigator login details?](#TZ-ocp-console)
 
 7. [How to sign up with mailtrap.in?](#TZ-mailtrap)
+
+8. [How to configure APIC provider organizational before starting the APIC labs??](#TZ-apic-porg)
+
+9. [How to configure Developer Portal before starting the APIC labs?](TZ-apic-ptl)
+
+
 ---
 
 ## 1. Objectives<a name="objectives"></a>
