@@ -18,18 +18,16 @@ title: FAQ
 
 ---
 
-## 1. Objectives<a name="objectives"></a>
-In this lab, you will learn how to:
-
-- Create a MQ Instance from Platform Nevigator.
-
-- Test the MQ QMGR for Internal Consumers.
+## 1. How to select relevant cp4i capabilities for jam-in-a-box labs in IBM Technology Zone(TZ)?<a name="TZ-selection)"></a>
+When you go to the TZ environment reservation page, you will be asked to select appropriate options. 
+Please select below mentioned options.
 
 ## 2. Prerequisites<a name="prerequisites"></a>
 
-- Reserve the lab environment. If you have not reserved the lab environment yet, then click [here](https://abc.com).
+After you submit the request to reserve the environment, it will take 4 to 5 hours to provisioned and installed CP4I above mentioned capabilities.
+Once environment is available to use, you will receive an email with all the details. Below is a sample.
 
-- Go through the audio presentation to get the knowledge about API connect capabilities. 
+![](./images/1.png)
 
 
 ## 3. Getting Started with Lab1<a name="deploy"></a>
