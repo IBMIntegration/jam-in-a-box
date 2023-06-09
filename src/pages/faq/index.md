@@ -4,9 +4,12 @@ title: FAQ
 
 # Table of Contents
 1. [How to select relevant cp4i capabilities for jam-in-a-box labs in IBM Technology Zone(TZ)?](#TZ-selection)
-2. [What to expect, once TZ environment is reserved and provisioned is done?](#TZ-env-email)
-3. [How to Access OCP console login and Platform Navigator login details?](#TZ-ocp-console)
-4. [How to sign up with mailtrap.in](#TZ-mailtrap)
+
+3. [What to expect, once TZ environment is reserved and provisioned is done?](#TZ-env-email)
+
+5. [How to Access OCP console login and Platform Navigator login details?](#TZ-ocp-console)
+
+7. [How to sign up with mailtrap.in?](#TZ-mailtrap)
 ---
 
 ## 1. Objectives<a name="objectives"></a>
