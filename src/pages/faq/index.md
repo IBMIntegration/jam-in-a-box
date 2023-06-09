@@ -5,15 +5,15 @@ title: FAQ
 # Table of Contents
 1. [How to select relevant cp4i capabilities for jam-in-a-box labs in IBM Technology Zone(TZ)?](#TZ-selection)
 
-3. [What to expect, once TZ environment is reserved and provisioned is done?](#TZ-env-email)
+2. [What to expect, once TZ environment is reserved and provisioned is done?](#TZ-env-email)
 
-5. [How to Access OCP console login and Platform Navigator login details?](#TZ-ocp-console)
+3. [How to Access OCP console login and Platform Navigator login details?](#TZ-ocp-console)
 
-7. [How to sign up with mailtrap.in?](#TZ-mailtrap)
+4. [How to sign up with mailtrap.in?](#TZ-mailtrap)
 
-8. [How to configure APIC provider organizational before starting the APIC labs??](#TZ-apic-porg)
+5. [How to configure APIC provider organizational before starting the APIC labs??](#TZ-apic-porg)
 
-9. [How to configure Developer Portal before starting the APIC labs?](TZ-apic-ptl)
+6. [How to configure Developer Portal before starting the APIC labs?](TZ-apic-ptl)
 
 
 ---
@@ -30,11 +30,26 @@ Once environment is available to use, you will receive an email with all the det
 ![](./images/1.png)
 
 
-## 3. Getting Started with Lab1<a name="deploy"></a>
+## 3. How to Access OCP console login and Platform Navigator login details<a name="TZ-ocp-console"></a>
 
-These instructions document how to setup MQ within Cloud Pak for Integration which is accessible from within the OpenShift Cluster. The instructions have been created using a a Red Hat OpenShift environment deployed on bare metal servers on IBM Cloud however the processa should be similar on other environments.
+Open the Pakinstaller Portal link that you have received in the email. 
+Used the PakInstaller Portal Admin id and password to log in. Once loged in you will see something simile to below screenshot.
 
-## 3a. Deploying IBM MQ for internal consumers<a name="deploy_mq"></a>
+![](./images/2.png)
+
+Click on “Openshift Console” tab. You will find ocp console log in details.
+
+![](./images/3.png)
+
+Click on Cloud Pak Status tab, You will see all the installed packages version details.
+
+![](./images/4.png)
+
+Click on “Cloud Pak Console” tab, you will find Platform Navigator log in details.
+
+![](./images/5.png)
+
+## 4. How to sign up with mailtrap.in<a name="deploy_mq"></a>
 
 1\. Open the *Platform Navigator*. Click the *Enterprise LDAP* hyperlink.
 
