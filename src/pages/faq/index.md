@@ -133,10 +133,11 @@ g. Select **portal-service** (1) as the catalog to use. Click **Create** (2)
 
 h. Reset **admin Password** and test **Developer Portal** url.
 
-   ![](./images/24.png) 
+   ![](./images/24.png)  
+   
      -	Once the portal is provisioned you will receive an email in your mailtrap account as mentioned in the green highlighted box (1). Below screenshot of a sample email. Click on the link and reset the admin password.  
     
-   ![](./images/25.png)   
+   ![](./images/25.png)    
      
      -	From a browser window open the Portal URL (2). Accept any potential security risks that appear.  
      
