@@ -138,7 +138,7 @@ h. Reset **admin Password** and test **Developer Portal** url.
    - Once the portal is provisioned you will receive an email in your mailtrap account as mentioned in the green highlighted box (1). Below screenshot of a sample email. Click on the link and reset the admin password.  
     
    ![](./images/25.png)    
-     - From a browser window open the Portal URL (2). Accept any potential security risks that appear.  
+   - From a browser window open the Portal URL (2). Accept any potential security risks that appear.  
      
    ![](./images/25.png)  
      
