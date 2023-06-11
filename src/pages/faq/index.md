@@ -1,5 +1,5 @@
 ---
-title: FAQ
+title: FAQs
 ---
 
 # Table of Contents
@@ -19,6 +19,7 @@ title: FAQ
 ---
 
 ## 1. How to select relevant cp4i capabilities for jam-in-a-box labs in IBM Technology Zone(TZ)?<a name="TZ-selection)"></a>
+
 When you go to the TZ environment reservation page, you will be asked to select appropriate options. 
 Please select below mentioned options.
 
