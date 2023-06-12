@@ -40,7 +40,7 @@ In this lab you will learned how to:
 ## 2. Prerequisites <a name="prerequisites"></a>
 
 - Reserve the lab environment. If you have not reserved the lab environment yet, then click [here](https://abc.com). 
-- Create **Provider Organization** and Configure **Developer portal**. Go through [FRQs](https://ibmintegration.github.io/jam-in-a-box/faq)
+- Create **Provider Organization** and Configure **Developer portal**. Go through [FRQs](https://ibmintegration.github.io/jam-in-a-box/faq).
 - Go through the audio presentation to get the knowledge about API connect capabilities. 
 
 
