@@ -48,7 +48,7 @@ In this lab you will learned how to:
 
 Before we can use API Connect we must publish an API to expose. We will deploy a Customer Database REST service and then we will download the OpenAPI file for the the Customer Database REST service that we deployed.
 
-1\. In a browser, enter the URL for the Platform Navigator that is provided by your instructor.
+1\. In a browser, enter the URL for the Platform Navigator. Go to [FRQs](https://ibmintegration.github.io/jam-in-a-box/faq#TZ-ocp-console) to leran, how to access your enviroment.
 
 2\. Select the **Enterprise LDAP**:
 
