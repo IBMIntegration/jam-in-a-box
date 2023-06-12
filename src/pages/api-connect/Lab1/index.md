@@ -50,25 +50,7 @@ Before we can use API Connect we must publish an API to expose. We will deploy a
 
 1\. In a browser, enter the URL for the Platform Navigator. Go to [FRQs](https://ibmintegration.github.io/jam-in-a-box/faq#TZ-ocp-console) to leran, how to access your enviroment.
 
-2\. Select the **Enterprise LDAP**:
-
-![alt text][pic0]
-
-**Note:** You may get a warning message that your connection is not private.  If you get this message, you can add an exception.   Occasionally in Edge on Windows you get a blank screen instead of a warning. If this is the case we recommend that you try a a different browser.
-
-To add an exception in the Chrome browser, click **Advanced** and then click **Proceed** to the URL.
-
-![alt text][pic1]
-
-![alt text][pic2]
-
-To add an exception in the Firefox browser, click **Advanced** and then click **Accept the Risk and Continue**.
-
-![alt text][pic3]
-
-![alt text][pic4]
-
-3\. When prompted, use the username and password provided to you for this lab. The username in the screenshots of this lab is chopper12.
+2\. When prompted, use the username(admin) and password provided to you for this lab.
 
 ![alt text][pic5]
 
