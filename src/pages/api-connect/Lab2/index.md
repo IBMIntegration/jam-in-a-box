@@ -65,7 +65,7 @@ A Developer Portal for the Sandbox catalog has already been configured in this e
 
 4\. Use the user name and password that you have created while creating the provider organization. Refer FAQs section 5)k).
 
-![alt text][pic8]
+![](./images/119.png)
 
 5\. Click on **Manage catalogs**.  If you are already logged in and continuing from the previous lab, click on the **Home** icon on the left navigation bar.
 
