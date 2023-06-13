@@ -146,7 +146,7 @@ Before we can use API Connect we must publish an API to expose. We will deploy a
 
 4\. Use the user name and password that you have created while creating the provider organization. Refer FAQs section 5)k).
 
-![alt text][pic8]
+![alt text][pic119]
 
 5\. When you log in for the first time, you may see a **Get started** window.  Feel free to review the contents and close the window.
 
@@ -304,7 +304,7 @@ Once saved, you will see an indicator window appear that shows that **Your API h
 
 ![alt text][pic41]
 
-5\. Replace the **Property Value (optional)** with the value that you copied in Step 2.  **Note:**  Make sure to include a **http://** at the beginning and remove the **:** and **port number** (e.g. **:80**) from the end if exist.
+5\. Replace the **Property Value (optional)** with the value that you copied in Step 2.  **Note:**  Make sure to include a **http://** at the beginning and remove the **:** and **port number** (e.g. **:80**) from the end if it exists.
 
 ![alt text][pic42]
 

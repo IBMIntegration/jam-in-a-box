@@ -38,7 +38,9 @@ In this lab, you will explore the following key capabilities:
 
 ## 2. Prerequisites <a name="prerequisites"></a>
 
-- Reserve the lab environment. If you have not reserved the lab environment, then click [here](https://abc.com). 
+- Reserve the lab environment. If you have not reserved the lab environment, then click [here](https://abc.com).
+
+- Create Provider Organization and Configure Developer portal. Go through [FAQs](https://ibmintegration.github.io/jam-in-a-box/faq)
 
 - Go through the audio presentation to get the knowledge about API connect capabilities. 
 
@@ -47,89 +49,65 @@ In this lab, you will explore the following key capabilities:
 
 ## 3. Getting started with Lab2 <a name="generate_portal"></a>
 
-A Developer Portal for the Sandbox catalog has already been configured in this environment.
+A Developer Portal for the Sandbox catalog has already been configured in this environment. Refer FAQs.
 
 ### 2a. Login to the API Connect Developer Portal <a name="portal_login"></a>
 
-1\. In a browser, enter the URL for the Platform Navigator that is provided by your instructor.
+1\. In a browser, enter the URL for the Platform Navigator and use username(admin)/password that is provided to you.
 
-2\. Select the **Enterprise LDAP**.
-
-![alt text][pic0]
-
-**Note:** You may get a warning message that your connection is not private.  If you get this message, you can add an exception.  
-
-To add an exception in the Chrome browser, click **Advanced** and then click **Proceed** to the URL.
-
-![alt text][pic1]
-
-![alt text][pic2]
-
-To add an exception in the Firefox browser, click **Advanced** and then click **Accept the Risk and Continue**.
-
-![alt text][pic3]
-
-![alt text][pic4]
-
-3\. When prompted, use the username and password provided to you for this lab. The username in the screenshots of this lab is chopper12.
-
-![alt text][pic5]
-
-4\. Navigate to the API Connect instance.
+2\. Navigate to the API Connect instance.
 
 ![alt text][pic6]
 
-5\. Click **the LDAP User Registry**. In the example image below it is Techcon LDAP.
+3\. Select API Manager User Registry.
 
-![alt text][pic7]
+![](./images/118.png)
 
-6\. When prompted, log in with the username and password provided to you for this lab. Click **Log in**. The username in the screenshots of this lab is chopper12.
+4\. Use the user name and password that you have created while creating the provider organization. Refer FAQs section 5)k).
 
-**Note:** If you get a warning message that your connection is not private, follow the instructions in the previous section.
+![](./images/119.png)
 
-![alt text][pic8]
-
-7\. Click on **Manage catalogs**.  If you are already logged in and continuing from the previous lab, click on the **Home** icon on the left navigation bar.
+5\. Click on **Manage catalogs**.  If you are already logged in and continuing from the previous lab, click on the **Home** icon on the left navigation bar.
 
 ![alt text][pic9]
 
-8\. Click on **Sandbox**.
+6\. Click on **Sandbox**.
 
 ![alt text][pic10]
 
-9\. Select the **Catalog settings** tab.
+7\. Select the **Catalog settings** tab.
 
 ![alt text][pic11]
 
-10\. From the left menu, click on **Portal**.
+8\. From the left menu, click on **Portal**.
 
 ![alt text][pic12]
 
-11\. Copy the **Portal URL** and paste it in a new browser tab.
+9\. Copy the **Portal URL** and paste it in a new browser tab.
 
 ![alt text][pic13]
 
-12\.  The IBM API Connect Developer Portal provides consumers access to API Catalog information.  This gives application developers the opportunity to explore and test APIs, register applications, and subscribe to Plans. 
+10\.  The IBM API Connect Developer Portal provides consumers access to API Catalog information.  This gives application developers the opportunity to explore and test APIs, register applications, and subscribe to Plans. 
 
 A Portal Administrator can customize the look and feel to their organizational specifications. The default Developer Portal looks like the image below.  Note:  Depending on what you have published, the Products that you see may be different.
 
 ![alt text][pic14]
 
-13\. Some Products are visible to all users without an account depending on the Product visibility setting. Additional options are available when you log into the Developer Portal.
+11\. Some Products are visible to all users without an account depending on the Product visibility setting. Additional options are available when you log into the Developer Portal.
 
 The portal is setup for self service so we will create a new account as a developer. If you have a username beginning with jam, you can skip to Step 16.  If not, click on **Create an account**.
 
 ![alt text][pic15]
 
-14\. Fill in the form and make sure to use a valid email address since that is where the activation email is sent.  At the bottom when done, click **Sign up**.
+12\. Fill in the form and make sure to use a valid email address since that is where the activation email is sent.  At the bottom when done, click **Sign up**.
 
 ![alt text][pic16]
 
-15\. You will receive an email that you will copy the link and paste in to your browser to complete the registration at which point you can log in. 
+13\. You will receive an email that you will copy the link and paste in to your browser to complete the registration at which point you can log in. 
 
 ![alt text][pic17]
 
-16\. Go to **Sign in** and enter your Username and Password you just created.  Click **Sign in**.
+14\. Go to **Sign in** and enter your Username and Password you just created.  Click **Sign in**.
 
 ![alt text][pic18]
 
