@@ -293,7 +293,7 @@ In this next section you will deploy the PING_Basic bar file created and tested 
 
 2\. Log in page:
 
-![alt text][images/50.png]
+![](images/50.png)
 
 3\. When prompted use the username(admin) and password provided to you for this lab.
 
