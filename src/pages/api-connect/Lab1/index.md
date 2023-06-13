@@ -146,7 +146,7 @@ Before we can use API Connect we must publish an API to expose. We will deploy a
 
 4\. Use the user name and password that you have created while creating the provider organization. Refer FAQs section 5)k).
 
-![alt text][pic8]
+![alt text][pic119]
 
 5\. When you log in for the first time, you may see a **Get started** window.  Feel free to review the contents and close the window.
 
