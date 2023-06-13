@@ -299,7 +299,7 @@ In this next section you will deploy the PING_Basic bar file created and tested 
 
 4\. This is the **CP4I Platform Navigator** page and shows all the capliblies that are installed:
 
-![alt text][images/51.png]
+![](images/51.png)
 
 5\. In the upper right cornor click on the icon to see who you are logged in as. Then we will select the **Integration Dashboard**
 
