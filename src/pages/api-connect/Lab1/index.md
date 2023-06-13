@@ -142,7 +142,7 @@ Before we can use API Connect we must publish an API to expose. We will deploy a
 
 3\. Select API Manager User Registry.
 
-![alt text][pic7]
+![](./images/118.png)
 
 4\. Use the user name and password that you have created while creating the provider organization. Refer FAQs section 5)k).
 
