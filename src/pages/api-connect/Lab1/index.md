@@ -58,7 +58,7 @@ Before we can use API Connect we must publish an API to expose. We will deploy a
 
 ![alt text][images/104.png]
 
-![alt text][pic91]
+![alt text][pic105]
 
 4\. When you log in for the first time, you may see a **Welcome, let's get started** window.  Feel free to review the contents by click **Start the tour** or by click on the **X** to close the window.
 
