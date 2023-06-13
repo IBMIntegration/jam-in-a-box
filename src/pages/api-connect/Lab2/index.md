@@ -38,7 +38,9 @@ In this lab, you will explore the following key capabilities:
 
 ## 2. Prerequisites <a name="prerequisites"></a>
 
-- Reserve the lab environment. If you have not reserved the lab environment, then click [here](https://abc.com). 
+- Reserve the lab environment. If you have not reserved the lab environment, then click [here](https://abc.com).
+
+- Create Provider Organization and Configure Developer portal. Go through FAQs[https://ibmintegration.github.io/jam-in-a-box/faq]
 
 - Go through the audio presentation to get the knowledge about API connect capabilities. 
 
@@ -47,7 +49,7 @@ In this lab, you will explore the following key capabilities:
 
 ## 3. Getting started with Lab2 <a name="generate_portal"></a>
 
-A Developer Portal for the Sandbox catalog has already been configured in this environment.
+A Developer Portal for the Sandbox catalog has already been configured in this environment. Refer FAQs.
 
 ### 2a. Login to the API Connect Developer Portal <a name="portal_login"></a>
 
