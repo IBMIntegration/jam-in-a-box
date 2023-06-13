@@ -41,7 +41,7 @@ In this lab you will learned how to:
 
 - Reserve the lab environment. If you have not reserved the lab environment yet, then click [here](https://abc.com)
 
-- Create **Provider Organization** and Configure **Developer portal**. Go through [FRQs](https://ibmintegration.github.io/jam-in-a-box/faq)
+- Create **Provider Organization** and Configure **Developer portal**. Go through [FAQs](https://ibmintegration.github.io/jam-in-a-box/faq)
 
 - Go through the audio presentation to get the knowledge about API connect capabilities.
 
@@ -50,11 +50,12 @@ In this lab you will learned how to:
 
 Before we can use API Connect we must publish an API to expose. We will deploy a Customer Database REST service and then we will download the OpenAPI file for the the Customer Database REST service that we deployed.
 
-1\. In a browser, enter the URL for the Platform Navigator. Go to [FRQs](https://ibmintegration.github.io/jam-in-a-box/faq#TZ-ocp-console) to leran, how to access your enviroment.
+1\. In a browser, enter the URL for the Platform Navigator. Go to [FAQs](https://ibmintegration.github.io/jam-in-a-box/faq#TZ-ocp-console) to learn, how to access your enviroment.
 
 2\. When prompted, use the username(admin) and password provided to you for this lab.
 
 ![alt text][pnconsole]
+
 4\. When you log in for the first time, you may see a **Welcome, let's get started** window.  Feel free to review the contents by click **Start the tour** or by click on the **X** to close the window.
 
 ![alt text][pic91]
