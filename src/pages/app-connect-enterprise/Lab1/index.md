@@ -336,7 +336,7 @@ We will now test the PING_Base flow we just deployed to CP4I in the Integration 
 1\. Open a new firefox browser window and put OCP URL. Use **username(ocpadmin)** abd **password** that you collected previously. Refer [FAQs](https://ibmintegration.github.io/jam-in-a-box/faq#TZ-ocp-console) to understand how to access your enviroment. 
 2\. Go to left panel of OCP cluster web console and expand **networking**. Then click on **Route**. ON the Serach tab type the name of the Integration server that you just created. In this example it is **deb** and route name is **deb-ping-http**.
 
-![](images/54.png)
+![](images/56.png)
 
 3\. Double click on route name. in this example is it  **deb-ping-http**.
 
@@ -345,7 +345,7 @@ We will now test the PING_Base flow we just deployed to CP4I in the Integration 
 4\. Now on the firefox browser type the below link.
 route name/PING_Basic. You should see something simialr to the following:
 
-![](images/56.png)
+![](images/54.png)
 
 
 ### [Return to main ACE lab page](../app-connect-enterprise)
