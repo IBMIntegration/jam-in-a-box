@@ -333,16 +333,20 @@ After a little bit refresh the page.  Once the server is up and running it will 
 
 We will now test the PING_Base flow we just deployed to CP4I in the Integration Server
 
-1\. Open a new firefox browser window and enter the following address:
-In this example we are using the **mandalorian** cluster and **mandalorian1 userid**
+1\. Open a new firefox browser window and put OCP URL. Use **username(ocpadmin)** abd **password** that you collected previously. Refer [FAQs](https://ibmintegration.github.io/jam-in-a-box/faq#TZ-ocp-console) to understand how to access your enviroment. 
+2\. Go to left panel of OCP cluster web console and expand **networking**. Then click on **Route**. ON the Serach tab type the name of the Integration server that you just created. In this example it is **deb** and route name is **deb-ping-http**.
 
-[http://is-toolkit-basic-http-mandalorianNN.apps.mandalorian.coc-ibm.com/PING_Basic ](http://is-toolkit-basic-http-mandalorianNN.apps.mandalorian.coc-ibm.com/PING_Basic )
+![](images/54.png)
 
-Where:<span style="color: red"> is-toolkit1-basic </span> is the *name of your server* you deployed the flow and the <span style="color: red">9</span> will be the *number that you were assigned for the lab*.
+3\. Double click on route name. in this example is it  **deb-ping-http**.
 
-2\. You should see something simialr to the following:
+![](images/55.png)
 
-![alt text][images/4.png4]
+4\. Now on the firefox browser type the below link.
+route name/PING_Basic. You should see something simialr to the following:
+
+![](images/56.png)
+
 
 ### [Return to main ACE lab page](../app-connect-enterprise)
 
