@@ -40,7 +40,7 @@ In this lab, you will explore the following key capabilities:
 
 - Reserve the lab environment. If you have not reserved the lab environment, then click [here](https://abc.com).
 
-- Create Provider Organization and Configure Developer portal. Go through FAQs[https://ibmintegration.github.io/jam-in-a-box/faq]
+- Create Provider Organization and Configure Developer portal. Go through [FAQs](https://ibmintegration.github.io/jam-in-a-box/faq)
 
 - Go through the audio presentation to get the knowledge about API connect capabilities. 
 
