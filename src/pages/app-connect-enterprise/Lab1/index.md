@@ -293,13 +293,13 @@ In this next section you will deploy the PING_Basic bar file created and tested 
 
 2\. Log in page:
 
-![alt text][images/50.png]
+![](images/50.png)
 
 3\. When prompted use the username(admin) and password provided to you for this lab.
 
 4\. This is the **CP4I Platform Navigator** page and shows all the capliblies that are installed:
 
-![alt text][images/51.png]
+![](images/51.png)
 
 5\. In the upper right cornor click on the icon to see who you are logged in as. Then we will select the **Integration Dashboard**
 
@@ -322,12 +322,12 @@ In this next section you will deploy the PING_Basic bar file created and tested 
 11\. Now we will use the UI to set all the details for this integration server.
 We will set the name to **is-toolkit1**, **Replicas** to **1** and then select **Create**
 
-![alt text][images/4.png2]
+![](images/52.png)
 
 12\. This will take you to the Servers page.   You will see the integration server we just created and it will show Unavailable till the containers are started.
 After a little bit refresh the page.  Once the server is up and running it will show as <span style="color: green">**Started**</span>
 
-![alt text][images/4.png3]
+![](images/53.png)
 
 ### i. Test PING Basic flow on CP4I <a name="test_cp4i"></a>
 
