@@ -322,12 +322,12 @@ In this next section you will deploy the PING_Basic bar file created and tested 
 11\. Now we will use the UI to set all the details for this integration server.
 We will set the name to **is-toolkit1**, **Replicas** to **1** and then select **Create**
 
-![](images/52.png)
+![](images/53.png)
 
 12\. This will take you to the Servers page.   You will see the integration server we just created and it will show Unavailable till the containers are started.
 After a little bit refresh the page.  Once the server is up and running it will show as <span style="color: green">**Started**</span>
 
-![](images/53.png)
+![](images/52.png)
 
 ### i. Test PING Basic flow on CP4I <a name="test_cp4i"></a>
 
