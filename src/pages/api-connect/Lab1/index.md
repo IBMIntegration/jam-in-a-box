@@ -140,13 +140,11 @@ Before we can use API Connect we must publish an API to expose. We will deploy a
 
 ![alt text][pic6]
 
-3\. Click **TechCon LDAP User Registry**. *If you are not following this guide as part of a TechJam log in with your standard credentials and jump to 6.*
+3\. Select API Manager User Registry.
 
 ![alt text][pic7]
 
-4\. When prompted, log in with the username and password provided to you for this lab. Click **Log in**. The username in the screenshots of this lab is chopper12.
-
-**Note:** If you get a warning message that your connection is not private, follow the instructions in the previous section.
+4\. Use the user name and password that you have created while creating the provider organization. Refer FAQs section 5)k).
 
 ![alt text][pic8]
 
