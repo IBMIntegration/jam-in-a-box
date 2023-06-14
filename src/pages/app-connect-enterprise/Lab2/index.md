@@ -36,7 +36,7 @@ In this lab you will learned how to:
 
 - Download and install toolkit as explained in Lab1.
 
-## 3. Getting started with lab1 <a name="deploy"></a>
+## 3. Getting started with lab2 <a name="deploy"></a>
 
 In this lab, you will modify the flow you created in Lab 1 to perform simple routing. Input messages will be sent to one of two destinations depending on the country code. Addresses in the United States will be routed to a US reply path, while addresses in Canada will be routed to a Canadian reply path.
 
