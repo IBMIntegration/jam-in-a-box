@@ -77,9 +77,10 @@ These instructions document how to setup MQ within Cloud Pak for Integration whi
 
    ![](./images/image8a.png)
 
-    Click the *IBM Cloud Pak for Integration* hamburger menu on the left side bar then select **Integration Home** to return to the *Platform Navigator*.
+Click the *IBM Cloud Pak for Integration* hamburger menu on the left side bar then select **Integration Home** to return to the *Platform Navigator*.
 
    ![](./images/image221.png)
+   
 11\. Your queue manager now appears in the *Messaging* tile. Click on it.
 
    ![](./images/image222.png)
