@@ -141,7 +141,14 @@ The MQ Console looks nothing like MQ Explorer. It doesn't even look like earlier
 
 MQ has been deployed within the Cloud Pak for Integration to other containers deployed within the same Cluster. This deployment is NOT accessible externally. Depending on your scenario you can connect ACE / API Connect / Event Streams, etc to MQ using the deployed service. This acts as an entry point into MQ within the Kubernetes Cluster. Assuming you followed the above instructions within the deployment the hostname will be of the form mq00qs-cp4i-ibm-mq. To verify the installation we will use an MQ client sample within the deployment.
 
-1\. Return to the OCP Console. Make sure you are in the *cp4i* namespace, by clicking *Projects*, typing **cp4i** in the filter field to find *cp4i* and clicking its hyperlink.
+1\. Open OCP Console URL in the browser and use username(ocpadmin), password that was provided to you. Make sure you are in the *cp4i* namespace, by clicking *Projects*, typing **cp4i** in the filter field to find *cp4i* and clicking its hyperlink.
+
+![](./images/ocplogin0.png)
+
+![](./images/ocplogin.png.png)
+
+![](./images/ocpprj.png.png)
+
 2\. Once in the cp4i namespace, click the drop-down for *Workloads* then select *Pods*. seach for the pod of the mq instance you created. It sill be have the name of the instance you entered in Platform Navigator while creating it plus -ibm-mq-0, for example: mq-cody01-ibm-mq-0. You will see that the *Status* is **Running** and there are three containers running in this pod.
 
    ![](./images/image238.png)
