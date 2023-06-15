@@ -75,14 +75,14 @@ These instructions document how to setup MQ within Cloud Pak for Integration whi
    
 10\. If all entries are valid, you will receive a notification of success in green. Any errors result in a notification in red. Status remains *Pending* while the queue manager is being provisioned. If you click *Pending* you may receive a *Conditions* pop-up. Close the pop-up. Wait for ot it change to Ready state.
 
-    ![](./images/image8a.png)
+   ![](./images/image8a.png)
 
     Click the *IBM Cloud Pak for Integration* hamburger menu on the left side bar then select **Integration Home** to return to the *Platform Navigator*.
 
-    ![](./images/image221.png)
+   ![](./images/image221.png)
 11\. Your queue manager now appears in the *Messaging* tile. Click on it.
 
-    ![](./images/image222.png)
+   ![](./images/image222.png)
 
 <a name="mqconsole"></a>
 
