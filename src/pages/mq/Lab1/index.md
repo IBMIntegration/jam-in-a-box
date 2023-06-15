@@ -29,6 +29,8 @@ In this lab, you will learn how to:
 
 - Reserve the lab environment. If you have not reserved the lab environment yet, then click [here](https://abc.com).
 
+- Go through [FAQs](https://ibmintegration.github.io/jam-in-a-box/faq) to understand how to access to TZ enviroment.
+
 - Go through the audio presentation to get the knowledge about API connect capabilities. 
 
 
@@ -38,9 +40,10 @@ These instructions document how to setup MQ within Cloud Pak for Integration whi
 
 ## 3a. Deploying IBM MQ for internal consumers<a name="deploy_mq"></a>
 
-1\. Open the *Platform Navigator*. Click the *Enterprise LDAP* hyperlink.
+1\. Open the *Platform Navigator*. Use usernam(admin) and password that was provided to you.
 
-   ![](./images/0.png)
+![](./images/105.png)
+ 
 2\. Enter the user name and password that was provided in your email to log on.
 3\. Click on Integration Instances.
 
