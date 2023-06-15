@@ -103,9 +103,11 @@ The MQ Console looks nothing like MQ Explorer. It doesn't even look like earlier
 4\. An MQ channel needs to be defined for communication into MQ. Click the *Manage* option.
 
    ![](./images/image227.png)
-5\. Select the *Communication* tab, click *App channels*, then click *Create +*.
+   
+5\. Select the *Applications* tab, click *App channels*, then click *Create +*.
 
    ![](./images/image228.png)
+   
 6\. Read the definition, then click *Next*.
 7\. Enter "mq00qs" as channel name. *Custom create* tab lets you provide detailed properties. Click *Create*.
 
