@@ -116,21 +116,24 @@ The MQ Console looks nothing like MQ Explorer. It doesn't even look like earlier
 9\. By default MQ is secure and will block all communication without explicit configuration. We will allow all communication for the newly created channel. Click on *View Configuration* in the top right corner:
 
    ![](./images/image231.png)
+   
 10\. Click the *Security* tab, *Channel authentication* section, then click *Create +*.
 
-    ![](./images/image232.png)
+   ![](./images/image232.png)
+    
 11\. We will create a *channel auth* record that blocks nobody and allows everyone. Select **Block** from the pull down, and click the *Final assigned user ID* tile.
 
-    ![](./images/image233.png)
+   ![](./images/image233.png)
+   
 12\. For *Channel name* enter the channel name you just created. Scroll down and type  **nobody** in the *User list* field then click the "+" sign to add it.
 
-    ![](./images/image234.png)
+   ![](./images/image234.png)
 13\. Click *Create* to add the record.
 
-    ![](./images/image235.png)
+   ![](./images/image235.png)
     You will receive a green succes notification and the record appears in the list.
 
-    ![](./images/image236.png)
+   ![](./images/image236.png)
 
 ## 3c Test MQ<a name="test_mq"></a>
 
