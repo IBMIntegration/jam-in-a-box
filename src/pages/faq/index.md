@@ -58,7 +58,6 @@ c.	Once you logged into the mailtrap then you client on Inboxed->under SMTP sett
 
 ![](./images/6.png)
 
-How to configure APIC provider organizational before starting the APIC labs?
 
 ## 5. How to configure APIC provider organizational before starting the APIC labs?<a name="TZ-apic-porg"></a>
 
