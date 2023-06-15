@@ -145,9 +145,9 @@ MQ has been deployed within the Cloud Pak for Integration to other containers de
 
 ![](./images/ocplogin0.png)
 
-![](./images/ocplogin.png.png)
+![](./images/ocplogin.png)
 
-![](./images/ocpprj.png.png)
+![](./images/ocpprj.png)
 
 2\. Once in the cp4i namespace, click the drop-down for *Workloads* then select *Pods*. seach for the pod of the mq instance you created. It sill be have the name of the instance you entered in Platform Navigator while creating it plus -ibm-mq-0, for example: mq-cody01-ibm-mq-0. You will see that the *Status* is **Running** and there are three containers running in this pod.
 
