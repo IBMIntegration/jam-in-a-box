@@ -13,6 +13,7 @@ const FirstRightText = () => (
       business partners, clients to reserved a cp4i lab environment on demand ,learn and 
       execute cp4i capabilities from the video enabled presentations along with step-by-step 
       guide for labs.{"\n\n\n"}
+      <a href="https://ibm.ent.box.com/file/1248663368628">Click here</a>
     <div style={{fontStyle: 'italic'}}>
 
   
