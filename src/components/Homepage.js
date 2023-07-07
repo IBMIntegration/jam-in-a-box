@@ -12,12 +12,12 @@ const FirstRightText = () => (
       IBM WW Integration SWAT Team offers Jam-in-a-Box which will enable our tech sellers, 
       business partners, clients to reserved a cp4i lab environment on demand ,learn and 
       execute cp4i capabilities from the video enabled presentations along with step-by-step 
-      guide for labs.{"\n\n\n"}
+      guide for labs.
       <a href="https://ibm.ent.box.com/file/1248663368628">Click here</a>
-    <div style={{fontStyle: 'italic'}}>
+    <div style={{fontStyle: 'italic'}}> to listen to the  the audio presenation of cp4i capabilities.{"\n\n\n"}
 
   
-      We are committed to help you to take the first step towards Integration Automation learning Journey.
+    
     </div>
 
   </p>
