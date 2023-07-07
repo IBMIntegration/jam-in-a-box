@@ -64,7 +64,7 @@ In this lab you will learned how to:
 IBM App Connect Enterprise Toolkit opens to display its welcome page.
 ![](images/2.1.png)
 
- - Go through the audio presentation to get the knowledge about IBM App connect capabilities. Cleck [here](https://techzone.ibm.com/collection/jam-in-a-box-for-the-integration-automation-cp4i/environments)
+ - Go through the audio presentation to get the knowledge about IBM App connect capabilities. Cleck [here](https://ibm.ent.box.com/file/1248638673144)
   
 ## 3. Getting started with lab1 <a name="deploy"></a>
 ## 3a. Integration Servers  <a name="integration_servers"></a>
