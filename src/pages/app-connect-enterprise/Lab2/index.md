@@ -6,7 +6,7 @@ title: Content Based Routing
 # Table of Contents
 1. [Objectives](#objectives)
 2. [Prerequisites](#prerequisites)
-3. [Getting started with Lab1](#deploy)
+3. [Getting started with Lab2](#deploy)
 
    1. [Add Routing Logic](#routing_logic)
 
