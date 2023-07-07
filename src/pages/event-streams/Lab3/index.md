@@ -34,7 +34,7 @@ In this lab you will learned how to:
 
 -	Have setup the client machine properly. 
 -	Able to access the Event Streams web interface.	
--	Reserve the lab environment. If you have not reserved the lab environment yet, then click [here](https://abc.com). 
+-	Reserve the lab environment. If you have not reserved the lab environment yet, then click [here](https://techzone.ibm.com/collection/jam-in-a-box-for-the-integration-automation-cp4i/environments)
 -	Go through the audio presentation to get the knowledge about API connect capabilities. 
 
 
