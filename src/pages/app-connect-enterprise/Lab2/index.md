@@ -35,6 +35,8 @@ In this lab you will learned how to:
 - Go through the audio presentation to get the knowledge about App connect capabilities. 
 
 - Download and install toolkit as explained in Lab1.
+  
+- Go through the audio presentation to get the knowledge about IBM App connect capabilities. Cleck [here](https://techzone.ibm.com/collection/jam-in-a-box-for-the-integration-automation-cp4i/environments)
 
 ## 3. Getting started with lab2 <a name="deploy"></a>
 
