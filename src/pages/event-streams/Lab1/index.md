@@ -24,7 +24,7 @@ In this lab you will learned how to:
 
 - Reserve the lab environment. If you have not reserved the lab environment yet, then click [here](https://techzone.ibm.com/collection/jam-in-a-box-for-the-integration-automation-cp4i/environments). 
 
-- Go through the audio presentation to get the knowledge about IBM EventStreams capabilities. Click [here](https://ibm.ent.box.com/file/1248657353530) 
+- Go through the audio presentation to get the knowledge about IBM EventStreams capabilities. Click [here](https://ibm.box.com/s/f23y5sc3vueaz5ycwigtnzeni7a559pr) 
 
 
 ## 3. Getting started with lab1 <a name="deploy"></a>
