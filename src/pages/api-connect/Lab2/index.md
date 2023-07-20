@@ -42,7 +42,7 @@ In this lab, you will explore the following key capabilities:
 
 - Create Provider Organization and Configure Developer portal. Go through [FAQs](https://ibmintegration.github.io/jam-in-a-box/faq)
 
-- Go through the audio presentation to get the knowledge about API connect capabilities. Click [here](https://ibm.ent.box.com/file/1248660835880)
+- Go through the audio presentation to get the knowledge about API connect capabilities. Click [here](https://ibm.box.com/s/dg7srpotmpljk7wkl6v5kmcqc0sw9gp6)
 
 - Finish the Lab1. You will publish the REST API that you have created in the Lab1,
 
