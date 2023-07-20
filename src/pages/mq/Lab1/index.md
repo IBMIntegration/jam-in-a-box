@@ -31,7 +31,7 @@ In this lab, you will learn how to:
 
 - Go through [FAQs](https://ibmintegration.github.io/jam-in-a-box/faq) to understand how to access to TZ enviroment.
 
-- Go through the audio presentation to get the knowledge about MQ capabilities. Click [here](https://ibm.ent.box.com/file/1248651673426)
+- Go through the audio presentation to get the knowledge about MQ capabilities. Click [here](https://ibm.box.com/s/vmnvlcqbcy1f56k49aekfi17y83r500b)
 
 
 ## 3. Getting Started with Lab1<a name="deploy"></a>
