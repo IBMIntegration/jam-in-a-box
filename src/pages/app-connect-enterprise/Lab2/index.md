@@ -36,7 +36,7 @@ In this lab you will learned how to:
 
 - Download and install toolkit as explained in Lab1.
   
-- Go through the audio presentation to get the knowledge about IBM App connect capabilities. Cleck [here](https://ibm.box.com/s/0dc1zmgxqyrzqfzr29lvgdkc8q7u5q4x)
+- Go through the audio presentation to get the knowledge about IBM App connect capabilities. Cleck [here](https://ibm.box.com/s/ef5u6a4c9my6hgulbpaiooys78jnetet)
 
 ## 3. Getting started with lab2 <a name="deploy"></a>
 
