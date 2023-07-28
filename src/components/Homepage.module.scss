@@ -4,3 +4,41 @@
   position: relative;
   top: $spacing-06; //margin-top doesn't work on table-cell, and padding-top looks weird on focus
 }
+
+.right-list {
+  font-size: 0.7em;
+  list-style-type: square;
+  list-style-position: 0em;
+  margin-top: 0.5em;
+  margin-left: 1em;
+}
+
+.banner-column {
+  @include carbon--type-style('display-01');
+  color: $carbon--white-0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+}
+
+.banner-row {
+  height: 100%;
+}
+
+.banner-row h1 {
+  padding: 2rem 0;
+}
+
+.banner-grid {
+  background-size: cover;
+  height: 25vh;
+  max-height: 560px;
+  width: 100%;
+  max-width: 100%;
+
+  @include carbon--breakpoint('lg') {
+    padding-left: 256px;
+  }
+}
+

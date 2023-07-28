@@ -1,21 +1,32 @@
 import React from 'react';
-import { HomepageBanner, HomepageCallout } from 'gatsby-theme-carbon';
+import { HomepageCallout } from 'gatsby-theme-carbon';
+import { Grid, Row, Column } from 'gatsby-theme-carbon';
 import HomepageTemplate from 'gatsby-theme-carbon/src/templates/Homepage';
-import { calloutLink } from './Homepage.module.scss';
+import { calloutLink, bannerColumn, bannerRow, bannerGrid, rightList } from './Homepage.module.scss';
 
 import Carbon from './carbon.jpg';
 
-const FirstLeftText = () => <p>Jam-in-a-Box</p>;
+const FirstLeftText = () => (
+  <div>
+    <p>Jam-in-a-Box</p>    
+    <p><strong>IBM</strong> Cloud Pak for Integration</p>
+    <p>→ </p>
+  </div>
+);
 
 const FirstRightText = () => (
   <p>
-      IBM WW Integration SWAT Team offers Jam-in-a-Box which will enable our tech sellers, 
-      business partners to reserve a CP4I lab environment on demand, learn and 
-      execute cp4i capabilities from the video enabled presentations along with step-by-step 
-      guide for labs. <a href="https://ibm.box.com/s/e6n92kczuxphlhp4jl123t44if7bca23">Click here</a> to
-      listen to the  the audio presenation of CP4I capabilities.{"\n\n\n"}
-  
-
+      Hands-on learning for <strong>IBM</strong> Cloud Pak for Integration
+      <ul className={rightList}>
+        <li>Reserve a <strong>CP4I</strong> lab environment on demand and use our step-by-step guides</li>
+        <li>Learn <strong>CP4I</strong> capabilities from video presentations
+        </li>
+      </ul>
+      <a
+        className={calloutLink}
+        href="https://ibm.box.com/s/e6n92kczuxphlhp4jl123t44if7bca23">
+        Watch our presentation
+      </a>
   </p>
 );
 
@@ -33,8 +44,23 @@ const SecondRightText = () => (
   </p>
 );*/
 
+const HomepageBanner = ({ image, position, renderText }) => (
+  <Grid
+    style={{
+      maxWidth: '100%',
+      overflow: 'hidden',
+      backgroundImage: `url(${image})`,
+      backgroundPosition: position || 'center',
+    }}
+    className={bannerGrid}
+    position={position}>
+    <Row className={bannerRow}>
+      <Column className={bannerColumn}>{renderText()}</Column>
+    </Row>
+  </Grid>
+);
 
-const BannerText = () => <h1>IBM Integration Automation Jam-in-a-Box </h1>;
+const BannerText = () => <h1>IBM Integration Automation Jam-in-a-Box</h1>;
 
 const customProps = {
   Banner: <HomepageBanner renderText={BannerText} image={Carbon} />,
