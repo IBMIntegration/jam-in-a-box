@@ -46,7 +46,7 @@ const customProps = {
     <HomepageCallout
       backgroundColor="#0043ce"
       color="white"
-      leftText={FirstLeftText}
+     /* leftText={FirstLeftText}*/
       rightText={FirstRightText}
     />
   ),
