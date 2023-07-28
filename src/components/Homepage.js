@@ -15,10 +15,7 @@ const FirstRightText = () => (
       guide for labs. 
       <a href="https://ibm.box.com/s/e6n92kczuxphlhp4jl123t44if7bca23">Click here</a>
      to listen to the  the audio presenation of cp4i capabilities.{"\n\n\n"}
-
   
-    
-    </div>
 
   </p>
 );
