@@ -43,7 +43,7 @@ In this lab you will learned how to:
 
 - Create **Provider Organization** and Configure **Developer portal**. Go through [FAQs](https://ibmintegration.github.io/jam-in-a-box/faq)
 
-- Go through the audio presentation to get the knowledge about API connect capabilities. Cleck [here](https://ibm.box.com/s/zdvlrkbmobejvkd5hzhiqf7jur4fc6sj)
+- Go through the presentation to get the knowledge about API connect capabilities. Cleck [here](https://ibm.box.com/s/zdvlrkbmobejvkd5hzhiqf7jur4fc6sj)
 
 
 ## 3. Getting started with lab1 <a name="deploy"></a>
