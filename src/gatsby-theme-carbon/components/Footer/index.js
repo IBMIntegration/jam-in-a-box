@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from 'gatsby-theme-carbon/src/components/Footer';
 
-const Content = ({ buildTime }) => (
+//const Content = ({ buildTime }) => (
   /*<>
     <p>
       The <code>Content</code> component receives a <code>buildTime</code> prop
@@ -21,7 +21,7 @@ const Content = ({ buildTime }) => (
       </a>
     </p>
   </>*/
-);
+//);
 
 const links = {
   /*firstCol: [
