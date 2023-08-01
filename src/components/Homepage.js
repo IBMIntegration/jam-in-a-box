@@ -87,4 +87,4 @@ function ShadowedHomepage(props) {
   return <HomepageTemplate {...props} {...customProps} />;
 }
 
-//export default ShadowedHomepage;
+export default ShadowedHomepage;
