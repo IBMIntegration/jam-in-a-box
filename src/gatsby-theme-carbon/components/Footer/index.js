@@ -24,7 +24,7 @@ const Content = ({ buildTime }) => (
 );
 
 const links = {
-  firstCol: [
+  /*firstCol: [
     { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
     { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
     { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
@@ -34,7 +34,7 @@ const links = {
     { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
     { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
     { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
-  ],
+  ],*/
 };
 
 const CustomFooter = () => <Footer links={links} Content={Content} />;
