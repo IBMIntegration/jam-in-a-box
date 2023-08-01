@@ -2,8 +2,8 @@ import React from 'react';
 import Footer from 'gatsby-theme-carbon/src/components/Footer';
 
 const Content = ({ buildTime }) => (
-  <>
-   /* <p>
+  /*<>
+    <p>
       The <code>Content</code> component receives a <code>buildTime</code> prop
       that to display your site's build time: {buildTime}
     </p>
@@ -19,8 +19,8 @@ const Content = ({ buildTime }) => (
       <a href="https://www.gatsbyjs.org/docs/themes/api-reference/#component-shadowing">
         More about component shadowing
       </a>
-    </p>*/
-  </>
+    </p>
+  </>*/
 );
 
 const links = {
