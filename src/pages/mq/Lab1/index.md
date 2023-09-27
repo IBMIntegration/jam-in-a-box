@@ -27,7 +27,7 @@ In this lab, you will learn how to:
 
 ## 2. Prerequisites<a name="prerequisites"></a>
 
-- Reserve the lab environment. If you have not reserved the lab environment yet, then click [here](https://techzone.ibm.com/collection/jam-in-a-box-for-the-integration-automation-cp4i/environments)
+- Reserve the lab environment. If you have not reserved the lab environment yet, then click [here](https://techzone.ibm.com/collection/jam-in-a-box-for-integration-automation-cp4i/environments)
 
 - Go through [FAQs](https://ibmintegration.github.io/jam-in-a-box/faq) to understand how to access to TZ enviroment.
 
