@@ -25,7 +25,7 @@ Please select below mentioned options.
 
 ![](./images/27.png)
 
-## 2. What to expect, once TZ environment is reserved and provisioned is done?<a name="TZ-ocp-console"></a>
+## 2. How to create instances for IBM app conect, API connect, Event Streams once TZ environment is  provisioned to you?<a name="TZ-ocp-console"></a>
 
 After you submit the request to reserve the environment, it will take 4 to 5 hours to provisioned and installed CP4I above mentioned capabilities.
 Once environment is available to use, you will receive an email with all the details. Below is a sample.
