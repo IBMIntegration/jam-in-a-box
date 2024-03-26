@@ -63,7 +63,7 @@ Go to the "Installed Operators" then select "IBM Event Streams". Go to "All inst
 
 ![](./images/67.png)
 
-Go to YAML view. Download the yaml from here and replace in the black console as mentioned below.
+Go to YAML view. Download the yaml from [here](./resources/es-instance.yaml). and replace in the black console as mentioned below.
 
 
 
