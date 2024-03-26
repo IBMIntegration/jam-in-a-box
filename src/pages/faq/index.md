@@ -32,6 +32,13 @@ Once environment is available to use, you will receive an email with all the det
 
 ![](./images/1.png)
 
+Click on the collection and go to My Libery ->My Reservations page. You will find OCP username/password along with the link.
+
+![](./images/61.png)
+
+Log in to the OCP cluster and go to Installed operators under **integration** namespace.  Please remember you will craete all the instances and log work under **integration** namespace.
+
+![](./images/62.png)
 
 ## 3. How to Access OCP console login and Platform Navigator login details?<a name="TZ-ocp-console"></a>
 
