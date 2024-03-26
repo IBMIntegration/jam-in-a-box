@@ -58,6 +58,14 @@ Write the name of the instance, accept licence and select the storage as mention
 
 ![](./images/66.png)
 
+c. **Create Event Streams Instance.**
+Go to the "Installed Operators" then select "IBM Event Streams". Go to "All instances"  and click on "Create New"  Event Streams.
+
+![](./images/67.png)
+
+Go to YAML view. Download the yaml from here and replace in the black console as mentioned below.
+
+
 
 ## 3. How to Access OCP console login and Platform Navigator login details?<a name="TZ-ocp-console"></a>
 
