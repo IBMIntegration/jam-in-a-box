@@ -65,7 +65,7 @@ Go to the "Installed Operators" then select "IBM Event Streams". Go to "All inst
 
 Go to YAML view. Download the yaml from [here](./resources/es-instance.yaml). and replace in the black console as mentioned below.
 
-
+![](./images/68.png)
 
 ## 3. How to Access OCP console login and Platform Navigator login details?<a name="TZ-ocp-console"></a>
 
