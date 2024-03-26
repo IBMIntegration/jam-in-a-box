@@ -40,6 +40,15 @@ Log in to the OCP cluster and go to Installed operators under **integration** na
 
 ![](./images/62.png)
 
+a.	Create App connect instance. 
+go to the "Installed Operators" then select "IBM App Connect". Go to "All instances"  and click on "Create New" Dashboard.
+
+![](./images/63.png)
+
+Write the name of the instance, accept licence and select the storage as mentioned in below. Click "create"
+
+![](./images/64.png)
+
 ## 3. How to Access OCP console login and Platform Navigator login details?<a name="TZ-ocp-console"></a>
 
 Open the Pakinstaller Portal link that you have received in the email. 
@@ -61,9 +70,9 @@ Click on “Cloud Pak Console” tab, you will find Platform Navigator log in de
 
 ## 4. How to sign up with mailtrap.in?<a name="TZ-mailtrap"></a>
 
-a.	Go to https://mailtrap.io
-b.	Sign up as new user if you do have an account with mailtrap.
-c.	Once you logged into the mailtrap then you client on Inboxed->under SMTP settings, click on “Hide Credential. You will find SMTP Host, Username, Password that you will be needing to configure your SMTP server in APIC cloud manager(Detailed instructions are below.
+a.	Go to https://mailtrap.io.  
+b.	Sign up as new user if you do have an account with mailtrap. 
+c.	Once you logged into the mailtrap then you client on Inboxed->under SMTP settings, click on “Hide Credential. You will find SMTP Host, Username, Password that you will be needing to configure your SMTP server in APIC cloud manager(Detailed instructions are below. 
 
 ![](./images/6.png)
 
