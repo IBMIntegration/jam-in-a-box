@@ -40,14 +40,24 @@ Log in to the OCP cluster and go to Installed operators under **integration** na
 
 ![](./images/62.png)
 
-a.	Create App connect instance. 
-go to the "Installed Operators" then select "IBM App Connect". Go to "All instances"  and click on "Create New" Dashboard.
+a.	**Create App connect instance.** 
+Go to the "Installed Operators" then select "IBM App Connect". Go to "All instances"  and click on "Create New" Dashboard.
 
 ![](./images/63.png)
 
 Write the name of the instance, accept licence and select the storage as mentioned in below. Click "create"
 
 ![](./images/64.png)
+
+b. **Create API Connect Instance.**
+Go to the "Installed Operators" then select "IBM API Connect". Go to "All instances"  and click on "Create New"  API Connect cluster.
+
+![](./images/65.png)
+
+Write the name of the instance, accept licence and select the storage as mentioned in below. Click "create"
+
+![](./images/66.png)
+
 
 ## 3. How to Access OCP console login and Platform Navigator login details?<a name="TZ-ocp-console"></a>
 
