@@ -67,24 +67,26 @@ Go to YAML view. Download the yaml from [here](./resources/es-instance.yaml). an
 
 ![](./images/69.png)
 
-## 3. How to Access OCP console login and Platform Navigator login details?<a name="TZ-ocp-console"></a>
+## 3. How to Access Platform Navigator login details?<a name="TZ-ocp-console"></a>
 
-Open the Pakinstaller Portal link that you have received in the email. 
-Used the PakInstaller Portal Admin id and password to log in. Once loged in you will see something simile to below screenshot.
+a. How to access Platform Navigator link?
 
-![](./images/2.png)
+Go to the Installed operations->IBM cloudPak for integration->PLatform UI.
 
-Click on “Openshift Console” tab. You will find ocp console log in details.
+![](./images/70.png)
 
-![](./images/3.png)
+If you open the Platform Navigator instance, It will show you the Platform Navigator link as mentioned below.
 
-Click on Cloud Pak Status tab, You will see all the installed packages version details.
+![](./images/71.png)
 
-![](./images/4.png)
+b. How to access Platform Navigator log in credentioal?
 
-Click on “Cloud Pak Console” tab, you will find Platform Navigator log in details.
+Chnage the project to "All Projects" (**2**), go to WorkLoads->Secret(**1**). Next search for platform-auth-idp-credentials (**3**). You will find login credentiols as mentioned below.
 
-![](./images/5.png)
+![](./images/72.png)
+
+![](./images/73.png)
+
 
 ## 4. How to sign up with mailtrap.in?<a name="TZ-mailtrap"></a>
 
