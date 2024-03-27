@@ -11,7 +11,7 @@ title: FAQs
 
 4. [How to sign up with mailtrap.in?](#TZ-mailtrap)
 
-5. [How to configure APIC provider organizational before starting the APIC labs??](#TZ-apic-porg)
+5. [How to configure APIC provider organizational before starting the APIC labs?](#TZ-apic-porg)
 
 6. [How to configure Developer Portal before starting the APIC labs?](TZ-apic-ptl)
 
