@@ -56,7 +56,7 @@ Go to the "Installed Operators" then select "IBM API Connect". Go to "All instan
 
 Write the name of the instance, accept licence and select the storage as mentioned in below. Click "create"
 
-![](./images/66.png)
+![](./images/99.png)
 
 c. **Create Event Streams Instance.**
 Go to the "Installed Operators" then select "IBM Event Streams". Go to "All instances"  and click on "Create New"  Event Streams.
