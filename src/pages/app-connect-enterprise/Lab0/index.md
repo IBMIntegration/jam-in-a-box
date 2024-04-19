@@ -10,6 +10,9 @@ title: Getting Started with ACE Toolkit
 1. [Objectives](#objectives)
 2. [Prerequisites](#prerequisites)
 3. [Getting started with Lab1](#deploy)
+   1. [Building a simple application](#buildapp)
+   2. [Test the Flow Using the Flow Exerciser](#flowexe)
+   3. [Message Models and Working with XML messages](#msgmodel)
 
    ## 1. Objectives <a name="objectives"></a>
 In this lab you will learned how to:
@@ -98,7 +101,7 @@ The Integration Toolkit also provides links to a number of pre-defined patterns.
 
 Eclipse is project oriented – artifacts are organized into projects. A project is typed. Project types that are specific to IBM App Connect Enterprise include Applications, Integration Services, REST APIs and Libraries. Also, legacy projects of type Message Flow Project and Message Set Project can be created or imported into the toolkit. Since they pre-date the concept of Applications and Libraries, they will be visible in the hierarchy under a Folder called “Independent Resources”.
 
-Building a simple application
+Building a simple application <a name="buildapp"></a>
 -----------------------------
 
 1. In the Application Development pane, click the ***New* Application…** link.
@@ -303,7 +306,7 @@ The rest of the Lab instructions show the second method for wiring.
 
 <span id="_Toc423978432" class="anchor"></span>
 
-Test the Flow Using the Flow Exerciser
+Test the Flow Using the Flow Exerciser<a name="flowexe"></a>
 --------------------------------------
 
 The message flow is now complete. The next step is to test it. The integrated Flow Exerciser will be used to test the message flow.
@@ -489,7 +492,7 @@ The next section will show how to tell ACE the payload is XML.
 
 Continue to the next section to see how to tell ACE the payload is XML.
 
-Message Models and Working with XML messages
+Message Models and Working with XML messages<a name="msgmodel"></a>
 --------------------------------------------
 
 In this section, the IntroMessageFlow will be modified to identify the parser (XMLNSC) to be used to process the message.
