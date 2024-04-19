@@ -364,7 +364,7 @@ Click here and save the zip file - [asset.zip](asset.zip)
    ![](./images/tkSaveFlowFlowExerciser.png "Save Flow")
 
    Click **OK**.
-4. The Application must be deployed to the **default** Integration Server of **POTNODE**. This will be done automatically for you by the Flow Exerciser:
+4. The Application must be deployed to the **default** Integration Server of **POTNODE**(In the previous lab you have the instruction on how to create a new Integration Server or INtegration Node fron Integration Explorer). This will be done automatically for you by the Flow Exerciser:
 
    ![](./images/tkDeployFlowExerciser.png "Flow Exerciser Deploy")
 5. Once the Application has been deployed, the following will be displayed.
