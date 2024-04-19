@@ -10,7 +10,7 @@ title: Create, Manage Integration Server and Deploy/Test message flow
 
 1. [Objectives](#objectives)
 2. [Prerequisites](#prerequisites)
-3. [Getting started with Lab1](#deploy)
+3. [Getting started with Lab](#deploy)
    1. [Integration Servers](#integration_servers)  
       i. [Configure a Local Integration Server](#conf_is)    
       ii. [Stopping and starting a local integration server](#manage_is)    
@@ -66,7 +66,7 @@ IBM App Connect Enterprise Toolkit opens to display its welcome page.
 
  - Go through the presentation to get the knowledge about IBM App connect capabilities. Cleck [here](https://ibm.box.com/s/ef5u6a4c9my6hgulbpaiooys78jnetet)
   
-## 3. Getting started with lab1 <a name="deploy"></a>
+## 3. Getting started with lab <a name="deploy"></a>
 ## 3a. Integration Servers  <a name="integration_servers"></a>
 
 ### i. Configure a Local Integration Server <a name="conf_is"></a>
