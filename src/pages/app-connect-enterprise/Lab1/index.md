@@ -95,7 +95,7 @@ C)	Window <span style="color:red"><b>(C)</b></span> is where properties of resou
 
 D)	The **Integration Explorer** Window <span style="color:red"><b>(D)</b></span> is where you can view and manage deployed  assets (for example Applications and Message flows). Note assets are deployed to Integration Servers that are optionally managed by an Integration Node. When they are managed by an integration node the integration servers will appear “under” an integration node in this view. When not managed by an integration node they will be found under the “**Integration Servers**” view in this window.
 
-4\. In the **Integration Explorer** window <span style="color:red"><b>(D)</b></span> right click on Integration Servers and select “Create a local Integration Server”. **NOTE** You can create a Integration node following the same steps as you do for Integration server but you need to chose Integration Node instead Integration server in the Integration Explorer window <span style="color:red"><b>(D)</b></span>. In the next lab you will need Integration node "POTNODE" which you can create by yourself  like you are creating the Integration server for this lab.
+4\. In the **Integration Explorer** window <span style="color:red"><b>(D)</b></span> right click on Integration Servers and select “Create a local Integration Server”. **NOTE** You can create an Integration node following the same steps as you do for Integration server but you need to chose Integration Node instead Integration Server in the Integration Explorer window <span style="color:red"><b>(D)</b></span>. In the next lab you will need Integration node "POTNODE" which you can create by yourself  like you are creating the Integration server for this lab.
 
 ![alt text][images/4.png]
 
