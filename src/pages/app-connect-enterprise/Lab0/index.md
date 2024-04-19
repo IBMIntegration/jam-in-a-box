@@ -350,7 +350,7 @@ Input nodes will only process injected messages if they have no incoming data vi
 
 In this section, you will use the Flow Exerciser to test your message flow.
 
-1. Download the following file you will use later for testing and save them to a folder in your hard drive:
+1. Download the following file you will use later for testing and save them to a folder in your hard drive. 
 Click here and save the zip file - [asset.zip](asset.zip)
   
 2. Click the **Start** control on the Flow Exerciser toolbar to start recording.
